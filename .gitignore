@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+environments/*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.db
+*.sqlite3
+*.log
+temp/
+cache/
+logs/
+
+# API Keys and Secrets
+.env
+config/secrets.py
+*.key
+*.pem
+
+# Data files (exclude large data files from git)
+data/raw/*.xlsx
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.xlsx
+data/processed/*.pdf
+data/databases/*.db
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+crawl_env/
+mining_env/

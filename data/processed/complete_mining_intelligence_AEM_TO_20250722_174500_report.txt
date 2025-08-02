@@ -1,0 +1,44 @@
+================================================================================
+🔍 COMPLETE MINING INTELLIGENCE REPORT
+================================================================================
+📊 Company: Agnico Eagle Mines Limited
+🎯 Symbol: AEM.TO
+📅 Generated: 2025-07-22 17:45:00 UTC
+
+📈 EXECUTIVE SUMMARY
+--------------------
+Stock Performance: $175.02 (+48.9% YTD)
+Market Sentiment: Very Positive
+Market Cap: $88,119,943,168
+Analyst Target: $190.82
+
+💰 KEY FINANCIAL METRICS
+-------------------------
+Revenue (TTM): $8,924,178,432
+EBITDA: $5,249,356,800
+Free Cash Flow: $2,213,927,680
+Operating Margin: 50.1%
+
+🥇 COMMODITY CONTEXT
+-------------------
+Gold Price: $3444.0 USD (+3.1%)
+USD/CAD Rate: 1.3635
+Gold (CAD): $4695.89
+
+🔗 DATA SOURCES STATUS
+-----------------------
+✅ Yahoo Finance - Stock & financial data
+✅ Mining.com - Industry news
+✅ Kitco - Commodity news
+✅ Bank of Canada - Currency data
+✅ Playwright - Advanced scraping
+⚠️  SEDAR+ - Regulatory filings (templates)
+⚠️  SEDI - Insider trades (templates)
+
+📊 INTELLIGENCE METRICS
+------------------------
+Total data points: 8
+News items: 0
+Regulatory filings: 1
+Insider transactions: 1
+Data categories: 8

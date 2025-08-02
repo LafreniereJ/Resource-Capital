@@ -1,0 +1,25 @@
+COMPREHENSIVE TSX MINING DATA AGGREGATION REPORT
+=================================================================
+Generated: 2025-07-21 18:19:48
+Companies processed: 3
+
+TOP COMPANIES BY RELEVANCE:
+------------------------------
+1. CNQ.TO - CDN NATURAL RES
+   Relevance Score: 6
+   Social: 3 mentions, neutral sentiment
+
+2. AEM.TO - AGNICO EAGLE MINES LIMITED
+   Relevance Score: 6
+   Social: 3 mentions, neutral sentiment
+
+3. SU.TO - SUNCOR ENERGY INC.
+   Relevance Score: 6
+   Social: 3 mentions, neutral sentiment
+
+DATA SOURCE STATISTICS:
+-------------------------
+• Companies with stock data: 0/3
+• Companies with recent news: 0/3
+• Companies with social mentions: 3/3
+• Companies with insider trading: 0/3

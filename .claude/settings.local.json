@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(crawl4ai-setup)",
+      "Bash(pip3 install:*)",
+      "Bash(source:*)",
+      "Bash(ls:*)",
+      "Bash(sqlite3:*)",
+      "Bash(playwright install:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": []
+  }
+}

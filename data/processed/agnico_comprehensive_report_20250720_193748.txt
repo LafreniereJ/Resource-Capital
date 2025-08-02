@@ -1,0 +1,53 @@
+AGNICO EAGLE COMPREHENSIVE SOURCE ANALYSIS
+============================================================
+Test Date: 2025-07-20T19:36:49.657155
+Company: Agnico Eagle Mines Limited (AEM.TO)
+
+SOURCES TESTED:
+--------------------
+✓ Successful: 14
+✗ Failed: 0
+
+OFFICIAL WEBSITE ANALYSIS:
+------------------------------
+• official_website: 0 news items, 2 financial points
+• investor_relations: 0 news items, 2 financial points
+• news_releases: 0 news items, 2 financial points
+• financial_reports: 0 news items, 2 financial points
+• operations: 0 news items, 2 financial points
+• sustainability: 0 news items, 2 financial points
+• TOTAL: 0 news items, 12 financial points
+
+LINKEDIN ANALYSIS:
+------------------
+• linkedin_company: 0 posts found
+• linkedin_posts: 0 posts found
+
+FINANCIAL PLATFORMS ANALYSIS:
+--------------------------------
+• yahoo_finance: 5 financial metrics, 3 stock data points
+  - stock_price: 50
+  - market_cap: 5
+  - pe_ratio: 25.12
+• google_finance: 5 financial metrics, 3 stock data points
+  - stock_price: 161.61
+  - market_cap: 20.99
+  - pe_ratio: 24.99
+• morningstar: 0 financial metrics, 0 stock data points
+
+NEWS AGGREGATION ANALYSIS:
+----------------------------
+• mining_com: 1 Agnico mentions
+• kitco_news: 0 Agnico mentions
+• northern_miner: 10 Agnico mentions
+• TOTAL MENTIONS: 11
+
+KEY INSIGHTS DISCOVERED:
+-------------------------
+• No specific insights extracted
+
+RECOMMENDATIONS:
+----------------
+✓ Data extraction pipeline working well
+⚠ Limited news content found
+✓ Successfully found external news mentions
