@@ -1,0 +1,99 @@
+{
+  "report_date": "2025-08-02T07:19:27.012123",
+  "summary": {
+    "total_companies": 999,
+    "tsx_companies": 142,
+    "tsxv_companies": 857
+  },
+  "top_companies": [
+    {
+      "name": "AbraSilver Resource Corp.",
+      "ticker": "ABRA.TO",
+      "market_cap": 820708288,
+      "current_price": 5.38,
+      "hq_region": "Canada"
+    },
+    {
+      "name": "Agnico Eagle Mines Limited",
+      "ticker": "AEM.TO",
+      "market_cap": 86774562816,
+      "current_price": 172.74,
+      "hq_region": "Canada"
+    },
+    {
+      "name": "Alamos Gold Inc.",
+      "ticker": "AGI.TO",
+      "market_cap": 14395489280,
+      "current_price": 34.24,
+      "hq_region": "Canada"
+    },
+    {
+      "name": "Allied Gold Corporation",
+      "ticker": "AAUC.TO",
+      "market_cap": 2068745472,
+      "current_price": 17.93,
+      "hq_region": "Canada"
+    },
+    {
+      "name": "Almaden Minerals Ltd.",
+      "ticker": "AMM.TO",
+      "market_cap": 34305248,
+      "current_price": 0.25,
+      "hq_region": "Canada"
+    }
+  ],
+  "provincial_breakdown": {
+    "NU": {
+      "TSX": 3,
+      "TSXV": 16
+    },
+    "ON": {
+      "TSX": 19,
+      "TSXV": 128
+    },
+    "MB": {
+      "TSX": 2,
+      "TSXV": 24
+    },
+    "QC": {
+      "TSX": 18,
+      "TSXV": 118
+    },
+    "BC": {
+      "TSX": 15,
+      "TSXV": 159
+    },
+    "NS": {
+      "TSX": 2,
+      "TSXV": 6
+    },
+    "SK": {
+      "TSX": 12,
+      "TSXV": 38
+    },
+    "NL": {
+      "TSX": 4,
+      "TSXV": 37
+    },
+    "NT": {
+      "TSX": 4,
+      "TSXV": 15
+    },
+    "NB": {
+      "TSX": 2,
+      "TSXV": 12
+    },
+    "YT": {
+      "TSX": 3,
+      "TSXV": 48
+    },
+    "AB": {
+      "TSX": 3,
+      "TSXV": 7
+    },
+    "NWT": {
+      "TSX": 0,
+      "TSXV": 1
+    }
+  }
+}

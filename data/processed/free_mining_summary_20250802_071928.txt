@@ -1,0 +1,32 @@
+
+FREE MINING INTELLIGENCE REPORT
+Generated: 2025-08-02 07:19:28
+
+OVERVIEW:
+- Total Canadian Mining Companies: 999
+- TSX Listed: 142
+- TSXV Listed: 857
+
+TOP COMPANIES (with live market data):
+- AbraSilver Resource Corp. (ABRA.TO): $5.38 | Market Cap: $820,708,288
+- Agnico Eagle Mines Limited (AEM.TO): $172.74 | Market Cap: $86,774,562,816
+- Alamos Gold Inc. (AGI.TO): $34.24 | Market Cap: $14,395,489,280
+- Allied Gold Corporation (AAUC.TO): $17.93 | Market Cap: $2,068,745,472
+- Almaden Minerals Ltd. (AMM.TO): $0.25 | Market Cap: $34,305,248
+
+PROVINCIAL OPERATIONS:
+- AB: 10 companies
+- BC: 174 companies
+- MB: 26 companies
+- NB: 14 companies
+- NL: 41 companies
+- NS: 8 companies
+- NT: 19 companies
+- NU: 19 companies
+- NWT: 1 companies
+- ON: 147 companies
+- QC: 136 companies
+- SK: 50 companies
+- YT: 51 companies
+
+📊 This report generated using 100% FREE tools and APIs!
