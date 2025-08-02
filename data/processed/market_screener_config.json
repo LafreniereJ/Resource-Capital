@@ -1,0 +1,1178 @@
+{
+  "daily_focus_companies": [
+    {
+      "ticker": "ABRA",
+      "name": "AbraSilver Resource Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AEM",
+      "name": "Agnico Eagle Mines Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AGI",
+      "name": "Alamos Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AAUC",
+      "name": "Allied Gold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AII",
+      "name": "Almonty Industries Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ATCU",
+      "name": "Alta Copper Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ALS",
+      "name": "Altius Minerals Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "USA",
+      "name": "Americas Gold and Silver Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ARG",
+      "name": "Amerigo Resources Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "APM",
+      "name": "Andean Precious Metals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ARIS",
+      "name": "Aris Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AOT",
+      "name": "Ascot Resources Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ASM",
+      "name": "Avino Silver & Gold Mines Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AYA",
+      "name": "Aya Gold & Silver Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "BTO",
+      "name": "B2Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ABX",
+      "name": "Barrick Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CCO",
+      "name": "Cameco Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CCM",
+      "name": "Canagold Resources Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "CS",
+      "name": "Capstone Copper Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CG",
+      "name": "Centerra Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CIA",
+      "name": "Champion Iron Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CNL",
+      "name": "Collective Mining Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "DML",
+      "name": "Denison Mines Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "DSV",
+      "name": "Discovery Silver Corp.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "DPM",
+      "name": "Dundee Precious Metals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ELD",
+      "name": "Eldorado Gold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "EDR",
+      "name": "Endeavour Silver Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ETG",
+      "name": "Entree Resources Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "EQX",
+      "name": "Equinox Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ERD",
+      "name": "Erdene Resource Development Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ERO",
+      "name": "Ero Copper Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FFM",
+      "name": "FireFly Metals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AG",
+      "name": "First Majestic Silver Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FF",
+      "name": "First Mining Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FM",
+      "name": "First Quantum Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FOM",
+      "name": "Foran Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FNV",
+      "name": "Franco-Nevada Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FVL",
+      "name": "Freegold Ventures Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FURY",
+      "name": "Fury Gold Mines Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GMIN",
+      "name": "G Mining Ventures Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GTWO",
+      "name": "G2 Goldfields Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GAU",
+      "name": "Galiano Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GENM",
+      "name": "Generation Mining Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GMX",
+      "name": "Globex Mining Enterprises Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GGD",
+      "name": "GoGold Resources Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GOLD",
+      "name": "GoldMining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "HSLV",
+      "name": "Highlander Silver Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "HBM",
+      "name": "HudBay Minerals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "IMG",
+      "name": "IAMGold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "III",
+      "name": "Imperial Metals Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ISO",
+      "name": "IsoEnergy Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "IVN",
+      "name": "Ivanhoe Mines Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "JAG",
+      "name": "Jaguar Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "KNT",
+      "name": "K92 Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "K",
+      "name": "Kinross Gold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LIF",
+      "name": "Labrador Iron Ore Royalty Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LAC",
+      "name": "Lithium Americas Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LIRC",
+      "name": "Lithium Royalty Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LUG",
+      "name": "Lundin Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LUN",
+      "name": "Lundin Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MAG",
+      "name": "MAG Silver Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MND",
+      "name": "Mandalay Resources Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MUX",
+      "name": "McEwen Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MAU",
+      "name": "Montage Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NGD",
+      "name": "New Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NUAG",
+      "name": "New Pacific Metals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NGT",
+      "name": "Newmont Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NXE",
+      "name": "NexGen Energy Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NGEX",
+      "name": "NGEx Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NDM",
+      "name": "Northern Dynasty Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NOU",
+      "name": "Nouveau Monde Graphite Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NG",
+      "name": "Novagold Resources Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NTR",
+      "name": "Nutrien Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "OR",
+      "name": "OR Royalties Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ORE",
+      "name": "Orezone Gold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "OLA",
+      "name": "Orla Mining Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PDN",
+      "name": "Paladin Energy Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PAAS",
+      "name": "Pan American Silver Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PMET",
+      "name": "Patriot Battery Metals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PRYM",
+      "name": "Prime Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PRB",
+      "name": "Probe Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "RUP",
+      "name": "Rupert Resources Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SSL",
+      "name": "Sandstorm Gold Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SEA",
+      "name": "Seabridge Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SKE",
+      "name": "Skeena Resources Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SLS",
+      "name": "Solaris Resources Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SSRM",
+      "name": "SSR Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "STLR",
+      "name": "STLLR Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TSK",
+      "name": "Talisker Resources Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "TKO",
+      "name": "Taseko Mines Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TECK",
+      "name": "Teck Resources Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TXG",
+      "name": "Torex Gold Resources Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TMQ",
+      "name": "Trilogy Metals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TFPM",
+      "name": "Triple Flag Precious Metals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TLG",
+      "name": "Troilus Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "URC",
+      "name": "Uranium Royalty Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "VZLA",
+      "name": "Vizsla Silver Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "WM",
+      "name": "Wallbridge Mining Company Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "WDO",
+      "name": "Wesdome Gold Mines Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "WRN",
+      "name": "Western Copper and Gold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "WPM",
+      "name": "Wheaton Precious Metals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ARTG",
+      "name": "Artemis Gold Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NICU",
+      "name": "Magna Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SGD",
+      "name": "Snowline Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "WRLG",
+      "name": "West Red Lake Gold Mines Ltd.",
+      "stage": "Producer"
+    }
+  ],
+  "weekly_focus_companies": [
+    {
+      "ticker": "AMM",
+      "name": "Almaden Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AMC",
+      "name": "Arizona Metals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AVL",
+      "name": "Avalon Advanced Materials Inc.",
+      "stage": "Explorer"
+    },
+    {
+      "ticker": "BSX",
+      "name": "Belo Sun Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "COPR",
+      "name": "Coppernico Metals Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "DNG",
+      "name": "Dynacor Group Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ELR",
+      "name": "Eastern Platinum Limited",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ELO",
+      "name": "Eloro Resources Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ESM",
+      "name": "Euro Sun Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FDY",
+      "name": "Faraday Copper Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FSY",
+      "name": "Forsys Metals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FT",
+      "name": "Fortune Minerals Limited",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GLO",
+      "name": "Global Atomic Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GMTN",
+      "name": "Gold Mountain Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GCU",
+      "name": "Gunnison Copper Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "LAM",
+      "name": "Laramide Resources Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LGO",
+      "name": "Largo Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LGD",
+      "name": "Liberty Gold Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LN",
+      "name": "Loncor Gold Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "LUC",
+      "name": "Lucara Diamond Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MGA",
+      "name": "Mega Uranium Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NCF",
+      "name": "Northcliff Resources Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Resources Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ORV",
+      "name": "Orvana Minerals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "S",
+      "name": "Sherritt International Corporation",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "SMT",
+      "name": "Sierra Metals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ELEF",
+      "name": "Silver Elephant Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "DIAM",
+      "name": "Star Diamond Corporation",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "SAM",
+      "name": "Starcore International Mines Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TI",
+      "name": "Titan Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TRX",
+      "name": "TRX Gold Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "YRB",
+      "name": "Yorbeau Resources Inc.",
+      "stage": "Explorer"
+    },
+    {
+      "ticker": "ABI",
+      "name": "Abcourt Mines Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ALDE",
+      "name": "Aldebaran Resources Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "AHR",
+      "name": "Amarc Resources Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "AMRQ",
+      "name": "Amaroq Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "AMK",
+      "name": "American Creek Resources Ltd.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "AE",
+      "name": "American Eagle Gold Corp.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "AMX",
+      "name": "Amex Exploration Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ATX",
+      "name": "ATEX Resources Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "SASK",
+      "name": "Atha Energy Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "AZM",
+      "name": "Azimut Exploration Inc.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "BYN",
+      "name": "Banyan Gold Corp.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "BBB",
+      "name": "Brixton Metals Corporation",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "CNX",
+      "name": "Callinex Mines Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CGC",
+      "name": "Canadian Gold Corp.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "CNRI",
+      "name": "Canadian North Resources Inc.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "CVV",
+      "name": "Canalaska Uranium Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "CTM",
+      "name": "Canterra Minerals Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CD",
+      "name": "Cantex Mine Development Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CAM",
+      "name": "Cascadia Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CBG",
+      "name": "Chibougamau Independent Mines Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "CUU",
+      "name": "Copper Fox Metals Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "CRE",
+      "name": "Critical Elements Lithium Corporation",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "CYG",
+      "name": "Cygnus Metals Limited",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "DMX",
+      "name": "District Metals Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "DV",
+      "name": "Dolly Varden Silver Corporation",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ETL",
+      "name": "E3 Lithium Ltd.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "ELE",
+      "name": "Elemental Altus Royalties Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "EMO",
+      "name": "Emerita Resources Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "EMX",
+      "name": "EMX Royalty Corporation",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ESK",
+      "name": "Eskay Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FUU",
+      "name": "F3 Uranium Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "FPC",
+      "name": "Falco Resources Ltd.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "FYL",
+      "name": "Finlay Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FWZ",
+      "name": "Fireweed Metals Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "FKM",
+      "name": "Fokus Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "FDR",
+      "name": "Founders Metals Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "FL",
+      "name": "Frontier Lithium Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "GLB",
+      "name": "Goldbank Mining Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GQC",
+      "name": "GoldQuest Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "GSHR",
+      "name": "Goldshore Resources Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "GOT",
+      "name": "Goliath Resources Limited",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "HSTR",
+      "name": "Heliostar Metals Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ITR",
+      "name": "Integra Resources Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "IVS",
+      "name": "Inventus Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "KLD",
+      "name": "Kenorland Minerals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "LME",
+      "name": "Laurion Mineral Exploration Inc.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "LIFT",
+      "name": "Li-FT Power Ltd.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "LUCA",
+      "name": "Luca Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MKO",
+      "name": "Mako Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MGM",
+      "name": "Maple Gold Mines Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MAE",
+      "name": "Maritime Resources Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "MFG",
+      "name": "Mayfair Gold Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "MTA",
+      "name": "Metalla Royalty & Streaming Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "MMG",
+      "name": "Metallic Minerals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "MCC",
+      "name": "Morocco Strategic Minerals Corporation",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NTX",
+      "name": "Neoterrex Minerals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NFG",
+      "name": "New Found Gold Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "NEXG",
+      "name": "NeXGold Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NEXM",
+      "name": "NexMetals Mining Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "NIM",
+      "name": "Nicola Mining Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SUP",
+      "name": "Northern Superior Resources Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "NCX",
+      "name": "NorthIsle Copper and Gold Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "NMC",
+      "name": "Nuvau Minerals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "OMG",
+      "name": "OMAI Gold Mines Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "OMM",
+      "name": "Omineca Mining and Metals Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "ONYX",
+      "name": "Onyx Gold Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "OGN",
+      "name": "Orogen Royalties Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "ODV",
+      "name": "Osisko Development Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "OM",
+      "name": "Osisko Metals Incorporated",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "BKM",
+      "name": "Pacific Booker Minerals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PNPN",
+      "name": "Power Metallic Mines Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "PWM",
+      "name": "Power Metals Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "QTWO",
+      "name": "Q2 Metals Corp.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "RDS",
+      "name": "Radisson Mining Resources Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "RAMP",
+      "name": "Ramp Metals Inc.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "REG",
+      "name": "Regulus Resources Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "RIO",
+      "name": "Rio2 Limited",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "RBX",
+      "name": "Robex Resources Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "RCK",
+      "name": "Rock Tech Lithium Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "RML",
+      "name": "Rusoro Mining Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sitka Gold Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "SYH",
+      "name": "Skyharbour Resources Ltd.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "SIC",
+      "name": "Sokoman Minerals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SPA",
+      "name": "Spanish Mountain Gold Ltd.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "SLI",
+      "name": "Standard Lithium Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "STE",
+      "name": "Starr Peak Mining Ltd.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "SMN",
+      "name": "Sun Summit Minerals Corp.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "TDG",
+      "name": "TDG Gold Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "TAU",
+      "name": "Thesis Gold Inc.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "THX",
+      "name": "Thor Explorations Ltd.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "TUD",
+      "name": "Tudor Gold Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "VMET",
+      "name": "Versamet Royalties Corporation",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "VIO",
+      "name": "Vior Inc.",
+      "stage": "Advanced Explorer"
+    },
+    {
+      "ticker": "VROY",
+      "name": "Vizsla Royalties Corp.",
+      "stage": "Developer"
+    },
+    {
+      "ticker": "VUL",
+      "name": "Vulcan Minerals Inc.",
+      "stage": "Producer"
+    },
+    {
+      "ticker": "WGO",
+      "name": "White Gold Corp.",
+      "stage": "Advanced Explorer"
+    }
+  ],
+  "screening_priorities": {
+    "tier_1_weight": 1.0,
+    "tier_2_weight": 0.8,
+    "tier_3_weight": 0.6,
+    "tier_4_weight": 0.3
+  },
+  "updated": "2025-08-02T11:25:38.080320"
+}

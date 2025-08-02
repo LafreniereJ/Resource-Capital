@@ -1,0 +1,158 @@
+{
+  "analysis_date": "2025-08-02T11:20:58.583129",
+  "total_companies": 999,
+  "tsx_companies": 142,
+  "tsxv_companies": 857,
+  "common_columns": 44,
+  "commodity_stats": {
+    "Oil and Gas": {
+      "companies_with_exposure": 7,
+      "total_with_data": 7,
+      "exposure_rate": 1.0
+    },
+    "Gold": {
+      "companies_with_exposure": 615,
+      "total_with_data": 615,
+      "exposure_rate": 1.0
+    },
+    "Silver": {
+      "companies_with_exposure": 205,
+      "total_with_data": 205,
+      "exposure_rate": 1.0
+    },
+    "Copper": {
+      "companies_with_exposure": 329,
+      "total_with_data": 329,
+      "exposure_rate": 1.0
+    },
+    "Nickel": {
+      "companies_with_exposure": 86,
+      "total_with_data": 86,
+      "exposure_rate": 1.0
+    },
+    "Diamond": {
+      "companies_with_exposure": 20,
+      "total_with_data": 20,
+      "exposure_rate": 1.0
+    },
+    "Molybdenum": {
+      "companies_with_exposure": 34,
+      "total_with_data": 34,
+      "exposure_rate": 1.0
+    },
+    "Platinum/PGM": {
+      "companies_with_exposure": 37,
+      "total_with_data": 37,
+      "exposure_rate": 1.0
+    },
+    "Iron": {
+      "companies_with_exposure": 20,
+      "total_with_data": 20,
+      "exposure_rate": 1.0
+    },
+    "Lead": {
+      "companies_with_exposure": 38,
+      "total_with_data": 38,
+      "exposure_rate": 1.0
+    },
+    "Zinc": {
+      "companies_with_exposure": 82,
+      "total_with_data": 82,
+      "exposure_rate": 1.0
+    },
+    "Rare Earths": {
+      "companies_with_exposure": 31,
+      "total_with_data": 31,
+      "exposure_rate": 1.0
+    },
+    "Potash": {
+      "companies_with_exposure": 8,
+      "total_with_data": 8,
+      "exposure_rate": 1.0
+    },
+    "Lithium": {
+      "companies_with_exposure": 103,
+      "total_with_data": 103,
+      "exposure_rate": 1.0
+    },
+    "Uranium": {
+      "companies_with_exposure": 48,
+      "total_with_data": 48,
+      "exposure_rate": 1.0
+    },
+    "Coal": {
+      "companies_with_exposure": 6,
+      "total_with_data": 6,
+      "exposure_rate": 1.0
+    },
+    "Tungsten": {
+      "companies_with_exposure": 10,
+      "total_with_data": 10,
+      "exposure_rate": 1.0
+    },
+    "Base & Precious Metals": {
+      "companies_with_exposure": 21,
+      "total_with_data": 21,
+      "exposure_rate": 1.0
+    },
+    "Royalty Streaming": {
+      "companies_with_exposure": 35,
+      "total_with_data": 35,
+      "exposure_rate": 1.0
+    },
+    "Other Properties": {
+      "companies_with_exposure": 134,
+      "total_with_data": 134,
+      "exposure_rate": 1.0
+    }
+  },
+  "proposed_schema": {
+    "Core_Identity": [
+      "Company_ID",
+      "Company_Name",
+      "Ticker_Symbol",
+      "Exchange",
+      "Sector",
+      "Sub_Sector"
+    ],
+    "Financial_Metrics": [
+      "Market_Cap_CAD",
+      "Market_Cap_USD",
+      "Market_Cap_Tier",
+      "Outstanding_Shares",
+      "YTD_Volume",
+      "YTD_Value",
+      "Revenue_TTM",
+      "Revenue_Status"
+    ],
+    "Geographic_Details": [
+      "HQ_Country",
+      "HQ_Province_State",
+      "HQ_City",
+      "Canadian_Operations_Pct",
+      "Primary_Operations_Country",
+      "Operations_Provinces"
+    ],
+    "Commodity_Classification": [
+      "Primary_Commodity",
+      "Secondary_Commodities",
+      "Commodity_Category",
+      "Diversified_Portfolio",
+      "Royalty_Streaming"
+    ],
+    "Stage_And_Status": [
+      "Company_Stage",
+      "Operational_Status",
+      "Production_Phase",
+      "Development_Stage",
+      "Project_Count"
+    ],
+    "Intelligence_Scoring": [
+      "Intelligence_Tier",
+      "Priority_Score",
+      "Canadian_Relevance_Score",
+      "News_Relevance_Score",
+      "Last_Updated"
+    ]
+  }
+}

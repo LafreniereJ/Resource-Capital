@@ -1,0 +1,230 @@
+{
+  "date": "2025-08-02",
+  "market_summary": {
+    "date": "2025-08-02",
+    "total_companies_scanned": 1,
+    "gainers": 0,
+    "decliners": 1,
+    "unchanged": 0,
+    "high_volume_stocks": 1,
+    "major_moves": 0,
+    "tsx_performance": -5.555558315029741,
+    "tsxv_performance": 0.0,
+    "top_gainers": [],
+    "top_decliners": [
+      {
+        "company": "Coppernico Metals Inc.",
+        "ticker": "COPR.TO",
+        "exchange": "TSX",
+        "price": 0.17000000178813934,
+        "change_1d": -0.01000000536441803,
+        "change_pct_1d": -5.555558315029741,
+        "volume": 244465,
+        "avg_volume": 117071,
+        "volume_ratio": 2.0881772599533615,
+        "market_cap": 30141848,
+        "sector": "Basic Materials",
+        "province": NaN,
+        "alert_type": "price_move",
+        "alert_level": "significant",
+        "news_related": false,
+        "last_updated": "2025-08-02T07:33:31.672596"
+      }
+    ],
+    "volume_leaders": [
+      {
+        "company": "Coppernico Metals Inc.",
+        "ticker": "COPR.TO",
+        "exchange": "TSX",
+        "price": 0.17000000178813934,
+        "change_1d": -0.01000000536441803,
+        "change_pct_1d": -5.555558315029741,
+        "volume": 244465,
+        "avg_volume": 117071,
+        "volume_ratio": 2.0881772599533615,
+        "market_cap": 30141848,
+        "sector": "Basic Materials",
+        "province": NaN,
+        "alert_type": "price_move",
+        "alert_level": "significant",
+        "news_related": false,
+        "last_updated": "2025-08-02T07:33:31.672596"
+      }
+    ],
+    "sector_performance": {
+      "Basic Materials": -5.555558315029741
+    }
+  },
+  "commodity_data": [
+    {
+      "name": "Gold",
+      "symbol": "GLD",
+      "price": 30.910998535156253,
+      "change_1d": 0.6149993896484376,
+      "change_pct_1d": 2.029968995888447,
+      "change_1w": -0.11600036621093751,
+      "change_pct_1w": -0.3738691150236448,
+      "currency": "USD",
+      "source": "ETF:GLD",
+      "last_updated": "2025-08-02T07:33:34.141315",
+      "alert_level": "significant"
+    },
+    {
+      "name": "Silver",
+      "symbol": "SLV",
+      "price": 3.3590000152587893,
+      "change_1d": 0.02700004577636719,
+      "change_pct_1d": 0.810325510914133,
+      "change_1w": -0.19000015258789063,
+      "change_pct_1w": -5.353624784502935,
+      "currency": "USD",
+      "source": "ETF:SLV",
+      "last_updated": "2025-08-02T07:33:34.783166",
+      "alert_level": "normal"
+    },
+    {
+      "name": "Platinum",
+      "symbol": "PPLT",
+      "price": 120.05000305175781,
+      "change_1d": 2.2400054931640625,
+      "change_pct_1d": 1.9013713093831257,
+      "change_1w": -8.229995727539062,
+      "change_pct_1w": -6.41564998897342,
+      "currency": "USD",
+      "source": "ETF:PPLT",
+      "last_updated": "2025-08-02T07:33:35.363604",
+      "alert_level": "normal"
+    },
+    {
+      "name": "Copper",
+      "symbol": "CPER",
+      "price": 27.56999969482422,
+      "change_1d": 0.11999893188476562,
+      "change_pct_1d": 0.43715456666499436,
+      "change_1w": -8.599998474121094,
+      "change_pct_1w": -23.776607435675363,
+      "currency": "USD",
+      "source": "ETF:CPER",
+      "last_updated": "2025-08-02T07:33:35.959514",
+      "alert_level": "normal"
+    },
+    {
+      "name": "Oil",
+      "symbol": "USO",
+      "price": 77.45999908447266,
+      "change_1d": -2.1299972534179688,
+      "change_pct_1d": -2.676212277200389,
+      "change_1w": 1.3700027465820312,
+      "change_pct_1w": 1.8005031049000186,
+      "currency": "USD",
+      "source": "ETF:USO",
+      "last_updated": "2025-08-02T07:33:37.132544",
+      "alert_level": "significant"
+    },
+    {
+      "name": "Natural Gas",
+      "symbol": "UNG",
+      "price": 13.619999885559082,
+      "change_1d": 0.029999732971191406,
+      "change_pct_1d": 0.22074858450592932,
+      "change_1w": -0.23999977111816406,
+      "change_pct_1w": -1.7316001231106875,
+      "currency": "USD",
+      "source": "ETF:UNG",
+      "last_updated": "2025-08-02T07:33:37.706391",
+      "alert_level": "normal"
+    },
+    {
+      "name": "Uranium",
+      "symbol": "URA",
+      "price": 38.220001220703125,
+      "change_1d": -1.1399993896484375,
+      "change_pct_1d": -2.8963398678114376,
+      "change_1w": -3.9399986267089844,
+      "change_pct_1w": -9.345347820134851,
+      "currency": "USD",
+      "source": "ETF:URA",
+      "last_updated": "2025-08-02T07:33:38.297210",
+      "alert_level": "significant"
+    }
+  ],
+  "news_analysis": {
+    "date": "2025-08-02",
+    "total_articles": 0,
+    "critical_news": [],
+    "high_priority_news": [],
+    "ma_activity": [],
+    "earnings_updates": [],
+    "operational_news": [],
+    "sentiment_summary": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0
+    },
+    "top_companies_mentioned": [],
+    "trending_keywords": []
+  },
+  "linkedin_brief": {
+    "date": "August 02, 2025",
+    "header": "\ud83c\udfed Canadian Mining Brief - August 02, 2025",
+    "headlines": [],
+    "market_movers": {
+      "gainers": [],
+      "decliners": []
+    },
+    "commodities": [
+      {
+        "name": "Gold",
+        "symbol": "GLD",
+        "price": 309.1099853515625,
+        "change_pct": 2.029968995888447,
+        "currency": "USD"
+      },
+      {
+        "name": "Silver",
+        "symbol": "SLV",
+        "price": 33.59000015258789,
+        "change_pct": 0.810325510914133,
+        "currency": "USD"
+      },
+      {
+        "name": "Copper",
+        "symbol": "CPER",
+        "price": 27.56999969482422,
+        "change_pct": 0.43715456666499436,
+        "currency": "USD"
+      },
+      {
+        "name": "Oil",
+        "symbol": "USO",
+        "price": 77.45999908447266,
+        "change_pct": -2.676212277200389,
+        "currency": "USD"
+      },
+      {
+        "name": "Natural Gas",
+        "symbol": "UNG",
+        "price": 13.619999885559082,
+        "change_pct": 0.22074858450592932,
+        "currency": "USD"
+      }
+    ],
+    "insights": [
+      "Mixed sentiment in Canadian mining sector today",
+      "Gold rally of 2.0% impacting precious metals miners"
+    ],
+    "footer": "Data: TSX/TSXV | Live market intelligence",
+    "template_type": "market_focus",
+    "hashtags": [
+      "#CanadianMining",
+      "#TSX",
+      "#MiningStocks",
+      "#ResourceSector"
+    ]
+  },
+  "alerts": [
+    "\ud83d\udc8e Uranium moved -2.9%"
+  ],
+  "post_text": "\ud83c\udfed Canadian Mining Brief - August 02, 2025\n\n\ud83d\udcca DAILY OVERVIEW\n\u2022 0 gainers, 1 decliners\n\u2022 4 commodities showing movement \n\u2022 0 news articles analyzed\n\n\ud83c\udfaf FOCUS: Monitoring Canadian mining sector developments\n\nData: Live market intelligence | TSX/TSXV\n#CanadianMining #MiningDaily #ResourceSector",
+  "confidence_score": 48.0
+}

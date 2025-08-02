@@ -1,0 +1,45 @@
+{
+  "stage_distribution": {
+    "Early Explorer": 319,
+    "Explorer": 237,
+    "Producer": 215,
+    "Advanced Explorer": 143,
+    "Developer": 85
+  },
+  "commodity_distribution": {
+    "Gold": 615,
+    "Copper": 103,
+    "Lithium": 57,
+    "Silver": 39,
+    "Unknown": 39,
+    "Other Properties": 33,
+    "Uranium": 32,
+    "Nickel": 24,
+    "Diamond": 12,
+    "Rare Earths": 10,
+    "Zinc": 10,
+    "Iron": 8,
+    "Coal": 4,
+    "Potash": 4,
+    "Molybdenum": 4,
+    "Platinum/PGM": 2,
+    "Oil and Gas": 2,
+    "Tungsten": 1
+  },
+  "tier_distribution": {
+    "1": 105,
+    "2": 128,
+    "3": 233,
+    "4": 533
+  },
+  "market_cap_distribution": {
+    "Nano": 434,
+    "Micro": 275,
+    "Small": 165,
+    "Mid": 64,
+    "Large": 34,
+    "Mega": 27
+  },
+  "total_companies": 999,
+  "enhancement_date": "2025-08-02T11:22:33.047562"
+}
