@@ -1,0 +1,178 @@
+{
+  "report_settings": {
+    "report_title": "Resource Capital Mining Intelligence - Weekly Recap",
+    "timezone": "America/Toronto",
+    "date_format": "%B %d, %Y",
+    "currency": "CAD",
+    "primary_exchange": "TSX"
+  },
+  
+  "data_sources": {
+    "git_repository": {
+      "path": ".",
+      "branch": "main",
+      "include_commits": true,
+      "commit_analysis_days": 7
+    },
+    
+    "databases": {
+      "mining_companies": "data/databases/mining_companies.db",
+      "intelligence_data": "data/databases/mining_intelligence.db",
+      "complete_system": "data/databases/complete_mining_intelligence.db"
+    },
+    
+    "data_directories": {
+      "processed_reports": "data/processed/",
+      "raw_data": "data/raw/",
+      "generated_reports": "weekly_reports/"
+    },
+    
+    "log_files": {
+      "system_logs": "logs/",
+      "error_logs": "logs/errors/",
+      "performance_logs": "logs/performance/"
+    }
+  },
+  
+  "metrics_collection": {
+    "performance_metrics": {
+      "response_time_threshold_ms": 2000,
+      "error_rate_threshold_percent": 5.0,
+      "uptime_threshold_percent": 99.0,
+      "data_quality_threshold_percent": 95.0
+    },
+    
+    "business_metrics": {
+      "companies_monitored_target": 999,
+      "daily_reports_target": 7,
+      "data_sources_target": 10,
+      "api_calls_daily_target": 1000
+    },
+    
+    "data_quality_metrics": {
+      "duplicate_rate_threshold": 5.0,
+      "relevance_score_minimum": 70.0,
+      "canadian_content_minimum": 60.0,
+      "data_completeness_minimum": 90.0
+    }
+  },
+  
+  "report_sections": {
+    "executive_summary": {
+      "enabled": true,
+      "auto_generate": true,
+      "max_length": 500
+    },
+    
+    "technical_progress": {
+      "enabled": true,
+      "include_git_analysis": true,
+      "include_code_metrics": true,
+      "include_test_results": true
+    },
+    
+    "business_intelligence": {
+      "enabled": true,
+      "include_market_summary": true,
+      "include_company_events": true,
+      "include_commodity_performance": true,
+      "max_events": 10
+    },
+    
+    "system_health": {
+      "enabled": true,
+      "include_database_metrics": true,
+      "include_api_status": true,
+      "include_performance_charts": true
+    },
+    
+    "data_processing": {
+      "enabled": true,
+      "include_ingestion_stats": true,
+      "include_quality_metrics": true,
+      "include_pipeline_status": true
+    }
+  },
+  
+  "formatting": {
+    "use_emojis": true,
+    "chart_generation": {
+      "enabled": false,
+      "chart_type": "ascii",
+      "max_chart_width": 80
+    },
+    
+    "number_formatting": {
+      "large_numbers": "comma_separated",
+      "decimals": 2,
+      "percentage_decimals": 1
+    },
+    
+    "date_ranges": {
+      "default_lookback_days": 7,
+      "trend_analysis_days": 30,
+      "comparison_periods": ["week", "month", "quarter"]
+    }
+  },
+  
+  "automation": {
+    "auto_generate": {
+      "enabled": true,
+      "schedule": "weekly",
+      "day_of_week": "saturday",
+      "time": "09:00"
+    },
+    
+    "file_naming": {
+      "pattern": "weekly_recap_{start_date}_to_{end_date}",
+      "date_format": "%Y%m%d",
+      "file_extension": ".md"
+    },
+    
+    "notifications": {
+      "enabled": false,
+      "email_recipients": [],
+      "slack_webhook": null
+    }
+  },
+  
+  "thresholds": {
+    "performance_alerts": {
+      "response_time_critical_ms": 5000,
+      "error_rate_critical_percent": 10.0,
+      "uptime_critical_percent": 95.0
+    },
+    
+    "data_quality_alerts": {
+      "duplicate_rate_critical": 15.0,
+      "data_completeness_critical": 80.0,
+      "relevance_score_critical": 50.0
+    },
+    
+    "business_alerts": {
+      "companies_monitored_minimum": 900,
+      "daily_data_points_minimum": 100,
+      "reports_generated_minimum": 5
+    }
+  },
+  
+  "customization": {
+    "company_focus": {
+      "large_cap_symbols": ["AEM.TO", "GOLD.TO", "ABX.TO", "FM.TO"],
+      "sectors_of_interest": ["Gold", "Copper", "Silver", "Uranium", "Lithium"],
+      "geographic_focus": ["Canada", "North America"]
+    },
+    
+    "market_indicators": {
+      "commodities": ["Gold", "Copper", "Silver", "Uranium", "Oil"],
+      "indices": ["TSX", "TSX-V", "GDX", "GDXJ"],
+      "currencies": ["CAD/USD", "USD/CAD"]
+    },
+    
+    "report_recipients": {
+      "internal_team": [],
+      "external_stakeholders": [],
+      "distribution_list": []
+    }
+  }
+}

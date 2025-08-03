@@ -1,0 +1,172 @@
+{
+  "collection_date": "2025-08-03T07:44:56.606037",
+  "market_data": {
+    "gainers": [],
+    "decliners": [
+      {
+        "symbol": "FM.TO",
+        "name": "FIRST QUANTUM MINERALS LTD",
+        "current_price": 22.18,
+        "change": -1.11,
+        "change_pct": -4.77,
+        "volume": 2320500,
+        "market_cap": 18502688768
+      },
+      {
+        "symbol": "GSVR.V",
+        "name": "GUANAJUATO SILVER COMPANY LTD",
+        "current_price": 0.28,
+        "change": -0.01,
+        "change_pct": -3.45,
+        "volume": 578700,
+        "market_cap": 129867104
+      },
+      {
+        "symbol": "CCO.TO",
+        "name": "CAMECO CORP",
+        "current_price": 100.63,
+        "change": -3.4,
+        "change_pct": -3.27,
+        "volume": 1792400,
+        "market_cap": 43812995072
+      },
+      {
+        "symbol": "TECK-B.TO",
+        "name": "TECK RESOURCES LIMITED CL B",
+        "current_price": 43.61,
+        "change": -1.32,
+        "change_pct": -2.94,
+        "volume": 1491481,
+        "market_cap": 21331527680
+      },
+      {
+        "symbol": "HBM.TO",
+        "name": "HUDBAY MINERALS INC.",
+        "current_price": 12.51,
+        "change": -0.35,
+        "change_pct": -2.72,
+        "volume": 1407600,
+        "market_cap": 4941474816
+      }
+    ],
+    "volume_leaders": [
+      {
+        "symbol": "TOU.TO",
+        "name": "TOURMALINE OIL CORP",
+        "current_price": 57.61,
+        "change": -1.36,
+        "change_pct": -2.31,
+        "volume": 8222000,
+        "market_cap": 22286256128
+      },
+      {
+        "symbol": "CNQ.TO",
+        "name": "CDN NATURAL RES",
+        "current_price": 42.72,
+        "change": -1.14,
+        "change_pct": -2.6,
+        "volume": 5344100,
+        "market_cap": 89424920576
+      },
+      {
+        "symbol": "SU.TO",
+        "name": "SUNCOR ENERGY INC.",
+        "current_price": 53.86,
+        "change": -0.79,
+        "change_pct": -1.45,
+        "volume": 2946400,
+        "market_cap": 66117459968
+      },
+      {
+        "symbol": "ABX.TO",
+        "name": "BARRICK MINING CORPORATION",
+        "current_price": 29.47,
+        "change": 0.22,
+        "change_pct": 0.75,
+        "volume": 2851900,
+        "market_cap": 50672484352
+      },
+      {
+        "symbol": "FM.TO",
+        "name": "FIRST QUANTUM MINERALS LTD",
+        "current_price": 22.18,
+        "change": -1.11,
+        "change_pct": -4.77,
+        "volume": 2320500,
+        "market_cap": 18502688768
+      }
+    ],
+    "market_stats": {
+      "total_stocks": 22,
+      "gainers_count": 9,
+      "decliners_count": 13,
+      "unchanged_count": 0,
+      "avg_change_pct": -1.0
+    }
+  },
+  "commodity_data": {
+    "Gold": {
+      "price": 309.11,
+      "change": 6.15,
+      "change_pct": 2.03,
+      "symbol": "GLD"
+    },
+    "Silver": {
+      "price": 33.59,
+      "change": 0.27,
+      "change_pct": 0.81,
+      "symbol": "SLV"
+    },
+    "Copper": {
+      "price": 27.57,
+      "change": 0.12,
+      "change_pct": 0.44,
+      "symbol": "CPER"
+    },
+    "Oil": {
+      "price": 77.46,
+      "change": -2.13,
+      "change_pct": -2.68,
+      "symbol": "USO"
+    },
+    "Natural Gas": {
+      "price": 13.62,
+      "change": 0.03,
+      "change_pct": 0.22,
+      "symbol": "UNG"
+    }
+  },
+  "news_data": {
+    "breaking_news": [],
+    "major_news": [],
+    "total_articles": 0
+  },
+  "market_summary": {
+    "market_sentiment": "bearish",
+    "gainers_vs_decliners": "9 vs 13",
+    "top_gainer": null,
+    "top_decliner": {
+      "symbol": "FM.TO",
+      "name": "FIRST QUANTUM MINERALS LTD",
+      "current_price": 22.18,
+      "change": -1.11,
+      "change_pct": -4.77,
+      "volume": 2320500,
+      "market_cap": 18502688768
+    },
+    "significant_commodity_moves": [
+      {
+        "name": "Oil",
+        "change_pct": -2.68,
+        "direction": "down"
+      },
+      {
+        "name": "Gold",
+        "change_pct": 2.03,
+        "direction": "up"
+      }
+    ],
+    "total_news_articles": 0,
+    "breaking_news_count": 0
+  }
+}

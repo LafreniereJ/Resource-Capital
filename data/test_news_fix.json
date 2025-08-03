@@ -1,0 +1,213 @@
+{
+  "collection_date": "2025-08-03T07:46:34.156171",
+  "market_data": {
+    "gainers": [],
+    "decliners": [
+      {
+        "symbol": "FM.TO",
+        "name": "FIRST QUANTUM MINERALS LTD",
+        "current_price": 22.18,
+        "change": -1.11,
+        "change_pct": -4.77,
+        "volume": 2320500,
+        "market_cap": 18502688768
+      },
+      {
+        "symbol": "GSVR.V",
+        "name": "GUANAJUATO SILVER COMPANY LTD",
+        "current_price": 0.28,
+        "change": -0.01,
+        "change_pct": -3.45,
+        "volume": 578700,
+        "market_cap": 129867104
+      },
+      {
+        "symbol": "CCO.TO",
+        "name": "CAMECO CORP",
+        "current_price": 100.63,
+        "change": -3.4,
+        "change_pct": -3.27,
+        "volume": 1792400,
+        "market_cap": 43812995072
+      },
+      {
+        "symbol": "TECK-B.TO",
+        "name": "TECK RESOURCES LIMITED CL B",
+        "current_price": 43.61,
+        "change": -1.32,
+        "change_pct": -2.94,
+        "volume": 1491481,
+        "market_cap": 21331527680
+      },
+      {
+        "symbol": "HBM.TO",
+        "name": "HUDBAY MINERALS INC.",
+        "current_price": 12.51,
+        "change": -0.35,
+        "change_pct": -2.72,
+        "volume": 1407600,
+        "market_cap": 4941474816
+      }
+    ],
+    "volume_leaders": [
+      {
+        "symbol": "TOU.TO",
+        "name": "TOURMALINE OIL CORP",
+        "current_price": 57.61,
+        "change": -1.36,
+        "change_pct": -2.31,
+        "volume": 8222000,
+        "market_cap": 22286256128
+      },
+      {
+        "symbol": "CNQ.TO",
+        "name": "CDN NATURAL RES",
+        "current_price": 42.72,
+        "change": -1.14,
+        "change_pct": -2.6,
+        "volume": 5344100,
+        "market_cap": 89424920576
+      },
+      {
+        "symbol": "SU.TO",
+        "name": "SUNCOR ENERGY INC.",
+        "current_price": 53.86,
+        "change": -0.79,
+        "change_pct": -1.45,
+        "volume": 2946400,
+        "market_cap": 66117459968
+      },
+      {
+        "symbol": "ABX.TO",
+        "name": "BARRICK MINING CORPORATION",
+        "current_price": 29.47,
+        "change": 0.22,
+        "change_pct": 0.75,
+        "volume": 2851900,
+        "market_cap": 50672484352
+      },
+      {
+        "symbol": "FM.TO",
+        "name": "FIRST QUANTUM MINERALS LTD",
+        "current_price": 22.18,
+        "change": -1.11,
+        "change_pct": -4.77,
+        "volume": 2320500,
+        "market_cap": 18502688768
+      }
+    ],
+    "market_stats": {
+      "total_stocks": 22,
+      "gainers_count": 9,
+      "decliners_count": 13,
+      "unchanged_count": 0,
+      "avg_change_pct": -1.0
+    }
+  },
+  "commodity_data": {
+    "Gold": {
+      "price": 309.11,
+      "change": 6.15,
+      "change_pct": 2.03,
+      "symbol": "GLD"
+    },
+    "Silver": {
+      "price": 33.59,
+      "change": 0.27,
+      "change_pct": 0.81,
+      "symbol": "SLV"
+    },
+    "Copper": {
+      "price": 27.57,
+      "change": 0.12,
+      "change_pct": 0.44,
+      "symbol": "CPER"
+    },
+    "Oil": {
+      "price": 77.46,
+      "change": -2.13,
+      "change_pct": -2.68,
+      "symbol": "USO"
+    },
+    "Natural Gas": {
+      "price": 13.62,
+      "change": 0.03,
+      "change_pct": 0.22,
+      "symbol": "UNG"
+    }
+  },
+  "news_data": {
+    "breaking_news": [],
+    "major_news": [
+      {
+        "title": "Silver North Resources raises $268,235 in private placement for Yukon exploration",
+        "description": "<p>Canadian miner Silver North Resources has closed its non-brokered private placement, raising C$370,050 ($268,235) for the exploration and development of its Yukon assets.</p>\n<p>The post <a href=\"h",
+        "link": "https://www.mining-technology.com/news/silver-north-resources-raises/",
+        "published": "Fri, 01 Aug 2025 10:30:35 +0000",
+        "source": "https://www.mining-technology.com/feed/",
+        "hours_ago": 49.3
+      },
+      {
+        "title": "Ramelius completes acquisition of Spartan Resources",
+        "description": "<p>Australian gold mining company Ramelius Resources has completed its acquisition of smaller peer Spartan Resources.</p>\n<p>The post <a href=\"https://www.mining-technology.com/news/ramelius-completes",
+        "link": "https://www.mining-technology.com/news/ramelius-completes-acquisition-of-spartan/",
+        "published": "Fri, 01 Aug 2025 08:16:27 +0000",
+        "source": "https://www.mining-technology.com/feed/",
+        "hours_ago": 51.5
+      },
+      {
+        "title": "Rio Tinto\u00a0net earnings\u00a0slump 22% in H1 2025",
+        "description": "<p>Rio Tinto\u2019s earnings fell in the first half of 2025 (H1 2025), hit by lower commodity prices, higher capital spending, and tariffs.</p>\n<p>The post <a href=\"https://www.mining-technology.com/news/r",
+        "link": "https://www.mining-technology.com/news/rio-tinto-h1-2025/",
+        "published": "Thu, 31 Jul 2025 14:45:23 +0000",
+        "source": "https://www.mining-technology.com/feed/",
+        "hours_ago": 69.0
+      },
+      {
+        "title": "Lycopodium secures EPCM contract for Nyanzaga gold project in Tanzania",
+        "description": "<p>Lycopodium, an ASX-listed firm, has secured an engineering, procurement and construction management (EPCM) contract worth about A$48m ($30.9m) for the Nyanzaga Gold Project, owned by Perseus Mining",
+        "link": "https://www.mining-technology.com/news/lycopodium-secures-epcm-contract/",
+        "published": "Thu, 31 Jul 2025 13:26:29 +0000",
+        "source": "https://www.mining-technology.com/feed/",
+        "hours_ago": 70.3
+      },
+      {
+        "title": "Global lead production growth in 2024 driven by key mines",
+        "description": "<p>Global lead production reached 4,590.7 kilotonnes in 2024, with Australia, Mexico, Russia, and India contributing 27.8% of the global total.</p>\n<p>The post <a href=\"https://www.mining-technology.c",
+        "link": "https://www.mining-technology.com/analyst-comment/global-lead-production-growth-2024/",
+        "published": "Thu, 31 Jul 2025 12:57:52 +0000",
+        "source": "https://www.mining-technology.com/feed/",
+        "hours_ago": 70.8
+      }
+    ],
+    "total_articles": 10
+  },
+  "market_summary": {
+    "market_sentiment": "bearish",
+    "gainers_vs_decliners": "9 vs 13",
+    "top_gainer": null,
+    "top_decliner": {
+      "symbol": "FM.TO",
+      "name": "FIRST QUANTUM MINERALS LTD",
+      "current_price": 22.18,
+      "change": -1.11,
+      "change_pct": -4.77,
+      "volume": 2320500,
+      "market_cap": 18502688768
+    },
+    "significant_commodity_moves": [
+      {
+        "name": "Oil",
+        "change_pct": -2.68,
+        "direction": "down"
+      },
+      {
+        "name": "Gold",
+        "change_pct": 2.03,
+        "direction": "up"
+      }
+    ],
+    "total_news_articles": 10,
+    "breaking_news_count": 0
+  }
+}

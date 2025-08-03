@@ -21,7 +21,9 @@
       "Bash(find:*)",
       "Bash(./free_mining_env/bin/pip install openpyxl xlrd pandas)",
       "Bash(./free_mining_env/bin/python:*)",
-      "Bash(./free_mining_env/bin/pip install:*)"
+      "Bash(./free_mining_env/bin/pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(./generate_daily_brief.sh:*)"
     ],
     "deny": []
   }
