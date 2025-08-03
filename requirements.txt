@@ -20,5 +20,9 @@ typing-extensions>=4.5.0
 # Logging and Monitoring (FREE)
 rich>=13.0.0
 
-# Note: Removed paid APIs (OpenAI, Anthropic, crawl4ai)
-# V1 focuses entirely on free web scraping and free APIs
+# Testing (FREE)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Note: This system uses ONLY FREE tools and APIs
+# No paid services like OpenAI, Anthropic, or crawl4ai are required

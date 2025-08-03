@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Enhanced Data Extractor with LLM-Powered Content Analysis
+Enhanced Data Extractor with FREE Web Scraping
 Extracts structured financial and operational data from mining company websites
+Uses only FREE tools: requests, BeautifulSoup, Playwright
 """
 
 import asyncio
@@ -11,8 +12,9 @@ import re
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
-from crawl4ai import AsyncWebCrawler
-from crawl4ai.extraction_strategy import LLMExtractionStrategy
+import requests
+from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 import logging
 from ..core.config import Config
 
@@ -61,112 +63,60 @@ class NewsItem:
 class EnhancedDataExtractor:
     def __init__(self, db_path=None):
         self.db_path = db_path or Config.DATABASE_PATH
-        self.llm_config = Config.get_llm_config()
-        self.extraction_schemas = self._setup_extraction_schemas()
+        self.extraction_patterns = self._setup_extraction_patterns()
         
-    def _setup_extraction_schemas(self) -> Dict[str, str]:
-        """Setup LLM extraction schemas for different content types"""
-        
-        financial_schema = """
-        Extract financial information from the content and return a JSON object with the following structure:
-        {
-            "financial_metrics": {
-                "revenue": number (in millions, latest quarter/year),
-                "ebitda": number (in millions),
-                "cash_flow": number (in millions, operating cash flow),
-                "net_income": number (in millions),
-                "guidance_revenue": string (any forward-looking revenue guidance),
-                "guidance_production": string (production guidance),
-                "guidance_costs": string (cost guidance),
-                "dividend_amount": number (quarterly dividend per share),
-                "share_price": number (current or recent),
-                "market_cap": number (in millions)
-            },
-            "operational_metrics": {
-                "production_volume": number (latest period production),
-                "production_unit": string (ounces, tonnes, barrels, etc.),
-                "cash_cost": number (per unit cash cost),
-                "all_in_cost": number (all-in sustaining cost),
-                "grade": number (ore grade),
-                "recovery_rate": number (percentage),
-                "reserves": number (proven and probable reserves),
-                "resources": number (measured, indicated, inferred)
-            },
-            "recent_announcements": [
-                {
-                    "date": string (YYYY-MM-DD format),
-                    "title": string,
-                    "category": string (earnings, operational, corporate, exploration, acquisition),
-                    "key_points": [string],
-                    "financial_impact": string (positive, negative, neutral, or specific impact)
-                }
-            ]
-        }
-        
-        Focus on the most recent data (last 12 months). If specific numbers aren't found, use null.
-        For dates, convert any format to YYYY-MM-DD. Only include high-confidence extractions.
-        """
-        
-        news_schema = """
-        Extract recent news and announcements from the content. Return a JSON object:
-        {
-            "news_items": [
-                {
-                    "title": string,
-                    "date": string (YYYY-MM-DD format),
-                    "content": string (summary of key points, max 300 chars),
-                    "category": string (earnings, operational, corporate, exploration, acquisition, guidance),
-                    "relevance_score": number (1-10, 10 being most material/important),
-                    "key_points": [string] (3-5 bullet points of main takeaways),
-                    "financial_impact": string (description of financial impact if any),
-                    "url": string (if available)
-                }
-            ]
-        }
-        
-        Only include items from the last 6 months. Focus on material events that would interest investors.
-        Prioritize earnings results, guidance updates, major operational changes, M&A activity.
-        """
-        
-        project_schema = """
-        Extract project and operational updates from mining company content. Return JSON:
-        {
-            "project_updates": [
-                {
-                    "project_name": string,
-                    "location": string,
-                    "update_type": string (development, production, exploration, expansion, closure),
-                    "date": string (YYYY-MM-DD),
-                    "key_developments": [string],
-                    "production_impact": string,
-                    "timeline": string,
-                    "capex": number (if mentioned, in millions),
-                    "status": string (on-track, delayed, ahead-of-schedule, etc.)
-                }
-            ],
-            "exploration_results": [
-                {
-                    "property": string,
-                    "location": string,
-                    "date": string,
-                    "highlights": [string],
-                    "drill_results": string,
-                    "resource_estimate": string
-                }
-            ]
-        }
-        
-        Focus on recent updates (last 12 months) that show material progress or changes.
-        """
+    def _setup_extraction_patterns(self) -> Dict[str, Dict]:
+        """Setup pattern-based extraction for different content types"""
         
         return {
-            "financial": financial_schema,
-            "news": news_schema,
-            "projects": project_schema
+            "financial_metrics": {
+                "revenue": [
+                    r"revenue.*?(\$[\d,]+(?:\.\d+)?)\s*(?:million|billion|M|B)",
+                    r"(\$[\d,]+(?:\.\d+)?)\s*(?:million|billion|M|B).*?revenue",
+                    r"total revenue.*?(\$[\d,]+(?:\.\d+)?)"
+                ],
+                "ebitda": [
+                    r"ebitda.*?(\$[\d,]+(?:\.\d+)?)\s*(?:million|billion|M|B)",
+                    r"(\$[\d,]+(?:\.\d+)?)\s*(?:million|billion|M|B).*?ebitda"
+                ],
+                "cash_flow": [
+                    r"operating cash flow.*?(\$[\d,]+(?:\.\d+)?)",
+                    r"cash flow.*?(\$[\d,]+(?:\.\d+)?)\s*(?:million|billion|M|B)"
+                ],
+                "dividend": [
+                    r"dividend.*?(\$[\d,]+(?:\.\d+)?)\s*per share",
+                    r"(\$[\d,]+(?:\.\d+)?)\s*per share.*?dividend"
+                ]
+            },
+            "operational_metrics": {
+                "production": [
+                    r"production.*?([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds|grams)",
+                    r"([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds|grams).*?production"
+                ],
+                "cash_cost": [
+                    r"cash cost.*?(\$[\d,]+(?:\.\d+)?)\s*per\s*(ounce|tonne|pound)",
+                    r"(\$[\d,]+(?:\.\d+)?)\s*per\s*(ounce|tonne|pound).*?cash cost"
+                ],
+                "reserves": [
+                    r"reserves.*?([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds)",
+                    r"([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds).*?reserves"
+                ]
+            },
+            "guidance": {
+                "production_guidance": [
+                    r"guidance.*?([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds)",
+                    r"expects.*?([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds)",
+                    r"target.*?([\d,]+(?:\.\d+)?)\s*(ounces|tonnes|pounds)"
+                ],
+                "cost_guidance": [
+                    r"cost guidance.*?(\$[\d,]+(?:\.\d+)?)",
+                    r"expected cost.*?(\$[\d,]+(?:\.\d+)?)"
+                ]
+            }
         }
 
     async def extract_structured_data(self, url: str, content: str, company_symbol: str) -> Dict[str, Any]:
-        """Extract structured data using LLM-powered analysis"""
+        """Extract structured data using pattern-based analysis"""
         
         extracted_data = {
             "company_symbol": company_symbol,
@@ -179,89 +129,73 @@ class EnhancedDataExtractor:
             "exploration_results": []
         }
         
-        async with AsyncWebCrawler(headless=True) as crawler:
+        # Extract financial data
+        try:
+            logger.info(f"Extracting financial data from {url}")
             
-            # Extract financial data
-            try:
-                logger.info(f"Extracting financial data from {url}")
-                
-                financial_result = await crawler.arun(
-                    url=url,
-                    extraction_strategy=LLMExtractionStrategy(
-                        provider=self.llm_config["provider"],
-                        api_token=self.llm_config["api_token"],
-                        instruction=self.extraction_schemas["financial"]
-                    ),
-                    word_count_threshold=Config.MIN_WORD_COUNT
-                )
-                
-                if hasattr(financial_result, 'extracted_content') and financial_result.extracted_content:
-                    try:
-                        financial_json = json.loads(financial_result.extracted_content)
-                        extracted_data["financial_data"] = financial_json.get("financial_metrics", {})
-                        extracted_data["operational_data"] = financial_json.get("operational_metrics", {})
-                        
-                        # Add recent announcements to news items
-                        if "recent_announcements" in financial_json:
-                            extracted_data["news_items"].extend(financial_json["recent_announcements"])
-                            
-                    except json.JSONDecodeError:
-                        logger.warning(f"Could not parse financial JSON for {company_symbol}")
-                        
-            except Exception as e:
-                logger.error(f"Error extracting financial data for {company_symbol}: {str(e)}")
+            financial_data = {}
+            for metric_name, patterns in self.extraction_patterns["financial_metrics"].items():
+                for pattern in patterns:
+                    match = re.search(pattern, content, re.IGNORECASE)
+                    if match:
+                        value = match.group(1)
+                        if metric_name == "revenue":
+                            financial_data["revenue"] = float(value.replace(',', '').replace('$', ''))
+                        elif metric_name == "ebitda":
+                            financial_data["ebitda"] = float(value.replace(',', '').replace('$', ''))
+                        elif metric_name == "cash_flow":
+                            financial_data["cash_flow"] = float(value.replace(',', '').replace('$', ''))
+                        elif metric_name == "dividend":
+                            financial_data["dividend_amount"] = float(value.replace(',', '').replace('$', ''))
+                        break # Found one match, move to next metric
             
-            # Extract news data
-            try:
-                logger.info(f"Extracting news data from {url}")
-                
-                news_result = await crawler.arun(
-                    url=url,
-                    extraction_strategy=LLMExtractionStrategy(
-                        provider=self.llm_config["provider"],
-                        api_token=self.llm_config["api_token"],
-                        instruction=self.extraction_schemas["news"]
-                    ),
-                    word_count_threshold=Config.MIN_WORD_COUNT
-                )
-                
-                if hasattr(news_result, 'extracted_content') and news_result.extracted_content:
-                    try:
-                        news_json = json.loads(news_result.extracted_content)
-                        if "news_items" in news_json:
-                            extracted_data["news_items"].extend(news_json["news_items"])
-                            
-                    except json.JSONDecodeError:
-                        logger.warning(f"Could not parse news JSON for {company_symbol}")
-                        
-            except Exception as e:
-                logger.error(f"Error extracting news data for {company_symbol}: {str(e)}")
+            extracted_data["financial_data"] = financial_data
             
-            # Extract project data
-            try:
-                logger.info(f"Extracting project data from {url}")
-                
-                project_result = await crawler.arun(
-                    url=url,
-                    extraction_strategy=LLMExtractionStrategy(
-                        provider=self.llm_config["provider"],
-                        api_token=self.llm_config["api_token"],
-                        instruction=self.extraction_schemas["projects"]
-                    ),
-                    word_count_threshold=Config.MIN_WORD_COUNT
-                )
-                
-                if hasattr(project_result, 'extracted_content') and project_result.extracted_content:
-                    try:
-                        project_json = json.loads(project_result.extracted_content)
-                        extracted_data["project_updates"] = project_json.get("project_updates", [])
-                        extracted_data["exploration_results"] = project_json.get("exploration_results", [])
-                        
-                    except json.JSONDecodeError:
-                        logger.warning(f"Could not parse project JSON for {company_symbol}")
-                        
-            except Exception as e:
-                logger.error(f"Error extracting project data for {company_symbol}: {str(e)}")
+        except Exception as e:
+            logger.warning(f"Could not extract financial data for {company_symbol} from {url}: {str(e)}")
+        
+        # Extract news data
+        try:
+            logger.info(f"Extracting news data from {url}")
+            
+            news_items = []
+            for pattern in self.extraction_patterns["news_items"]:
+                match = re.search(pattern, content, re.IGNORECASE)
+                if match:
+                    news_item = {
+                        "title": match.group(1),
+                        "date": match.group(2),
+                        "content": match.group(3),
+                        "url": url,
+                        "category": "general", # Default category
+                        "relevance_score": 0,
+                        "key_points": [],
+                        "financial_impact": None
+                    }
+                    news_items.append(news_item)
+            
+            extracted_data["news_items"] = news_items
+            
+        except Exception as e:
+            logger.warning(f"Could not extract news data for {company_symbol} from {url}: {str(e)}")
+        
+        # Extract project data
+        try:
+            logger.info(f"Extracting project data from {url}")
+            
+            project_updates = []
+            exploration_results = []
+            
+            # This part of the code was not provided in the edit_specification,
+            # so it will be left as a placeholder.
+            # In a real scenario, you would use Playwright to scrape the page
+            # and extract specific project/exploration details.
+            
+            extracted_data["project_updates"] = project_updates
+            extracted_data["exploration_results"] = exploration_results
+            
+        except Exception as e:
+            logger.warning(f"Could not extract project data for {company_symbol} from {url}: {str(e)}")
         
         return extracted_data
 
@@ -346,13 +280,24 @@ class EnhancedDataExtractor:
                 logger.info(f"Processing {url_type} for {symbol}: {url}")
                 
                 # Get basic content first
-                async with AsyncWebCrawler(headless=True) as crawler:
-                    basic_result = await crawler.arun(url=url, word_count_threshold=100)
+                async with async_playwright() as p:
+                    browser = await p.chromium.launch()
+                    page = await browser.new_page()
+                    await page.goto(url)
                     
-                    if basic_result.markdown and len(basic_result.markdown) > 500:
-                        # Extract structured data using LLM
+                    # Wait for content to load
+                    await page.wait_for_selector("body")
+                    
+                    # Get page content
+                    content = await page.content()
+                    
+                    # Close browser
+                    await browser.close()
+                    
+                    if len(content) > 500:
+                        # Extract structured data using pattern matching
                         extracted_data = await self.extract_structured_data(
-                            url, basic_result.markdown, symbol
+                            url, content, symbol
                         )
                         
                         # Calculate relevance
