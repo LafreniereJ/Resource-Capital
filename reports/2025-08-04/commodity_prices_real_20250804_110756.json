@@ -1,0 +1,436 @@
+{
+  "scraping_started": "2025-08-04T15:07:41.640196+00:00",
+  "scraping_completed": "2025-08-04T15:07:56.734476+00:00",
+  "total_duration": 15.09428,
+  "sources_scraped": {
+    "kitco_precious": {
+      "gold": {
+        "name": "Gold",
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.879501+00:00",
+        "market_trend": null,
+        "source": "kitco_precious",
+        "raw_data": null
+      },
+      "silver": {
+        "name": "Silver",
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.881420+00:00",
+        "market_trend": null,
+        "source": "kitco_precious",
+        "raw_data": null
+      },
+      "platinum": {
+        "name": "Platinum",
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.882732+00:00",
+        "market_trend": null,
+        "source": "kitco_precious",
+        "raw_data": null
+      },
+      "palladium": {
+        "name": "Palladium",
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.883825+00:00",
+        "market_trend": null,
+        "source": "kitco_precious",
+        "raw_data": null
+      }
+    },
+    "trading_economics": {
+      "uranium": {
+        "name": "Uranium",
+        "price": 106.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265516+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "gold": {
+        "name": "Gold",
+        "price": 110.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265629+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "silver": {
+        "name": "Silver",
+        "price": 111.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265659+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "copper": {
+        "name": "Copper",
+        "price": 1.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265688+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "lithium": {
+        "name": "Lithium",
+        "price": 114.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265738+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "platinum": {
+        "name": "Platinum",
+        "price": 116.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265770+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "cobalt": {
+        "name": "Cobalt",
+        "price": 1.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266338+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "aluminum": {
+        "name": "Aluminum",
+        "price": 3.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266378+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "zinc": {
+        "name": "Zinc",
+        "price": 3.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266414+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "nickel": {
+        "name": "Nickel",
+        "price": 1.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266433+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      },
+      "palladium": {
+        "name": "Palladium",
+        "price": 151.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266481+00:00",
+        "market_trend": null,
+        "source": "trading_economics",
+        "raw_data": null
+      }
+    }
+  },
+  "consolidated_prices": {
+    "lithium": {
+      "trading_economics": {
+        "price": 114.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265738+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 114.0,
+        "price_range": "$114.00 - $114.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    },
+    "platinum": {
+      "kitco_precious": {
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.882732+00:00",
+        "source": "kitco_precious"
+      },
+      "trading_economics": {
+        "price": 116.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265770+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1808.0,
+        "price_range": "$116.00 - $3500.00",
+        "price_variance": 3384.0,
+        "sources_count": 2,
+        "confidence": "medium"
+      }
+    },
+    "zinc": {
+      "trading_economics": {
+        "price": 3.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266414+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 3.0,
+        "price_range": "$3.00 - $3.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    },
+    "cobalt": {
+      "trading_economics": {
+        "price": 1.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266338+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1.0,
+        "price_range": "$1.00 - $1.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    },
+    "copper": {
+      "trading_economics": {
+        "price": 1.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265688+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1.0,
+        "price_range": "$1.00 - $1.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    },
+    "silver": {
+      "kitco_precious": {
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.881420+00:00",
+        "source": "kitco_precious"
+      },
+      "trading_economics": {
+        "price": 111.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265659+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1805.5,
+        "price_range": "$111.00 - $3500.00",
+        "price_variance": 3389.0,
+        "sources_count": 2,
+        "confidence": "medium"
+      }
+    },
+    "aluminum": {
+      "trading_economics": {
+        "price": 3.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266378+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 3.0,
+        "price_range": "$3.00 - $3.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    },
+    "nickel": {
+      "trading_economics": {
+        "price": 1.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266433+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1.0,
+        "price_range": "$1.00 - $1.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    },
+    "gold": {
+      "kitco_precious": {
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.879501+00:00",
+        "source": "kitco_precious"
+      },
+      "trading_economics": {
+        "price": 110.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265629+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1805.0,
+        "price_range": "$110.00 - $3500.00",
+        "price_variance": 3390.0,
+        "sources_count": 2,
+        "confidence": "medium"
+      }
+    },
+    "palladium": {
+      "kitco_precious": {
+        "price": 3500.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:41.883825+00:00",
+        "source": "kitco_precious"
+      },
+      "trading_economics": {
+        "price": 151.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.266481+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 1825.5,
+        "price_range": "$151.00 - $3500.00",
+        "price_variance": 3349.0,
+        "sources_count": 2,
+        "confidence": "medium"
+      }
+    },
+    "uranium": {
+      "trading_economics": {
+        "price": 106.0,
+        "currency": "USD",
+        "change_absolute": null,
+        "change_percentage": null,
+        "last_update": "2025-08-04T15:07:44.265516+00:00",
+        "source": "trading_economics"
+      },
+      "consensus": {
+        "average_price": 106.0,
+        "price_range": "$106.00 - $106.00",
+        "price_variance": 0,
+        "sources_count": 1,
+        "confidence": "low"
+      }
+    }
+  },
+  "performance_log": [
+    {
+      "site": "kitco_precious",
+      "success": true,
+      "response_time": 0.24341225624084473,
+      "commodities_found": 4,
+      "error": null
+    },
+    {
+      "site": "trading_economics",
+      "success": true,
+      "response_time": 0.26250338554382324,
+      "commodities_found": 11,
+      "error": null
+    },
+    {
+      "site": "daily_metal_price",
+      "success": false,
+      "response_time": 0.22824645042419434,
+      "commodities_found": 0,
+      "error": "No prices extracted"
+    },
+    {
+      "site": "lme_official",
+      "success": false,
+      "response_time": 8.341875076293945,
+      "commodities_found": 0,
+      "error": "Failed to fetch LME page"
+    }
+  ],
+  "errors": [
+    "LME extraction failed: Failed to fetch LME page"
+  ],
+  "summary": {
+    "sources_attempted": 4,
+    "sources_successful": 2,
+    "unique_commodities": 11,
+    "total_data_points": 15
+  }
+}

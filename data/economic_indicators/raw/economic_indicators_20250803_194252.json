@@ -1,0 +1,715 @@
+{
+  "scraping_started": "2025-08-03T19:40:14.128341",
+  "canadian_indicators": {
+    "source": "trading_economics_canada",
+    "scraped_at": "2025-08-03T19:40:14.128348",
+    "indicators": {
+      "overview": {
+        "url": "https://tradingeconomics.com/canada/indicators",
+        "scraped_at": "2025-08-03T19:40:15.361506",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.3477463722229004,
+        "data": {
+          "indicators": {
+            "inflation": {
+              "value": 12.1,
+              "unit": "%",
+              "extracted_from": "overview",
+              "pattern_used": "Consumer Price Index.*?(\\d+\\.\\d+)"
+            },
+            "mining_production": {
+              "value": 2.3,
+              "unit": "index",
+              "extracted_from": "overview",
+              "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:15.479985",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 2,
+          "sample_values": [
+            "20",
+            "20"
+          ],
+          "data_date": "August 3, 2025"
+        }
+      },
+      "gdp": {
+        "url": "https://tradingeconomics.com/canada/gdp",
+        "scraped_at": "2025-08-03T19:40:20.031285",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.6535775661468506,
+        "data": {
+          "indicators": {
+            "gdp": {
+              "value": 2241.25,
+              "unit": "index",
+              "extracted_from": "gdp",
+              "pattern_used": "Gross Domestic Product.*?(\\d+\\.\\d+)"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:20.150379",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 6,
+          "sample_values": [
+            "0.1",
+            "0.7",
+            "2.5",
+            "70",
+            "20",
+            "2241.25"
+          ]
+        }
+      },
+      "inflation": {
+        "url": "https://tradingeconomics.com/canada/inflation-cpi",
+        "scraped_at": "2025-08-03T19:40:24.460306",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.4145290851593018,
+        "data": {
+          "indicators": {
+            "inflation": {
+              "value": 1.9,
+              "unit": "%",
+              "extracted_from": "inflation",
+              "pattern_used": "inflation.*?([+-]?\\d+\\.\\d+)%"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:24.580484",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 73,
+          "sample_values": [
+            "1.9",
+            "1.7",
+            "13.4",
+            "15.5",
+            "0.6",
+            "1.4",
+            "5.2",
+            "4.9",
+            "3.3",
+            "0.1"
+          ],
+          "data_date": "2025-06-24"
+        }
+      },
+      "employment": {
+        "url": "https://tradingeconomics.com/canada/unemployment-rate",
+        "scraped_at": "2025-08-03T19:40:29.118446",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.7049944400787354,
+        "data": {
+          "indicators": {
+            "unemployment": {
+              "value": 6.9,
+              "unit": "index",
+              "extracted_from": "employment",
+              "pattern_used": "unemployment.*?(\\d+\\.\\d+)%"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:29.302676",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 28,
+          "sample_values": [
+            "6.9",
+            "7.1",
+            "21.8",
+            "65.4",
+            "6.9",
+            "7.0",
+            "6.9",
+            "7.1",
+            "7.0",
+            "6.9"
+          ],
+          "data_date": "2025-06-06"
+        }
+      },
+      "interest_rate": {
+        "url": "https://tradingeconomics.com/canada/interest-rate",
+        "scraped_at": "2025-08-03T19:40:33.620376",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.4195492267608643,
+        "data": {
+          "indicators": {
+            "interest_rate": {
+              "value": 2.75,
+              "unit": "%",
+              "extracted_from": "interest_rate",
+              "pattern_used": "interest rate.*?(\\d+\\.\\d+)%"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:33.740490",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 23,
+          "sample_values": [
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75",
+            "2.75"
+          ],
+          "data_date": "2025-04-16"
+        }
+      },
+      "mining_production": {
+        "url": "https://tradingeconomics.com/canada/mining-production",
+        "scraped_at": "2025-08-03T19:40:38.021439",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.4035277366638184,
+        "data": {
+          "indicators": {
+            "mining_production": {
+              "value": 2.3,
+              "unit": "index",
+              "extracted_from": "mining_production",
+              "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:38.160708",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 5,
+          "sample_values": [
+            "0.1",
+            "0.7",
+            "2.5",
+            "70",
+            "20"
+          ]
+        }
+      },
+      "industrial_production": {
+        "url": "https://tradingeconomics.com/canada/industrial-production",
+        "scraped_at": "2025-08-03T19:40:42.454004",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.3957202434539795,
+        "data": {
+          "indicators": {
+            "mining_production": {
+              "value": 2.3,
+              "unit": "index",
+              "extracted_from": "industrial_production",
+              "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:42.571798",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 5,
+          "sample_values": [
+            "0.1",
+            "0.7",
+            "2.5",
+            "70",
+            "20"
+          ]
+        }
+      },
+      "manufacturing": {
+        "url": "https://tradingeconomics.com/canada/manufacturing-production",
+        "scraped_at": "2025-08-03T19:40:46.793647",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.3850586414337158,
+        "data": {
+          "indicators": {
+            "mining_production": {
+              "value": 2.3,
+              "unit": "index",
+              "extracted_from": "manufacturing",
+              "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+            }
+          },
+          "timestamp": "2025-08-03T19:40:46.971685",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 5,
+          "sample_values": [
+            "0.1",
+            "0.7",
+            "2.5",
+            "70",
+            "20"
+          ]
+        }
+      },
+      "exports": {
+        "url": "https://tradingeconomics.com/canada/exports",
+        "scraped_at": "2025-08-03T19:40:51.308850",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.4721465110778809,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:40:51.458429",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 46,
+          "sample_values": [
+            "1.1",
+            "15.1",
+            "30.1",
+            "2.6",
+            "52.9",
+            "18.5",
+            "0.9",
+            "5.6",
+            "0.7",
+            "1.1"
+          ],
+          "data_date": "2025-06-05"
+        }
+      },
+      "imports": {
+        "url": "https://tradingeconomics.com/canada/imports",
+        "scraped_at": "2025-08-03T19:40:55.816946",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.5164620876312256,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:40:55.992348",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 36,
+          "sample_values": [
+            "1.6",
+            "16.8",
+            "43.2",
+            "5.3",
+            "1.2",
+            "1.6",
+            "16.8",
+            "43.2",
+            "5.3",
+            "1.2"
+          ],
+          "data_date": "2025-06-05"
+        }
+      },
+      "current_account": {
+        "url": "https://tradingeconomics.com/canada/current-account",
+        "scraped_at": "2025-08-03T19:41:00.505004",
+        "scraper_used": "crawl4ai",
+        "response_time": 1.63057541847229,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:41:00.639652",
+          "extraction_method": "regex_patterns",
+          "numeric_data_found": 56,
+          "sample_values": [
+            "0.1",
+            "0.7",
+            "2.5",
+            "70",
+            "20",
+            "2.1",
+            "3.6",
+            "3.25",
+            "1.8",
+            "1.4"
+          ],
+          "data_date": "2025-02-27"
+        }
+      }
+    },
+    "raw_data": {
+      "overview": {
+        "content_length": 36854,
+        "word_count": 3890,
+        "title": ""
+      },
+      "gdp": {
+        "content_length": 30931,
+        "word_count": 1791,
+        "title": ""
+      },
+      "inflation": {
+        "content_length": 37005,
+        "word_count": 2617,
+        "title": ""
+      },
+      "employment": {
+        "content_length": 37079,
+        "word_count": 2562,
+        "title": ""
+      },
+      "interest_rate": {
+        "content_length": 35375,
+        "word_count": 2421,
+        "title": ""
+      },
+      "mining_production": {
+        "content_length": 30102,
+        "word_count": 1633,
+        "title": ""
+      },
+      "industrial_production": {
+        "content_length": 30717,
+        "word_count": 1653,
+        "title": ""
+      },
+      "manufacturing": {
+        "content_length": 30642,
+        "word_count": 1631,
+        "title": ""
+      },
+      "exports": {
+        "content_length": 35544,
+        "word_count": 2406,
+        "title": ""
+      },
+      "imports": {
+        "content_length": 34958,
+        "word_count": 2288,
+        "title": ""
+      },
+      "current_account": {
+        "content_length": 35712,
+        "word_count": 2422,
+        "title": ""
+      }
+    }
+  },
+  "us_indicators": {
+    "source": "fed_economic_data",
+    "scraped_at": "2025-08-03T19:41:44.797371",
+    "indicators": {
+      "us_gdp": {
+        "url": "https://fred.stlouisfed.org/series/GDP",
+        "scraped_at": "2025-08-03T19:41:48.978766",
+        "scraper_used": "playwright",
+        "response_time": 4.251122951507568,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:41:49.054097",
+          "extraction_method": "regex_patterns",
+          "data_date": "Jul 30, 2025"
+        }
+      },
+      "us_inflation": {
+        "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+        "scraped_at": "2025-08-03T19:41:56.208492",
+        "scraper_used": "playwright",
+        "response_time": 4.229889392852783,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:41:56.292882",
+          "extraction_method": "regex_patterns",
+          "data_date": "Jul 15, 2025"
+        }
+      },
+      "us_unemployment": {
+        "url": "https://fred.stlouisfed.org/series/UNRATE",
+        "scraped_at": "2025-08-03T19:42:03.254065",
+        "scraper_used": "playwright",
+        "response_time": 4.011512994766235,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:42:03.315063",
+          "extraction_method": "regex_patterns",
+          "data_date": "Aug 1, 2025"
+        }
+      },
+      "us_interest_rate": {
+        "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+        "scraped_at": "2025-08-03T19:42:11.184387",
+        "scraper_used": "playwright",
+        "response_time": 4.939797401428223,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:42:11.263598",
+          "extraction_method": "regex_patterns",
+          "data_date": "Aug 1, 2025"
+        }
+      },
+      "us_dollar_index": {
+        "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+        "scraped_at": "2025-08-03T19:42:19.183305",
+        "scraper_used": "playwright",
+        "response_time": 4.973133563995361,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:42:19.252335",
+          "extraction_method": "regex_patterns",
+          "data_date": "Jul 28, 2025"
+        }
+      },
+      "commodity_index": {
+        "url": "https://fred.stlouisfed.org/series/PPIACO",
+        "scraped_at": "2025-08-03T19:42:27.130043",
+        "scraper_used": "playwright",
+        "response_time": 4.952601671218872,
+        "data": {
+          "indicators": {},
+          "timestamp": "2025-08-03T19:42:27.213339",
+          "extraction_method": "regex_patterns",
+          "data_date": "Jul 16, 2025"
+        }
+      }
+    },
+    "raw_data": {
+      "us_gdp": {
+        "content_length": 9857,
+        "word_count": 1477,
+        "title": "Gross Domestic Product (GDP) | FRED | St. Louis Fed"
+      },
+      "us_inflation": {
+        "content_length": 11579,
+        "word_count": 1774,
+        "title": "Consumer Price Index for All Urban Consumers: All Items in U.S. City Average (CPIAUCSL) | FRED | St. Louis Fed"
+      },
+      "us_unemployment": {
+        "content_length": 9712,
+        "word_count": 1455,
+        "title": "Unemployment Rate (UNRATE) | FRED | St. Louis Fed"
+      },
+      "us_interest_rate": {
+        "content_length": 12368,
+        "word_count": 1920,
+        "title": "Federal Funds Effective Rate (FEDFUNDS) | FRED | St. Louis Fed"
+      },
+      "us_dollar_index": {
+        "content_length": 7840,
+        "word_count": 1203,
+        "title": "Nominal Broad U.S. Dollar Index (DTWEXBGS) | FRED | St. Louis Fed"
+      },
+      "commodity_index": {
+        "content_length": 9330,
+        "word_count": 1396,
+        "title": "Producer Price Index by Commodity: All Commodities (PPIACO) | FRED | St. Louis Fed"
+      }
+    }
+  },
+  "central_bank_data": {
+    "bank_of_canada": {
+      "source": "bank_of_canada",
+      "scraped_at": "2025-08-03T19:41:03.654107",
+      "indicators": {
+        "key_interest_rate": {
+          "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+          "scraped_at": "2025-08-03T19:41:05.433076",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.893223762512207,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:05.551405",
+            "extraction_method": "regex_patterns",
+            "numeric_data_found": 205,
+            "sample_values": [
+              "221.0",
+              "221.1",
+              "221.5",
+              "220.5",
+              "220.9",
+              "220.8",
+              "220.2",
+              "220.4",
+              "221.0",
+              "221.1"
+            ],
+            "data_date": "July 22, 2025"
+          }
+        },
+        "exchange_rates": {
+          "url": "https://www.bankofcanada.ca/rates/exchange/",
+          "scraped_at": "2025-08-03T19:41:09.582953",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.1277296543121338,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:09.699990",
+            "extraction_method": "regex_patterns",
+            "numeric_data_found": 3,
+            "sample_values": [
+              "20",
+              "20",
+              "20"
+            ],
+            "data_date": "July 22, 2025"
+          }
+        },
+        "commodity_price_index": {
+          "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
+          "scraped_at": "2025-08-03T19:41:14.460969",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.9289779663085938,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:14.641011",
+            "extraction_method": "regex_patterns",
+            "numeric_data_found": 3,
+            "sample_values": [
+              "20",
+              "20",
+              "20"
+            ],
+            "data_date": "July 22, 2025"
+          }
+        },
+        "monetary_policy": {
+          "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/",
+          "scraped_at": "2025-08-03T19:41:18.854885",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.3049843311309814,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:18.962426",
+            "extraction_method": "regex_patterns",
+            "numeric_data_found": 3,
+            "sample_values": [
+              "20",
+              "20",
+              "20"
+            ],
+            "data_date": "July 22, 2025"
+          }
+        }
+      },
+      "raw_data": {
+        "key_interest_rate": {
+          "content_length": 91130,
+          "word_count": 1793,
+          "title": ""
+        },
+        "exchange_rates": {
+          "content_length": 27864,
+          "word_count": 1883,
+          "title": ""
+        },
+        "commodity_price_index": {
+          "content_length": 50061,
+          "word_count": 7936,
+          "title": ""
+        },
+        "monetary_policy": {
+          "content_length": 33264,
+          "word_count": 2495,
+          "title": ""
+        }
+      }
+    }
+  },
+  "mining_specific_data": {
+    "statistics_canada": {
+      "source": "statistics_canada",
+      "scraped_at": "2025-08-03T19:41:21.971183",
+      "indicators": {
+        "mining_overview": {
+          "url": "https://www.statcan.gc.ca/eng/subjects-start/mining_and_energy",
+          "scraped_at": "2025-08-03T19:41:22.988002",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.135667085647583,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:23.110792",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "gdp": {
+          "url": "https://www.statcan.gc.ca/eng/subjects-start/gross_domestic_product_gdp",
+          "scraped_at": "2025-08-03T19:41:27.155073",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.1518688201904297,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:27.268913",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "employment": {
+          "url": "https://www.statcan.gc.ca/eng/subjects-start/labour",
+          "scraped_at": "2025-08-03T19:41:32.239436",
+          "scraper_used": "crawl4ai",
+          "response_time": 2.0764684677124023,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:32.350972",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "manufacturing": {
+          "url": "https://www.statcan.gc.ca/eng/subjects-start/manufacturing_and_construction",
+          "scraped_at": "2025-08-03T19:41:37.139881",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.9036705493927002,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:37.261843",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "international_trade": {
+          "url": "https://www.statcan.gc.ca/eng/subjects-start/international_trade",
+          "scraped_at": "2025-08-03T19:41:41.667881",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5215680599212646,
+          "data": {
+            "indicators": {},
+            "timestamp": "2025-08-03T19:41:41.791265",
+            "extraction_method": "regex_patterns",
+            "numeric_data_found": 32,
+            "sample_values": [
+              "0.8",
+              "0.8",
+              "1.6",
+              "1.1",
+              "3.2",
+              "9.6",
+              "85.3",
+              "78.7",
+              "6.6",
+              "2.1"
+            ],
+            "data_date": "2025-05-06"
+          }
+        }
+      },
+      "raw_data": {
+        "mining_overview": {
+          "content_length": 907,
+          "word_count": 102,
+          "title": ""
+        },
+        "gdp": {
+          "content_length": 925,
+          "word_count": 102,
+          "title": ""
+        },
+        "employment": {
+          "content_length": 628,
+          "word_count": 77,
+          "title": ""
+        },
+        "manufacturing": {
+          "content_length": 933,
+          "word_count": 102,
+          "title": ""
+        },
+        "international_trade": {
+          "content_length": 17871,
+          "word_count": 1152,
+          "title": ""
+        }
+      }
+    }
+  },
+  "international_data": {
+    "oecd": {
+      "source": "oecd",
+      "scraped_at": "2025-08-03T19:42:30.218108",
+      "indicators": {},
+      "raw_data": {}
+    }
+  },
+  "errors": [],
+  "summary": {
+    "total_sources_scraped": 5,
+    "total_indicators_found": 9,
+    "canadian_indicators_count": 11,
+    "us_indicators_count": 6,
+    "mining_specific_count": 1,
+    "successful_extractions": 8,
+    "failed_extractions": 0,
+    "scraping_duration": 158.655935
+  },
+  "scraping_completed": "2025-08-03T19:42:52.784276"
+}

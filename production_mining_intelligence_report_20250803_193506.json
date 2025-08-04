@@ -1,0 +1,2292 @@
+{
+  "test_metadata": {
+    "test_type": "production_comprehensive",
+    "start_time": 1754263675.4527726,
+    "end_time": 1754264106.6561244,
+    "total_duration_minutes": 7.18672251701355,
+    "test_timestamp": "2025-08-03T19:35:06.656125"
+  },
+  "executive_summary": {
+    "test_success_rate": 66.66666666666666,
+    "domains_tested": 6,
+    "domains_successful": 4,
+    "average_data_quality": 88.33333333333333,
+    "total_errors": 2,
+    "system_status": "PRODUCTION_READY",
+    "key_achievements": [
+      "Successfully scraped 11 metal prices with consensus pricing",
+      "Extracted 10 economic indicators from multiple sources",
+      "Analyzed 10 mining companies with financial data"
+    ],
+    "critical_issues": []
+  },
+  "domain_results": {
+    "metal_prices": {
+      "scraping_started": "2025-08-03T19:27:55.456850",
+      "precious_metals": {
+        "gold": {
+          "metal": "gold",
+          "scraped_at": "2025-08-03T19:27:55.456859",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/gold",
+              "scraped_at": "2025-08-03T19:27:57.885826",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.574000597000122,
+              "data": {
+                "price": 3350.0,
+                "change": null,
+                "change_percent": "2",
+                "volume": null,
+                "timestamp": "2025-08-03T19:27:58.063720",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/GC=F",
+              "scraped_at": "2025-08-03T19:28:04.002744",
+              "scraper_used": "crawl4ai",
+              "response_time": 4.090099811553955,
+              "data": {
+                "price": 2025.0,
+                "change": null,
+                "change_percent": "+5.25 (+0.08)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:04.162128",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "kitco": {
+              "url": "https://www.kitco.com/gold-price-today-usa/",
+              "scraped_at": "2025-08-03T19:28:07.623033",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.5893850326538086,
+              "data": {
+                "price": 24.0,
+                "change": null,
+                "change_percent": null,
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:07.760996",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": {
+            "average": 1799.6666666666667,
+            "median": 2025.0,
+            "min": 24.0,
+            "max": 3350.0,
+            "sources_count": 3,
+            "price_spread": 3326.0
+          },
+          "price_consensus": null
+        },
+        "silver": {
+          "metal": "silver",
+          "scraped_at": "2025-08-03T19:28:09.763573",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/silver",
+              "scraped_at": "2025-08-03T19:28:11.218428",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.6033987998962402,
+              "data": {
+                "price": 37.0,
+                "change": null,
+                "change_percent": "+0.341 (+0.93)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:11.372387",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/SI=F",
+              "scraped_at": "2025-08-03T19:28:17.096445",
+              "scraper_used": "crawl4ai",
+              "response_time": 3.8828647136688232,
+              "data": {
+                "price": 202.0,
+                "change": null,
+                "change_percent": "+3.75 (+0.06)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:17.264867",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "kitco": {
+              "url": "https://www.kitco.com/silver-price-today-usa/",
+              "scraped_at": "2025-08-03T19:28:21.938615",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.86794114112854,
+              "data": {
+                "price": 36.91,
+                "change": null,
+                "change_percent": "-0.05 (-0.14)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:22.144116",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": {
+            "average": 91.96999999999998,
+            "median": 37.0,
+            "min": 36.91,
+            "max": 202.0,
+            "sources_count": 3,
+            "price_spread": 165.09
+          },
+          "price_consensus": null
+        },
+        "platinum": {
+          "metal": "platinum",
+          "scraped_at": "2025-08-03T19:28:24.146690",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/platinum",
+              "scraped_at": "2025-08-03T19:28:25.406547",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.3707261085510254,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "1.98",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:25.521451",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/PL=F",
+              "scraped_at": "2025-08-03T19:28:30.997412",
+              "scraper_used": "crawl4ai",
+              "response_time": 3.611922025680542,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "+4.25 (+0.07)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:31.141816",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "kitco": {
+              "url": "https://www.kitco.com/platinum-price-today-usa/",
+              "scraped_at": "2025-08-03T19:28:34.814319",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.8105747699737549,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "+1.00 (+0.08)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:34.960940",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        },
+        "palladium": {
+          "metal": "palladium",
+          "scraped_at": "2025-08-03T19:28:36.962155",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/palladium",
+              "scraped_at": "2025-08-03T19:28:38.193139",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.3545119762420654,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "0.46",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:38.320938",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/PA=F",
+              "scraped_at": "2025-08-03T19:28:43.088775",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.985417604446411,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "+3.75 (+0.06)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:43.313411",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "kitco": {
+              "url": "https://www.kitco.com/palladium-price-today-usa/",
+              "scraped_at": "2025-08-03T19:28:48.115761",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.9618518352508545,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "-3.00 (-0.25)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:48.284744",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        }
+      },
+      "base_metals": {
+        "copper": {
+          "metal": "copper",
+          "scraped_at": "2025-08-03T19:28:50.287043",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/copper",
+              "scraped_at": "2025-08-03T19:28:51.664766",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.5006439685821533,
+              "data": {
+                "price": 4.4,
+                "change": null,
+                "change_percent": "+0.0127 (+0.29)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:51.791864",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/HG=F",
+              "scraped_at": "2025-08-03T19:28:56.599110",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.9728357791900635,
+              "data": {
+                "price": 4.4535,
+                "change": null,
+                "change_percent": "+4.00 (+0.06)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:28:56.772360",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "lme": {
+              "url": "https://www.lme.com/en/metals/non-ferrous/copper",
+              "scraped_at": "2025-08-03T19:29:03.695448",
+              "scraper_used": "playwright",
+              "response_time": 4.991260766983032,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": null,
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:03.779635",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": {
+            "average": 4.42675,
+            "median": 4.4535,
+            "min": 4.4,
+            "max": 4.4535,
+            "sources_count": 2,
+            "price_spread": 0.05349999999999966
+          },
+          "price_consensus": null
+        },
+        "aluminum": {
+          "metal": "aluminum",
+          "scraped_at": "2025-08-03T19:29:05.781113",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/aluminum",
+              "scraped_at": "2025-08-03T19:29:07.350687",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.6949131488800049,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "+7.8 (+0.30)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:07.482105",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "lme": {
+              "url": "https://www.lme.com/en/metals/non-ferrous/aluminium",
+              "scraped_at": "2025-08-03T19:29:13.747126",
+              "scraper_used": "playwright",
+              "response_time": 4.287049055099487,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": null,
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:13.794933",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        },
+        "zinc": {
+          "metal": "zinc",
+          "scraped_at": "2025-08-03T19:29:15.802984",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/zinc",
+              "scraped_at": "2025-08-03T19:29:17.205257",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.5548105239868164,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "-33.3 (-1.20)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:17.377291",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "lme": {
+              "url": "https://www.lme.com/en/metals/non-ferrous/zinc",
+              "scraped_at": "2025-08-03T19:29:24.482229",
+              "scraper_used": "playwright",
+              "response_time": 5.159578800201416,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": null,
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:24.544581",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        },
+        "nickel": {
+          "metal": "nickel",
+          "scraped_at": "2025-08-03T19:29:26.546776",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/nickel",
+              "scraped_at": "2025-08-03T19:29:27.955101",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.5312647819519043,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "+70 (+0.47)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:28.083064",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "lme": {
+              "url": "https://www.lme.com/en/metals/non-ferrous/nickel",
+              "scraped_at": "2025-08-03T19:29:35.351200",
+              "scraper_used": "playwright",
+              "response_time": 5.334149122238159,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": null,
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:35.432449",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        },
+        "lead": {
+          "metal": "lead",
+          "scraped_at": "2025-08-03T19:29:37.434268",
+          "sources": {
+            "lme": {
+              "url": "https://www.lme.com/en/metals/non-ferrous/lead",
+              "scraped_at": "2025-08-03T19:29:41.781192",
+              "scraper_used": "playwright",
+              "response_time": 4.4149086475372314,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": null,
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:41.865390",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        }
+      },
+      "energy_commodities": {
+        "oil": {
+          "metal": "oil",
+          "scraped_at": "2025-08-03T19:29:43.867164",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/crude-oil",
+              "scraped_at": "2025-08-03T19:29:45.282858",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.5614848136901855,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "-2.000 (-2.89)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:45.433695",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/CL=F",
+              "scraped_at": "2025-08-03T19:29:50.875836",
+              "scraper_used": "crawl4ai",
+              "response_time": 3.5968728065490723,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "-0.41 \n(-0.61)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:51.042136",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        },
+        "natural_gas": {
+          "metal": "natural_gas",
+          "scraped_at": "2025-08-03T19:29:53.047058",
+          "sources": {
+            "trading_economics": {
+              "url": "https://tradingeconomics.com/commodity/natural-gas",
+              "scraped_at": "2025-08-03T19:29:54.492148",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.5710656642913818,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "+0.0031 (+0.10)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:29:54.622215",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "yahoo_finance": {
+              "url": "https://finance.yahoo.com/quote/NG=F",
+              "scraped_at": "2025-08-03T19:30:00.182996",
+              "scraper_used": "crawl4ai",
+              "response_time": 3.7525315284729004,
+              "data": {
+                "price": null,
+                "change": null,
+                "change_percent": "-0.0210 \n(-0.68)",
+                "volume": null,
+                "timestamp": "2025-08-03T19:30:00.382002",
+                "extraction_method": "regex_patterns"
+              }
+            }
+          },
+          "consolidated_price": null,
+          "price_consensus": null
+        }
+      },
+      "currency_data": {
+        "scraped_at": "2025-08-03T19:30:02.386386",
+        "rates": {
+          "usd_cad": {
+            "pair": "usd_cad",
+            "rate": 1.3778,
+            "change": null,
+            "timestamp": "2025-08-03T19:30:05.953568"
+          },
+          "dxy": {
+            "pair": "dxy",
+            "rate": 4.22,
+            "change": null,
+            "timestamp": "2025-08-03T19:30:11.292709"
+          }
+        }
+      },
+      "errors": [],
+      "summary": {
+        "total_metals_scraped": 11,
+        "successful_sources": 26,
+        "failed_sources": 0,
+        "metals_with_consensus": 3,
+        "average_price_spread": 1163.7145,
+        "scraping_duration": 137.838635
+      },
+      "scraping_completed": "2025-08-03T19:30:13.295485"
+    },
+    "economic_indicators": {
+      "scraping_started": "2025-08-03T19:30:13.297322",
+      "canadian_indicators": {
+        "source": "trading_economics_canada",
+        "scraped_at": "2025-08-03T19:30:13.297328",
+        "indicators": {
+          "overview": {
+            "url": "https://tradingeconomics.com/canada/indicators",
+            "scraped_at": "2025-08-03T19:30:14.436773",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.259528398513794,
+            "data": {
+              "indicators": {
+                "inflation": {
+                  "value": 12.1,
+                  "unit": "%",
+                  "extracted_from": "overview",
+                  "pattern_used": "Consumer Price Index.*?(\\d+\\.\\d+)"
+                },
+                "mining_production": {
+                  "value": 2.3,
+                  "unit": "index",
+                  "extracted_from": "overview",
+                  "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:14.561607",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 2,
+              "sample_values": [
+                "20",
+                "20"
+              ],
+              "data_date": "August 3, 2025"
+            }
+          },
+          "gdp": {
+            "url": "https://tradingeconomics.com/canada/gdp",
+            "scraped_at": "2025-08-03T19:30:19.072629",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.6610629558563232,
+            "data": {
+              "indicators": {
+                "gdp": {
+                  "value": 2241.25,
+                  "unit": "index",
+                  "extracted_from": "gdp",
+                  "pattern_used": "Gross Domestic Product.*?(\\d+\\.\\d+)"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:19.238892",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 6,
+              "sample_values": [
+                "0.1",
+                "0.7",
+                "2.5",
+                "70",
+                "20",
+                "2241.25"
+              ]
+            }
+          },
+          "inflation": {
+            "url": "https://tradingeconomics.com/canada/inflation-cpi",
+            "scraped_at": "2025-08-03T19:30:23.643871",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5890977382659912,
+            "data": {
+              "indicators": {
+                "inflation": {
+                  "value": 1.9,
+                  "unit": "%",
+                  "extracted_from": "inflation",
+                  "pattern_used": "inflation.*?([+-]?\\d+\\.\\d+)%"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:23.845126",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 73,
+              "sample_values": [
+                "1.9",
+                "1.7",
+                "13.4",
+                "15.5",
+                "0.6",
+                "1.4",
+                "5.2",
+                "4.9",
+                "3.3",
+                "0.1"
+              ],
+              "data_date": "2025-06-24"
+            }
+          },
+          "employment": {
+            "url": "https://tradingeconomics.com/canada/unemployment-rate",
+            "scraped_at": "2025-08-03T19:30:28.307390",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5867486000061035,
+            "data": {
+              "indicators": {
+                "unemployment": {
+                  "value": 6.9,
+                  "unit": "index",
+                  "extracted_from": "employment",
+                  "pattern_used": "unemployment.*?(\\d+\\.\\d+)%"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:28.450636",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 28,
+              "sample_values": [
+                "6.9",
+                "7.1",
+                "21.8",
+                "65.4",
+                "6.9",
+                "7.0",
+                "6.9",
+                "7.1",
+                "7.0",
+                "6.9"
+              ],
+              "data_date": "2025-06-06"
+            }
+          },
+          "interest_rate": {
+            "url": "https://tradingeconomics.com/canada/interest-rate",
+            "scraped_at": "2025-08-03T19:30:32.836036",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5052602291107178,
+            "data": {
+              "indicators": {
+                "interest_rate": {
+                  "value": 2.75,
+                  "unit": "%",
+                  "extracted_from": "interest_rate",
+                  "pattern_used": "interest rate.*?(\\d+\\.\\d+)%"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:32.972729",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 23,
+              "sample_values": [
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75",
+                "2.75"
+              ],
+              "data_date": "2025-04-16"
+            }
+          },
+          "mining_production": {
+            "url": "https://tradingeconomics.com/canada/mining-production",
+            "scraped_at": "2025-08-03T19:30:37.260535",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.4300003051757812,
+            "data": {
+              "indicators": {
+                "mining_production": {
+                  "value": 2.3,
+                  "unit": "index",
+                  "extracted_from": "mining_production",
+                  "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:37.418278",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 5,
+              "sample_values": [
+                "0.1",
+                "0.7",
+                "2.5",
+                "70",
+                "20"
+              ]
+            }
+          },
+          "industrial_production": {
+            "url": "https://tradingeconomics.com/canada/industrial-production",
+            "scraped_at": "2025-08-03T19:30:41.844505",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5517616271972656,
+            "data": {
+              "indicators": {
+                "mining_production": {
+                  "value": 2.3,
+                  "unit": "index",
+                  "extracted_from": "industrial_production",
+                  "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:41.983545",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 5,
+              "sample_values": [
+                "0.1",
+                "0.7",
+                "2.5",
+                "70",
+                "20"
+              ]
+            }
+          },
+          "manufacturing": {
+            "url": "https://tradingeconomics.com/canada/manufacturing-production",
+            "scraped_at": "2025-08-03T19:30:46.453097",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5833525657653809,
+            "data": {
+              "indicators": {
+                "mining_production": {
+                  "value": 2.3,
+                  "unit": "index",
+                  "extracted_from": "manufacturing",
+                  "pattern_used": "mining production.*?([+-]?\\d+\\.\\d+)%?"
+                }
+              },
+              "timestamp": "2025-08-03T19:30:46.581626",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 5,
+              "sample_values": [
+                "0.1",
+                "0.7",
+                "2.5",
+                "70",
+                "20"
+              ]
+            }
+          },
+          "exports": {
+            "url": "https://tradingeconomics.com/canada/exports",
+            "scraped_at": "2025-08-03T19:30:51.006608",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5710721015930176,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:30:51.169806",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 46,
+              "sample_values": [
+                "1.1",
+                "15.1",
+                "30.1",
+                "2.6",
+                "52.9",
+                "18.5",
+                "0.9",
+                "5.6",
+                "0.7",
+                "1.1"
+              ],
+              "data_date": "2025-06-05"
+            }
+          },
+          "imports": {
+            "url": "https://tradingeconomics.com/canada/imports",
+            "scraped_at": "2025-08-03T19:30:55.600734",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.6144487857818604,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:30:55.815188",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 36,
+              "sample_values": [
+                "1.6",
+                "16.8",
+                "43.2",
+                "5.3",
+                "1.2",
+                "1.6",
+                "16.8",
+                "43.2",
+                "5.3",
+                "1.2"
+              ],
+              "data_date": "2025-06-05"
+            }
+          },
+          "current_account": {
+            "url": "https://tradingeconomics.com/canada/current-account",
+            "scraped_at": "2025-08-03T19:31:00.209203",
+            "scraper_used": "crawl4ai",
+            "response_time": 1.5380141735076904,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:31:00.370677",
+              "extraction_method": "regex_patterns",
+              "numeric_data_found": 56,
+              "sample_values": [
+                "0.1",
+                "0.7",
+                "2.5",
+                "70",
+                "20",
+                "2.1",
+                "3.6",
+                "3.25",
+                "1.8",
+                "1.4"
+              ],
+              "data_date": "2025-02-27"
+            }
+          }
+        },
+        "raw_data": {
+          "overview": {
+            "content_length": 36854,
+            "word_count": 3890,
+            "title": ""
+          },
+          "gdp": {
+            "content_length": 30938,
+            "word_count": 1790,
+            "title": ""
+          },
+          "inflation": {
+            "content_length": 37012,
+            "word_count": 2616,
+            "title": ""
+          },
+          "employment": {
+            "content_length": 37086,
+            "word_count": 2561,
+            "title": ""
+          },
+          "interest_rate": {
+            "content_length": 35382,
+            "word_count": 2420,
+            "title": ""
+          },
+          "mining_production": {
+            "content_length": 30109,
+            "word_count": 1632,
+            "title": ""
+          },
+          "industrial_production": {
+            "content_length": 30724,
+            "word_count": 1652,
+            "title": ""
+          },
+          "manufacturing": {
+            "content_length": 30649,
+            "word_count": 1630,
+            "title": ""
+          },
+          "exports": {
+            "content_length": 35551,
+            "word_count": 2405,
+            "title": ""
+          },
+          "imports": {
+            "content_length": 34965,
+            "word_count": 2287,
+            "title": ""
+          },
+          "current_account": {
+            "content_length": 35719,
+            "word_count": 2421,
+            "title": ""
+          }
+        }
+      },
+      "us_indicators": {
+        "source": "fed_economic_data",
+        "scraped_at": "2025-08-03T19:31:45.515785",
+        "indicators": {
+          "us_gdp": {
+            "url": "https://fred.stlouisfed.org/series/GDP",
+            "scraped_at": "2025-08-03T19:31:50.429332",
+            "scraper_used": "playwright",
+            "response_time": 4.9827001094818115,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:31:50.507065",
+              "extraction_method": "regex_patterns",
+              "data_date": "Jul 30, 2025"
+            }
+          },
+          "us_inflation": {
+            "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+            "scraped_at": "2025-08-03T19:31:58.178625",
+            "scraper_used": "playwright",
+            "response_time": 4.728479385375977,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:31:58.251260",
+              "extraction_method": "regex_patterns",
+              "data_date": "Jul 15, 2025"
+            }
+          },
+          "us_unemployment": {
+            "url": "https://fred.stlouisfed.org/series/UNRATE",
+            "scraped_at": "2025-08-03T19:32:06.043893",
+            "scraper_used": "playwright",
+            "response_time": 4.852776527404785,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:32:06.114139",
+              "extraction_method": "regex_patterns",
+              "data_date": "Aug 1, 2025"
+            }
+          },
+          "us_interest_rate": {
+            "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+            "scraped_at": "2025-08-03T19:32:14.000099",
+            "scraper_used": "playwright",
+            "response_time": 4.941228628158569,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:32:14.062848",
+              "extraction_method": "regex_patterns",
+              "data_date": "Aug 1, 2025"
+            }
+          },
+          "us_dollar_index": {
+            "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+            "scraped_at": "2025-08-03T19:32:21.812482",
+            "scraper_used": "playwright",
+            "response_time": 4.821276903152466,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:32:21.903478",
+              "extraction_method": "regex_patterns",
+              "data_date": "Jul 28, 2025"
+            }
+          },
+          "commodity_index": {
+            "url": "https://fred.stlouisfed.org/series/PPIACO",
+            "scraped_at": "2025-08-03T19:32:28.986893",
+            "scraper_used": "playwright",
+            "response_time": 4.141345262527466,
+            "data": {
+              "indicators": {},
+              "timestamp": "2025-08-03T19:32:29.052839",
+              "extraction_method": "regex_patterns",
+              "data_date": "Jul 16, 2025"
+            }
+          }
+        },
+        "raw_data": {
+          "us_gdp": {
+            "content_length": 9833,
+            "word_count": 1474,
+            "title": "Gross Domestic Product (GDP) | FRED | St. Louis Fed"
+          },
+          "us_inflation": {
+            "content_length": 11555,
+            "word_count": 1771,
+            "title": "Consumer Price Index for All Urban Consumers: All Items in U.S. City Average (CPIAUCSL) | FRED | St. Louis Fed"
+          },
+          "us_unemployment": {
+            "content_length": 9688,
+            "word_count": 1452,
+            "title": "Unemployment Rate (UNRATE) | FRED | St. Louis Fed"
+          },
+          "us_interest_rate": {
+            "content_length": 12368,
+            "word_count": 1920,
+            "title": "Federal Funds Effective Rate (FEDFUNDS) | FRED | St. Louis Fed"
+          },
+          "us_dollar_index": {
+            "content_length": 7840,
+            "word_count": 1203,
+            "title": "Nominal Broad U.S. Dollar Index (DTWEXBGS) | FRED | St. Louis Fed"
+          },
+          "commodity_index": {
+            "content_length": 9354,
+            "word_count": 1399,
+            "title": "Producer Price Index by Commodity: All Commodities (PPIACO) | FRED | St. Louis Fed"
+          }
+        }
+      },
+      "central_bank_data": {
+        "bank_of_canada": {
+          "source": "bank_of_canada",
+          "scraped_at": "2025-08-03T19:31:03.384198",
+          "indicators": {
+            "key_interest_rate": {
+              "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+              "scraped_at": "2025-08-03T19:31:04.911279",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.6415424346923828,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:05.030425",
+                "extraction_method": "regex_patterns",
+                "numeric_data_found": 205,
+                "sample_values": [
+                  "221.0",
+                  "221.1",
+                  "221.5",
+                  "220.5",
+                  "220.9",
+                  "220.8",
+                  "220.2",
+                  "220.4",
+                  "221.0",
+                  "221.1"
+                ],
+                "data_date": "July 22, 2025"
+              }
+            },
+            "exchange_rates": {
+              "url": "https://www.bankofcanada.ca/rates/exchange/",
+              "scraped_at": "2025-08-03T19:31:09.231754",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.2710812091827393,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:09.321629",
+                "extraction_method": "regex_patterns",
+                "numeric_data_found": 3,
+                "sample_values": [
+                  "20",
+                  "20",
+                  "20"
+                ],
+                "data_date": "July 22, 2025"
+              }
+            },
+            "commodity_price_index": {
+              "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
+              "scraped_at": "2025-08-03T19:31:14.281774",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.111504554748535,
+              "data": {
+                "indicators": {
+                  "inflation": {
+                    "value": -0.1801,
+                    "unit": "%",
+                    "extracted_from": "commodity_price_index",
+                    "pattern_used": "CPI.*?([+-]?\\d+\\.\\d+)%"
+                  }
+                },
+                "timestamp": "2025-08-03T19:31:14.444727",
+                "extraction_method": "regex_patterns",
+                "numeric_data_found": 4066,
+                "sample_values": [
+                  "221.0",
+                  "221.1",
+                  "221.5",
+                  "220.5",
+                  "5.4",
+                  "4.05",
+                  "220.9",
+                  "220.8",
+                  "220.2",
+                  "220.4"
+                ],
+                "data_date": "July 22, 2025"
+              }
+            },
+            "monetary_policy": {
+              "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/",
+              "scraped_at": "2025-08-03T19:31:18.524739",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.1452736854553223,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:18.631079",
+                "extraction_method": "regex_patterns",
+                "numeric_data_found": 3,
+                "sample_values": [
+                  "20",
+                  "20",
+                  "20"
+                ],
+                "data_date": "July 22, 2025"
+              }
+            }
+          },
+          "raw_data": {
+            "key_interest_rate": {
+              "content_length": 91130,
+              "word_count": 1793,
+              "title": ""
+            },
+            "exchange_rates": {
+              "content_length": 27864,
+              "word_count": 1883,
+              "title": ""
+            },
+            "commodity_price_index": {
+              "content_length": 188059,
+              "word_count": 7981,
+              "title": ""
+            },
+            "monetary_policy": {
+              "content_length": 33264,
+              "word_count": 2495,
+              "title": ""
+            }
+          }
+        }
+      },
+      "mining_specific_data": {
+        "statistics_canada": {
+          "source": "statistics_canada",
+          "scraped_at": "2025-08-03T19:31:21.636514",
+          "indicators": {
+            "mining_overview": {
+              "url": "https://www.statcan.gc.ca/eng/subjects-start/mining_and_energy",
+              "scraped_at": "2025-08-03T19:31:23.503655",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.9901494979858398,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:23.630674",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "gdp": {
+              "url": "https://www.statcan.gc.ca/eng/subjects-start/gross_domestic_product_gdp",
+              "scraped_at": "2025-08-03T19:31:28.263511",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.7268624305725098,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:28.370544",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "employment": {
+              "url": "https://www.statcan.gc.ca/eng/subjects-start/labour",
+              "scraped_at": "2025-08-03T19:31:33.424987",
+              "scraper_used": "crawl4ai",
+              "response_time": 2.17388916015625,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:33.553170",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "manufacturing": {
+              "url": "https://www.statcan.gc.ca/eng/subjects-start/manufacturing_and_construction",
+              "scraped_at": "2025-08-03T19:31:37.722249",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.27107834815979,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:37.832328",
+                "extraction_method": "regex_patterns"
+              }
+            },
+            "international_trade": {
+              "url": "https://www.statcan.gc.ca/eng/subjects-start/international_trade",
+              "scraped_at": "2025-08-03T19:31:42.385010",
+              "scraper_used": "crawl4ai",
+              "response_time": 1.6735146045684814,
+              "data": {
+                "indicators": {},
+                "timestamp": "2025-08-03T19:31:42.511065",
+                "extraction_method": "regex_patterns",
+                "numeric_data_found": 32,
+                "sample_values": [
+                  "0.8",
+                  "0.8",
+                  "1.6",
+                  "1.1",
+                  "3.2",
+                  "9.6",
+                  "85.3",
+                  "78.7",
+                  "6.6",
+                  "2.1"
+                ],
+                "data_date": "2025-05-06"
+              }
+            }
+          },
+          "raw_data": {
+            "mining_overview": {
+              "content_length": 907,
+              "word_count": 102,
+              "title": ""
+            },
+            "gdp": {
+              "content_length": 925,
+              "word_count": 102,
+              "title": ""
+            },
+            "employment": {
+              "content_length": 628,
+              "word_count": 77,
+              "title": ""
+            },
+            "manufacturing": {
+              "content_length": 933,
+              "word_count": 102,
+              "title": ""
+            },
+            "international_trade": {
+              "content_length": 17871,
+              "word_count": 1152,
+              "title": ""
+            }
+          }
+        }
+      },
+      "international_data": {
+        "oecd": {
+          "source": "oecd",
+          "scraped_at": "2025-08-03T19:32:32.059039",
+          "indicators": {},
+          "raw_data": {}
+        }
+      },
+      "errors": [],
+      "summary": {
+        "total_sources_scraped": 5,
+        "total_indicators_found": 10,
+        "canadian_indicators_count": 11,
+        "us_indicators_count": 6,
+        "mining_specific_count": 1,
+        "successful_extractions": 9,
+        "failed_extractions": 0,
+        "scraping_duration": 163.096186
+      },
+      "scraping_completed": "2025-08-03T19:32:56.393508"
+    },
+    "companies": {
+      "scraping_started": "2025-08-03T19:32:56.542260",
+      "companies_data": {
+        "ABX": {
+          "company_info": {
+            "name": "Barrick Gold Corporation",
+            "ticker": "ABX",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:32:56.542270",
+          "stock_data": {
+            "ticker": "ABX",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/ABX.TO",
+            "scraped_at": "2025-08-03T19:33:01.398451",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.barrick.com",
+              "https://www.barrickmining.com",
+              "https://www.barrickgold.com",
+              "https://barrick.com"
+            ],
+            "successful_scrapes": {
+              "https://www.barrick.com": {
+                "content_length": 14325,
+                "word_count": 791,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/IR/IAC/?Ticker=GOLD&Exchange=NYSE)\n    * [Tax FAQs - Capital Reduction and Return of Capital](https://www.barrick.",
+                  "operations": [
+                    "Pakistan\nOne of the world’s largest undeveloped copper-gold projects is now under construction with first production from Phase 1 targeted for the end of 2028."
+                  ],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:33:03.116024"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "NGT": {
+          "company_info": {
+            "name": "Newmont Corporation",
+            "ticker": "NGT",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:33:06.263883",
+          "stock_data": {
+            "ticker": "NGT",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "95.28B",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/NGT.TO",
+            "scraped_at": "2025-08-03T19:33:10.632631",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.newmont.com",
+              "https://www.newmontmining.com",
+              "https://www.newmont.com",
+              "https://newmont.com"
+            ],
+            "successful_scrapes": {
+              "https://www.newmont.com": {
+                "content_length": 15068,
+                "word_count": 819,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/north-america/red-chris-canada)\n    * Asia Pacific (APAC)\n      * [Australia](https://operations.newmont.",
+                  "operations": [
+                    "s & Projects](https://operations.",
+                    "s and Projects\n[Learn more](https://operations.",
+                    "s & Projects](https://operations."
+                  ],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:33:12.287773"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "AEM": {
+          "company_info": {
+            "name": "Agnico Eagle Mines Limited",
+            "ticker": "AEM",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:33:15.454784",
+          "stock_data": {
+            "ticker": "AEM",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/AEM.TO",
+            "scraped_at": "2025-08-03T19:33:19.701025",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.agnico.com",
+              "https://www.agnicomining.com",
+              "https://www.agnico.com",
+              "https://agnico.com"
+            ],
+            "successful_scrapes": {},
+            "failed_attempts": []
+          }
+        },
+        "FNV": {
+          "company_info": {
+            "name": "Franco-Nevada Corporation",
+            "ticker": "FNV",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:33:25.706746",
+          "stock_data": {
+            "ticker": "FNV",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/FNV.TO",
+            "scraped_at": "2025-08-03T19:33:28.803798",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.franco.com",
+              "https://www.francomining.com",
+              "https://www.franco.com",
+              "https://franco.com"
+            ],
+            "successful_scrapes": {
+              "https://www.franco.com": {
+                "content_length": 17244,
+                "word_count": 1551,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/#what-new)\n**Franco is a 100% women-owned and led full-service integrated communications agency founded in 1964.**\nOur rich history as a Detroit-based PR firm in Michigan has given us the opportunity to shape some of the region’s most iconic brands and develop strategic B2B and B2C programs for clients in a variety of industries with a local, national and global reach.",
+                  "operations": [],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:33:33.142504"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "CNR": {
+          "company_info": {
+            "name": "Canadian National Railway Company",
+            "ticker": "CNR",
+            "exchange": "TSX",
+            "sector": "Transportation"
+          },
+          "scraped_at": "2025-08-03T19:33:36.285557",
+          "stock_data": {
+            "ticker": "CNR",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/CNR.TO",
+            "scraped_at": "2025-08-03T19:33:40.320180",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.canadian.com",
+              "https://www.canadianmining.com",
+              "https://www.canadian.com",
+              "https://canadian.com"
+            ],
+            "successful_scrapes": {
+              "https://www.canadianmining.com": {
+                "content_length": 64489,
+                "word_count": 3951,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/)\ninvestment opportunities and news\nPrimary Menu [![Resource World Magazine](https://resourceworld.com/wp-content/uploads/2016/01/RWMlogonoblack.",
+                  "operations": [],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:34:06.840024"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "TECK.B": {
+          "company_info": {
+            "name": "Teck Resources Limited",
+            "ticker": "TECK.B",
+            "exchange": "TSX",
+            "sector": "Diversified Mining"
+          },
+          "scraped_at": "2025-08-03T19:34:09.994144",
+          "stock_data": {
+            "ticker": "TECK.B",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/TECK.B.TO",
+            "scraped_at": "2025-08-03T19:34:13.691455",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.teck.com",
+              "https://www.teckmining.com",
+              "https://www.teck.com",
+              "https://teck.com"
+            ],
+            "successful_scrapes": {
+              "https://www.teck.com": {
+                "content_length": 50608,
+                "word_count": 3692,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/about/)\n##### About\n### Get to Know Us\nWe are a leading Canadian resource company focused on responsibly providing the metals essential for global development and the energy transition while caring for the people, communities and land that we love.\n[ Go to About / ](https://www.",
+                  "operations": [
+                    "Sullivan Mine](https://www.",
+                    "is a large copper and zinc mine, located in the Andes mountain range of Peru.",
+                    "is a large copper and zinc mine, located in the Andes mountain range of Peru.",
+                    "s\n    * [HVC Mine Life Extension Project](https://www.",
+                    "s/hvc-mine-life-extension-project/)\n    * [Galore Creek Project](https://www.",
+                    "s/galore-creek-project/)\n[Legacy](https://www.",
+                    "s/)\n##### Operations\n### Our Operations and Projects\nTeck is a leading Canadian resource company committed to responsible mining and mineral development, with world-class copper and zinc operations and an industry-leading copper growth portfolio.",
+                    "s/canada/operations/highland-valley-copper/)\n    * [Trail Operations](https://www.",
+                    "s/canada/operations/trail-operations/)\nProjects\n    * [HVC Mine Life Extension Project](https://www."
+                  ],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:34:15.823528"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "FM": {
+          "company_info": {
+            "name": "First Quantum Minerals Ltd.",
+            "ticker": "FM",
+            "exchange": "TSX",
+            "sector": "Copper"
+          },
+          "scraped_at": "2025-08-03T19:34:18.949565",
+          "stock_data": {
+            "ticker": "FM",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/FM.TO",
+            "scraped_at": "2025-08-03T19:34:23.345149",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.first.com",
+              "https://www.firstmining.com",
+              "https://www.first.com",
+              "https://first.com"
+            ],
+            "successful_scrapes": {
+              "https://www.first.com": {
+                "content_length": 120306,
+                "word_count": 10189,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com - Your home for everything casino and sports betting \n  * [ ![Best <br class=\"sm:hidden\"/>casinos](https://first.com/assets/images/index/best_of_tabs/best_casinos.",
+                  "operations": [
+                    "bonuses as follows: First Deposit: 100% up to £50 + 20 Spins on Starburst *Min.",
+                    "Second Deposit: 50% up to £75 *Min.",
+                    "Third Deposit: 50% up to £75 *Min."
+                  ],
+                  "recent_news": [],
+                  "financial_highlights": {
+                    "revenue": "2026"
+                  },
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:34:28.291891"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "K": {
+          "company_info": {
+            "name": "Kinross Gold Corporation",
+            "ticker": "K",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:34:31.496822",
+          "stock_data": {
+            "ticker": "K",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/K.TO",
+            "scraped_at": "2025-08-03T19:34:35.645029",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.kinross.com",
+              "https://www.kinrossmining.com",
+              "https://www.kinrossgold.com",
+              "https://kinross.com"
+            ],
+            "successful_scrapes": {
+              "https://www.kinross.com": {
+                "content_length": 34119,
+                "word_count": 1212,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/English/news-and-investors/events/event-details/2025/RBCCM-Senior-Precious-Metals-Conference/default.aspx)\nLondon, UK\n[Show more](https://www.",
+                  "operations": [],
+                  "recent_news": [],
+                  "financial_highlights": {
+                    "production": "500,000"
+                  },
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:34:40.970988"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "BTO": {
+          "company_info": {
+            "name": "B2Gold Corp.",
+            "ticker": "BTO",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:34:44.087776",
+          "stock_data": {
+            "ticker": "BTO",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/BTO.TO",
+            "scraped_at": "2025-08-03T19:34:47.800697",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.b2gold.com",
+              "https://www.b2goldmining.com",
+              "https://www.b2goldgold.com",
+              "https://b2gold.com"
+            ],
+            "successful_scrapes": {
+              "https://www.b2gold.com": {
+                "content_length": 25452,
+                "word_count": 1287,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "aspx#probable)\n    * Producing\n      * Operations & Projects\n      * [Fekola Mine - Mali](https://www.b2gold.",
+                  "operations": [
+                    "mali)\n        * [Fekola Mine - Mali](https://www.",
+                    "mali)\n        * [Fekola Mine - Mali](https://www.",
+                    "s/development/gramalote-project-colombia/default.",
+                    "s/development/gramalote-project-colombia/default.",
+                    "s/development/gramalote-project-colombia/default."
+                  ],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:34:50.995330"
+              }
+            },
+            "failed_attempts": []
+          }
+        },
+        "YRI": {
+          "company_info": {
+            "name": "Yamana Gold Inc.",
+            "ticker": "YRI",
+            "exchange": "TSX",
+            "sector": "Gold"
+          },
+          "scraped_at": "2025-08-03T19:34:54.134160",
+          "stock_data": {
+            "ticker": "YRI",
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "market_cap": "4",
+            "pe_ratio": null,
+            "52_week_range": null,
+            "url": "https://finance.yahoo.com/quote/YRI.TO",
+            "scraped_at": "2025-08-03T19:34:56.701270",
+            "scraper_used": "crawl4ai"
+          },
+          "financial_data": {},
+          "operational_data": {},
+          "news_updates": {},
+          "filings": {
+            "sedar_filings": {},
+            "sec_filings": {},
+            "search_attempts": [
+              {
+                "system": "SEDAR",
+                "status": "attempted",
+                "note": "SEDAR search requires company-specific implementation"
+              }
+            ]
+          },
+          "website_data": {
+            "domains_tried": [
+              "https://www.yamana.com",
+              "https://www.yamanamining.com",
+              "https://www.yamanagold.com",
+              "https://yamana.com"
+            ],
+            "successful_scrapes": {
+              "https://www.yamana.com": {
+                "content_length": 28587,
+                "word_count": 1992,
+                "title": "",
+                "extracted_info": {
+                  "company_description": "com/about-2/)\nAbout\nPan American Silver provides enhanced exposure to silver through large silver reserves and catalysts to grow silver production.\n    * [Overview](https://panamericansilver.",
+                  "operations": [
+                    "s-2/)\nOperations\nPan American Silver has a diversified portfolio of mining and exploration assets located throughout the Americas."
+                  ],
+                  "recent_news": [],
+                  "financial_highlights": {},
+                  "contact_info": {}
+                },
+                "scraped_at": "2025-08-03T19:34:58.747318"
+              }
+            },
+            "failed_attempts": []
+          }
+        }
+      },
+      "market_overview": {},
+      "sector_analysis": {
+        "scraped_at": "2025-08-03T19:35:01.863949",
+        "tsx_mining_stats": {
+          "url": "https://www.tsx.com/listings/listing-with-us/sector-and-product-profiles/mining",
+          "scraped_at": "2025-08-03T19:35:06.538650",
+          "statistics": {
+            "total_mining_companies": null,
+            "market_cap_total": null,
+            "recent_listings": [],
+            "top_companies": [],
+            "total_companies": "10"
+          }
+        },
+        "sector_performance": {},
+        "market_trends": {}
+      },
+      "errors": [],
+      "summary": {
+        "total_companies_attempted": 10,
+        "successful_company_scrapes": 10,
+        "companies_with_stock_data": 0,
+        "companies_with_website_data": 9,
+        "total_errors": 0,
+        "scraping_duration": 130.072034
+      },
+      "scraping_completed": "2025-08-03T19:35:06.614294"
+    },
+    "news": null,
+    "price_analysis": {
+      "analysis_timestamp": "2025-08-03T19:35:06.619149",
+      "analysis_period": "90 days",
+      "metal_analyses": {
+        "gold": {
+          "metal": "gold",
+          "data_points": 6,
+          "date_range": {
+            "start": "2025-08-03T19:00:54.822714",
+            "end": "2025-08-03T19:27:55.456850",
+            "days": 0
+          },
+          "current_price": 1799.6666666666667,
+          "price_statistics": {
+            "mean": 2355.2999999999997,
+            "median": 2355.2999999999997,
+            "std_dev": 608.6658207369073,
+            "min": 1799.6666666666667,
+            "max": 2910.933333333333,
+            "range": 1111.2666666666662,
+            "coefficient_of_variation": 0.2584239038495764
+          },
+          "trend_analysis": {},
+          "volatility_analysis": {
+            "daily_volatility": 0.1707265349805056,
+            "annualized_volatility": 2.7101997225491243,
+            "volatility_level": "high",
+            "max_daily_gain": 0.0,
+            "max_daily_loss": -0.38175613777940626,
+            "positive_days": 0,
+            "negative_days": 1
+          },
+          "support_resistance": {},
+          "momentum_indicators": {},
+          "risk_metrics": {
+            "value_at_risk_95": null,
+            "maximum_drawdown": 0.38175613777940626,
+            "sharpe_ratio": -7.10667526966104,
+            "downside_deviation": null
+          },
+          "forecast": {
+            "error": "Insufficient data for forecasting"
+          }
+        },
+        "silver": {
+          "metal": "silver",
+          "data_points": 6,
+          "date_range": {
+            "start": "2025-08-03T19:00:54.822714",
+            "end": "2025-08-03T19:27:55.456850",
+            "days": 0
+          },
+          "current_price": 91.96999999999998,
+          "price_statistics": {
+            "mean": 91.97166666666666,
+            "median": 91.97166666666666,
+            "std_dev": 0.0018257418583644603,
+            "min": 91.96999999999998,
+            "max": 91.97333333333334,
+            "range": 0.0033333333333587234,
+            "coefficient_of_variation": 1.9851133773420733e-05
+          },
+          "trend_analysis": {},
+          "volatility_analysis": {
+            "daily_volatility": 1.620808913827792e-05,
+            "annualized_volatility": 0.00025729543852470336,
+            "volatility_level": "low",
+            "max_daily_gain": 0.0,
+            "max_daily_loss": -3.6242389098565416e-05,
+            "positive_days": 0,
+            "negative_days": 1
+          },
+          "support_resistance": {},
+          "momentum_indicators": {},
+          "risk_metrics": {
+            "value_at_risk_95": null,
+            "maximum_drawdown": 3.6242389098565416e-05,
+            "sharpe_ratio": -84.83094972735822,
+            "downside_deviation": null
+          },
+          "forecast": {
+            "error": "Insufficient data for forecasting"
+          }
+        },
+        "copper": {
+          "metal": "copper",
+          "data_points": 6,
+          "date_range": {
+            "start": "2025-08-03T19:00:54.822714",
+            "end": "2025-08-03T19:27:55.456850",
+            "days": 0
+          },
+          "current_price": 4.42675,
+          "price_statistics": {
+            "mean": 4.428,
+            "median": 4.428,
+            "std_dev": 0.0013693063937626428,
+            "min": 4.42675,
+            "max": 4.42925,
+            "range": 0.0024999999999995026,
+            "coefficient_of_variation": 0.0003092381196392599
+          },
+          "trend_analysis": {},
+          "volatility_analysis": {
+            "daily_volatility": 0.00025242061043058585,
+            "annualized_volatility": 0.004007052965918681,
+            "volatility_level": "low",
+            "max_daily_gain": 0.0,
+            "max_daily_loss": -0.0005644296438447825,
+            "positive_days": 0,
+            "negative_days": 1
+          },
+          "support_resistance": {},
+          "momentum_indicators": {},
+          "risk_metrics": {
+            "value_at_risk_95": null,
+            "maximum_drawdown": 0.0005644296438447825,
+            "sharpe_ratio": -12.090495050062243,
+            "downside_deviation": null
+          },
+          "forecast": {
+            "error": "Insufficient data for forecasting"
+          }
+        }
+      },
+      "market_overview": {
+        "market_sentiment": "neutral",
+        "trending_metals": {
+          "bullish": [],
+          "bearish": []
+        },
+        "volatility_leaders": [
+          {
+            "metal": "gold",
+            "change_percent": 0,
+            "volatility": 0.1707265349805056
+          },
+          {
+            "metal": "copper",
+            "change_percent": 0,
+            "volatility": 0.00025242061043058585
+          },
+          {
+            "metal": "silver",
+            "change_percent": 0,
+            "volatility": 1.620808913827792e-05
+          }
+        ],
+        "best_performers": [
+          {
+            "metal": "gold",
+            "change_percent": 0,
+            "volatility": 0.1707265349805056
+          },
+          {
+            "metal": "silver",
+            "change_percent": 0,
+            "volatility": 1.620808913827792e-05
+          },
+          {
+            "metal": "copper",
+            "change_percent": 0,
+            "volatility": 0.00025242061043058585
+          }
+        ],
+        "worst_performers": [
+          {
+            "metal": "gold",
+            "change_percent": 0,
+            "volatility": 0.1707265349805056
+          },
+          {
+            "metal": "silver",
+            "change_percent": 0,
+            "volatility": 1.620808913827792e-05
+          },
+          {
+            "metal": "copper",
+            "change_percent": 0,
+            "volatility": 0.00025242061043058585
+          }
+        ]
+      },
+      "correlations": {
+        "metal_pairs": {},
+        "category_correlations": {},
+        "correlation_summary": {}
+      },
+      "portfolio_insights": {
+        "diversification_opportunities": [],
+        "risk_reward_analysis": {
+          "best_risk_adjusted": [
+            {
+              "metal": "gold",
+              "risk": 0.1707265349805056,
+              "return": 0,
+              "risk_adjusted_return": 0.0
+            },
+            {
+              "metal": "silver",
+              "risk": 1.620808913827792e-05,
+              "return": 0,
+              "risk_adjusted_return": 0.0
+            },
+            {
+              "metal": "copper",
+              "risk": 0.00025242061043058585,
+              "return": 0,
+              "risk_adjusted_return": 0.0
+            }
+          ],
+          "highest_risk": [
+            {
+              "metal": "gold",
+              "risk": 0.1707265349805056,
+              "return": 0,
+              "risk_adjusted_return": 0.0
+            },
+            {
+              "metal": "copper",
+              "risk": 0.00025242061043058585,
+              "return": 0,
+              "risk_adjusted_return": 0.0
+            },
+            {
+              "metal": "silver",
+              "risk": 1.620808913827792e-05,
+              "return": 0,
+              "risk_adjusted_return": 0.0
+            }
+          ]
+        },
+        "sector_allocation_suggestions": {},
+        "investment_themes": []
+      },
+      "alerts": [
+        {
+          "type": "high_volatility",
+          "metal": "gold",
+          "severity": "warning",
+          "message": "Gold showing high volatility (17.1%)",
+          "recommendation": "Monitor closely, consider position sizing"
+        }
+      ],
+      "summary": {
+        "metals_analyzed": 3,
+        "market_sentiment": "neutral",
+        "total_alerts": 1,
+        "alert_breakdown": {
+          "high_volatility": 1
+        },
+        "analysis_coverage": {
+          "successful_analyses": 3,
+          "failed_analyses": 0,
+          "success_rate": 100.0
+        }
+      }
+    },
+    "intelligence_report": null
+  },
+  "performance_metrics": {
+    "metal_prices": {
+      "duration": 137.84364485740662,
+      "metals_scraped": 11,
+      "sources_success_rate": 59.09090909090909,
+      "data_quality_score": 90.0
+    },
+    "economic_indicators": {
+      "duration": 163.0982005596161,
+      "sources_scraped": 5,
+      "indicators_found": 10,
+      "success_rate": 180.0,
+      "data_quality_score": 100.0
+    },
+    "companies": {
+      "duration": 130.2211103439331,
+      "companies_attempted": 10,
+      "successful_scrapes": 10,
+      "success_rate": 100.0,
+      "data_quality_score": 75.0
+    },
+    "price_analysis": {
+      "duration": 0.004362344741821289,
+      "metals_analyzed": 3,
+      "alerts_generated": 1,
+      "analysis_success_rate": 100.0
+    }
+  },
+  "data_quality_assessment": {
+    "metal_prices": 90.0,
+    "economic_indicators": 100.0,
+    "companies": 75.0
+  },
+  "error_analysis": [
+    {
+      "domain": "news",
+      "error": "'SpecializedMiningNewsScraper' object has no attribute 'news_categories'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Projects/Resource Capital/test_production_mining_intelligence.py\", line 223, in test_mining_news_comprehensive\n    scraper = SpecializedMiningNewsScraper()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Projects/Resource Capital/src/scrapers/specialized/mining_news_scraper.py\", line 36, in __init__\n    self._setup_data_directories()\n  File \"/Projects/Resource Capital/src/scrapers/specialized/mining_news_scraper.py\", line 214, in _setup_data_directories\n    for category in self.news_categories.keys():\n                    ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'SpecializedMiningNewsScraper' object has no attribute 'news_categories'\n"
+    },
+    {
+      "domain": "intelligence_compilation",
+      "error": "'SpecializedMiningNewsScraper' object has no attribute 'news_categories'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Projects/Resource Capital/test_production_mining_intelligence.py\", line 300, in test_master_intelligence_comprehensive\n    compiler = MasterIntelligenceCompiler()\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Projects/Resource Capital/src/intelligence/master_compiler.py\", line 45, in __init__\n    self.news_scraper = SpecializedMiningNewsScraper()\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Projects/Resource Capital/src/scrapers/specialized/mining_news_scraper.py\", line 36, in __init__\n    self._setup_data_directories()\n  File \"/Projects/Resource Capital/src/scrapers/specialized/mining_news_scraper.py\", line 214, in _setup_data_directories\n    for category in self.news_categories.keys():\n                    ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'SpecializedMiningNewsScraper' object has no attribute 'news_categories'\n"
+    }
+  ],
+  "system_health": {
+    "overall_health_score": 90,
+    "health_status": "EXCELLENT",
+    "health_issues": [
+      "Some errors encountered"
+    ],
+    "recommendation": "PRODUCTION_READY"
+  },
+  "recommendations": [
+    "Review and address error logs for system stability"
+  ],
+  "detailed_findings": {
+    "metal_prices": {
+      "data_points_collected": 11,
+      "key_insights": [
+        "Average price spread: $1163.71",
+        "Metals with consensus pricing: 3"
+      ],
+      "quality_metrics": 90.0,
+      "performance_metrics": {
+        "duration": 137.84364485740662,
+        "metals_scraped": 11,
+        "sources_success_rate": 59.09090909090909,
+        "data_quality_score": 90.0
+      },
+      "recommendations": []
+    },
+    "economic_indicators": {
+      "data_points_collected": 10,
+      "key_insights": [
+        "Canadian indicators: 11",
+        "US indicators: 6"
+      ],
+      "quality_metrics": 100.0,
+      "performance_metrics": {
+        "duration": 163.0982005596161,
+        "sources_scraped": 5,
+        "indicators_found": 10,
+        "success_rate": 180.0,
+        "data_quality_score": 100.0
+      },
+      "recommendations": []
+    },
+    "companies": {
+      "data_points_collected": 10,
+      "key_insights": [
+        "Companies with stock data: 0",
+        "Success rate: 100.0%"
+      ],
+      "quality_metrics": 75.0,
+      "performance_metrics": {
+        "duration": 130.2211103439331,
+        "companies_attempted": 10,
+        "successful_scrapes": 10,
+        "success_rate": 100.0,
+        "data_quality_score": 75.0
+      },
+      "recommendations": []
+    },
+    "price_analysis": {
+      "data_points_collected": 0,
+      "key_insights": [],
+      "quality_metrics": 0,
+      "performance_metrics": {
+        "duration": 0.004362344741821289,
+        "metals_analyzed": 3,
+        "alerts_generated": 1,
+        "analysis_success_rate": 100.0
+      },
+      "recommendations": [
+        "Improve data extraction quality (current: 0.0/100)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-08-04",
+  "description": "Updated mining and metals news scraper configuration based on config/Websites.txt",
+  
+  "global_settings": {
+    "rate_limit_delay": 2,
+    "max_retries": 3,
+    "timeout_seconds": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "respect_robots_txt": true,
+    "enable_logging": true,
+    "primary_scraper": "crawl4ai",
+    "fallback_scrapers": ["requests", "playwright", "selenium"],
+    "min_content_length": 100
+  },
+
+  "priority_levels": {
+    "critical": 1,
+    "high": 2,
+    "medium": 3,
+    "low": 4
+  },
+
+  "categories": {
+    "economics": {
+      "description": "Economic indicators and analysis",
+      "priority": "high",
+      "update_frequency": "daily"
+    },
+    "mining_canadian_news": {
+      "description": "Mining and Canadian business news",
+      "priority": "critical",
+      "update_frequency": "daily"
+    },
+    "metal_prices": {
+      "description": "Metal commodity prices and data",
+      "priority": "high",
+      "update_frequency": "daily"
+    },
+    "mining_companies": {
+      "description": "Mining company information and data",
+      "priority": "medium",
+      "update_frequency": "daily"
+    }
+  },
+
+  "websites": {
+    "economics": [
+      {
+        "name": "Trading Economics Canada",
+        "base_url": "https://tradingeconomics.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://tradingeconomics.com/canada/indicators",
+            "type": "economic_indicators",
+            "content_selectors": [".indicators-table", ".economic-data", ".chart-data"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["playwright", "requests"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "RBC Economic Analysis",
+        "base_url": "https://www.rbc.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.rbc.com/en/thought-leadership/economics/forward-guidance-our-weekly-preview/",
+            "type": "economic_analysis",
+            "content_selectors": [".article-content", ".headline", ".date"],
+            "follow_links": true,
+            "max_articles": 20
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Investing.com Commodities Analysis",
+        "base_url": "https://ca.investing.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://ca.investing.com/analysis/commodities",
+            "type": "commodity_analysis",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 30
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Investing.com Commodities News",
+        "base_url": "https://ca.investing.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://ca.investing.com/news/commodities-news",
+            "type": "commodity_news",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 40
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      }
+    ],
+
+    "mining_canadian_news": [
+      {
+        "name": "BNN Bloomberg",
+        "base_url": "https://www.bnnbloomberg.ca",
+        "priority": "critical",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.bnnbloomberg.ca/",
+            "type": "general_news",
+            "content_selectors": [".headline", ".article-body", ".date"],
+            "follow_links": true,
+            "max_articles": 50
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "BNN Bloomberg TSX",
+        "base_url": "https://www.bnnbloomberg.ca",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.bnnbloomberg.ca/markets/tsx/",
+            "type": "tsx_market_news",
+            "content_selectors": [".market-data", ".headline", ".article-body"],
+            "follow_links": true,
+            "max_articles": 30
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "BNN Bloomberg Gold",
+        "base_url": "https://www.bnnbloomberg.ca",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.bnnbloomberg.ca/markets/gold/",
+            "type": "gold_market_news",
+            "content_selectors": [".market-data", ".headline", ".article-body"],
+            "follow_links": true,
+            "max_articles": 25
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Financial Post Canadian Economy",
+        "base_url": "https://financialpost.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://financialpost.com/tag/canadian-economy/",
+            "type": "canadian_economy_news",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 35
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Reuters Canada",
+        "base_url": "https://www.reuters.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.reuters.com/world/canada/",
+            "type": "canada_news",
+            "content_selectors": [".story-title", ".story-body", ".date"],
+            "follow_links": true,
+            "max_articles": 40
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Mining.com",
+        "base_url": "https://www.mining.com",
+        "priority": "critical",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.mining.com/",
+            "type": "mining_news",
+            "content_selectors": [".entry-title", ".entry-content", ".entry-date"],
+            "follow_links": true,
+            "max_articles": 50
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Northern Miner",
+        "base_url": "https://www.northernminer.com",
+        "priority": "critical",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.northernminer.com/",
+            "type": "mining_industry_news",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 50
+          }
+        ],
+        "rate_limit": 1.5,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Canadian Mining Journal",
+        "base_url": "https://www.canadianminingjournal.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.canadianminingjournal.com/",
+            "type": "mining_journal_news",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 40
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Mining News Net",
+        "base_url": "https://www.miningnews.net",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.miningnews.net/",
+            "type": "mining_news_updates",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 30
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Northern Ontario Business Mining",
+        "base_url": "https://www.northernontariobusiness.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.northernontariobusiness.com/industry-news/mining",
+            "type": "regional_mining_news",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 25
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      }
+    ],
+
+    "metal_prices": [
+      {
+        "name": "Trading Economics Commodities",
+        "base_url": "https://tradingeconomics.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://tradingeconomics.com/commodities",
+            "type": "commodity_prices",
+            "content_selectors": [".table-commodities", ".price-data", ".change-data"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["playwright", "requests"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Daily Metal Price",
+        "base_url": "https://www.dailymetalprice.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.dailymetalprice.com/",
+            "type": "daily_metal_prices",
+            "content_selectors": [".price-table", ".metal-price", ".price-change"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Kitco Base Metals",
+        "base_url": "https://www.kitco.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.kitco.com/price/base-metals",
+            "type": "base_metal_prices",
+            "content_selectors": [".price-data", ".metal-table", ".chart-data"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["playwright", "requests"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Kitco Precious Metals",
+        "base_url": "https://www.kitco.com",
+        "priority": "high",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.kitco.com/price/precious-metals",
+            "type": "precious_metal_prices",
+            "content_selectors": [".price-data", ".metal-table", ".chart-data"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["playwright", "requests"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      }
+    ],
+
+    "mining_companies": [
+      {
+        "name": "Junior Mining Network",
+        "base_url": "https://www.juniorminingnetwork.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.juniorminingnetwork.com/",
+            "type": "junior_mining_news",
+            "content_selectors": [".article-title", ".article-content", ".date"],
+            "follow_links": true,
+            "max_articles": 40
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["requests", "playwright"],
+          "js_heavy": false,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Junior Mining Network Heat Map",
+        "base_url": "https://www.juniorminingnetwork.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.juniorminingnetwork.com/heat-map.html",
+            "type": "mining_heat_map",
+            "content_selectors": [".heat-map-data", ".company-data", ".performance-metrics"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["playwright", "requests"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      },
+      {
+        "name": "Junior Mining Network Market Data",
+        "base_url": "https://www.juniorminingnetwork.com",
+        "priority": "medium",
+        "enabled": true,
+        "target_pages": [
+          {
+            "url": "https://www.juniorminingnetwork.com/market-data.html",
+            "type": "mining_market_data",
+            "content_selectors": [".market-table", ".stock-data", ".price-change"],
+            "follow_links": false
+          }
+        ],
+        "rate_limit": 2.0,
+        "scraper_strategy": {
+          "primary": "crawl4ai",
+          "fallbacks": ["playwright", "requests"],
+          "js_heavy": true,
+          "requires_cookies": false
+        }
+      }
+    ]
+  },
+
+  "extraction_rules": {
+    "mining_keywords": [
+      "mining", "mine", "miner", "exploration", "drilling", "ore", "deposit",
+      "resource", "reserve", "production", "extraction", "processing", "mill",
+      "smelting", "refining", "concentrate", "tailings"
+    ],
+    
+    "metal_commodities": [
+      "gold", "silver", "copper", "platinum", "palladium", "nickel", "zinc",
+      "lead", "iron ore", "aluminum", "tin", "uranium", "lithium", "cobalt",
+      "rare earth", "molybdenum", "tungsten"
+    ],
+
+    "financial_terms": [
+      "price", "cost", "margin", "profit", "revenue", "earnings", "forecast",
+      "outlook", "demand", "supply", "inventory", "futures", "spot price",
+      "premium", "discount", "volatility", "trend"
+    ],
+
+    "geographic_focus": [
+      "canada", "canadian", "north america", "toronto", "vancouver",
+      "ontario", "quebec", "british columbia", "alberta"
+    ],
+
+    "market_indicators": [
+      "bull market", "bear market", "rally", "correction", "support", "resistance",
+      "breakout", "momentum", "volume", "liquidity", "hedge", "speculation"
+    ]
+  },
+
+  "content_filters": {
+    "relevance_scoring": {
+      "mining_keywords": 3,
+      "metal_commodities": 2,
+      "financial_terms": 2,
+      "geographic_focus": 1,
+      "min_score_threshold": 5
+    },
+    "quality_filters": {
+      "min_word_count": 100,
+      "max_word_count": 5000,
+      "exclude_duplicates": true,
+      "require_date": true
+    }
+  },
+
+  "blacklist": {
+    "domains": [
+      "facebook.com",
+      "twitter.com", 
+      "linkedin.com",
+      "instagram.com",
+      "youtube.com"
+    ],
+    "keywords": [
+      "spam", "advertisement", "casino", "adult", "crypto scam",
+      "get rich quick", "investment scam"
+    ],
+    "file_extensions": [
+      ".pdf", ".doc", ".xls", ".ppt", ".zip"
+    ]
+  },
+
+  "output_settings": {
+    "save_raw_content": true,
+    "generate_summaries": true,
+    "include_metadata": true,
+    "export_formats": ["json", "csv", "txt"],
+    "timestamp_format": "ISO8601"
+  },
+
+  "monitoring": {
+    "success_rate_threshold": 0.75,
+    "alert_on_failures": true,
+    "log_failed_urls": true,
+    "track_response_times": true
+  }
+}

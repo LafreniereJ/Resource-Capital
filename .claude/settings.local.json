@@ -23,7 +23,16 @@
       "Bash(./free_mining_env/bin/python:*)",
       "Bash(./free_mining_env/bin/pip install:*)",
       "Bash(chmod:*)",
-      "Bash(./generate_daily_brief.sh:*)"
+      "Bash(./generate_daily_brief.sh:*)",
+      "Bash(./free_mining_env/bin/crawl4ai-setup:*)",
+      "Bash(apt:*)",
+      "Bash(apt install:*)",
+      "WebFetch(domain:www.kitco.com)",
+      "WebFetch(domain:tradingeconomics.com)",
+      "WebFetch(domain:www.marketwatch.com)",
+      "WebFetch(domain:www.lme.com)",
+      "WebFetch(domain:www.metalprice.io)",
+      "WebFetch(domain:www.juniorminingnetwork.com)"
     ],
     "deny": []
   }

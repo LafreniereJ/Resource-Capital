@@ -1,0 +1,123 @@
+{
+  "test_results": [
+    {
+      "target_name": "Reuters",
+      "results": [
+        {
+          "url": "https://www.reuters.com/markets/commodities/",
+          "page_type": "commodity_news",
+          "success": false,
+          "scraper_used": "none",
+          "response_time": 0.0,
+          "content_length": 0,
+          "word_count": 0
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/",
+          "page_type": "energy_mining_news",
+          "success": false,
+          "scraper_used": "none",
+          "response_time": 0.0,
+          "content_length": 0,
+          "word_count": 0
+        }
+      ]
+    },
+    {
+      "target_name": "S&P Global",
+      "results": [
+        {
+          "url": "https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/metals",
+          "page_type": "metals_analysis",
+          "success": true,
+          "scraper_used": "playwright",
+          "response_time": 3.108872890472412,
+          "content_length": 152,
+          "word_count": 22
+        },
+        {
+          "url": "https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/mining",
+          "page_type": "mining_analysis",
+          "success": true,
+          "scraper_used": "playwright",
+          "response_time": 3.2042174339294434,
+          "content_length": 152,
+          "word_count": 22
+        }
+      ]
+    },
+    {
+      "target_name": "Northern Miner",
+      "results": [
+        {
+          "url": "https://www.northernminer.com/news/",
+          "page_type": "mining_news",
+          "success": true,
+          "scraper_used": "playwright",
+          "response_time": 5.191524505615234,
+          "content_length": 1412,
+          "word_count": 216
+        },
+        {
+          "url": "https://www.northernminer.com/markets/",
+          "page_type": "market_news",
+          "success": true,
+          "scraper_used": "playwright",
+          "response_time": 8.002485513687134,
+          "content_length": 522,
+          "word_count": 81
+        }
+      ]
+    }
+  ],
+  "intelligence_report": {
+    "period_days": 30,
+    "overall": {
+      "total_attempts": 16,
+      "successful_attempts": 4,
+      "success_rate": 25.0,
+      "unique_domains": 3,
+      "avg_response_time": 1.7
+    },
+    "scrapers": {
+      "playwright": {
+        "attempts": 6,
+        "successes": 4,
+        "success_rate": 66.7,
+        "avg_response_time": 4.52
+      },
+      "requests": {
+        "attempts": 4,
+        "successes": 0,
+        "success_rate": 0.0,
+        "avg_response_time": 0.0
+      },
+      "crawl4ai": {
+        "attempts": 6,
+        "successes": 0,
+        "success_rate": 0.0,
+        "avg_response_time": 0.0
+      }
+    },
+    "top_domains": [
+      {
+        "domain": "www.northernminer.com",
+        "attempts": 6,
+        "successes": 2,
+        "success_rate": 33.3
+      },
+      {
+        "domain": "www.reuters.com",
+        "attempts": 6,
+        "successes": 0,
+        "success_rate": 0.0
+      }
+    ],
+    "generated_at": "2025-08-03T14:09:21.806515"
+  },
+  "test_metadata": {
+    "timestamp": "20250803_140921",
+    "targets_tested": 3,
+    "total_pages_tested": 6
+  }
+}

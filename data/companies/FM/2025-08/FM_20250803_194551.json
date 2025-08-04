@@ -1,0 +1,66 @@
+{
+  "company_info": {
+    "name": "First Quantum Minerals Ltd.",
+    "ticker": "FM",
+    "exchange": "TSX",
+    "sector": "Copper"
+  },
+  "scraped_at": "2025-08-03T19:45:02.499205",
+  "stock_data": {
+    "ticker": "FM",
+    "price": null,
+    "change": null,
+    "change_percent": null,
+    "volume": null,
+    "market_cap": "4",
+    "pe_ratio": null,
+    "52_week_range": null,
+    "url": "https://finance.yahoo.com/quote/FM.TO",
+    "scraped_at": "2025-08-03T19:45:06.359692",
+    "scraper_used": "crawl4ai"
+  },
+  "financial_data": {},
+  "operational_data": {},
+  "news_updates": {},
+  "filings": {
+    "sedar_filings": {},
+    "sec_filings": {},
+    "search_attempts": [
+      {
+        "system": "SEDAR",
+        "status": "attempted",
+        "note": "SEDAR search requires company-specific implementation"
+      }
+    ]
+  },
+  "website_data": {
+    "domains_tried": [
+      "https://www.first.com",
+      "https://www.firstmining.com",
+      "https://www.first.com",
+      "https://first.com"
+    ],
+    "successful_scrapes": {
+      "https://www.first.com": {
+        "content_length": 120299,
+        "word_count": 10189,
+        "title": "",
+        "extracted_info": {
+          "company_description": "com - Your home for everything casino and sports betting \n  * [ ![Best <br class=\"sm:hidden\"/>casinos](https://first.com/assets/images/index/best_of_tabs/best_casinos.",
+          "operations": [
+            "bonuses as follows: First Deposit: 100% up to £50 + 20 Spins on Starburst *Min.",
+            "Second Deposit: 50% up to £75 *Min.",
+            "Third Deposit: 50% up to £75 *Min."
+          ],
+          "recent_news": [],
+          "financial_highlights": {
+            "revenue": "2026"
+          },
+          "contact_info": {}
+        },
+        "scraped_at": "2025-08-03T19:45:11.305500"
+      }
+    },
+    "failed_attempts": []
+  }
+}

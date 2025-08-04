@@ -1,0 +1,302 @@
+[
+  {
+    "target_name": "Reuters",
+    "base_url": "https://www.reuters.com",
+    "priority": "critical",
+    "test_timestamp": "2025-08-03T13:05:04.588517",
+    "pages_tested": 2,
+    "pages_successful": 1,
+    "total_content_length": 41337,
+    "keywords_found": {
+      "required": [
+        "commodities",
+        "copper"
+      ],
+      "financial": [
+        "price",
+        "spot",
+        "market"
+      ],
+      "geographic": [
+        "canadian",
+        "canada"
+      ]
+    },
+    "errors": [],
+    "page_results": [
+      {
+        "url": "https://www.reuters.com/markets/commodities/",
+        "type": "commodity_news",
+        "status": "failed",
+        "content_length": 0,
+        "word_count": 0,
+        "relevance_score": 0,
+        "keywords_found": [],
+        "error": "Insufficient content returned"
+      },
+      {
+        "url": "https://www.reuters.com/business/energy/",
+        "type": "energy_mining_news",
+        "status": "success",
+        "content_length": 41337,
+        "word_count": 2294,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "copper",
+            "commodities"
+          ],
+          "financial": [
+            "price",
+            "market",
+            "spot"
+          ],
+          "geographic": [
+            "canada",
+            "canadian"
+          ]
+        },
+        "error": null
+      }
+    ],
+    "success_rate": 50.0
+  },
+  {
+    "target_name": "Northern Miner",
+    "base_url": "https://www.northernminer.com",
+    "priority": "critical",
+    "test_timestamp": "2025-08-03T13:05:10.273175",
+    "pages_tested": 3,
+    "pages_successful": 3,
+    "total_content_length": 96166,
+    "keywords_found": {
+      "required": [
+        "exploration",
+        "metals",
+        "mining"
+      ],
+      "operational": [
+        "drilling",
+        "production",
+        "resource"
+      ],
+      "financial": [
+        "financing"
+      ]
+    },
+    "errors": [],
+    "page_results": [
+      {
+        "url": "https://www.northernminer.com/news/",
+        "type": "mining_news",
+        "status": "success",
+        "content_length": 29868,
+        "word_count": 2000,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "exploration",
+            "metals"
+          ],
+          "operational": [
+            "production",
+            "drilling",
+            "resource"
+          ],
+          "financial": [
+            "financing"
+          ]
+        },
+        "error": null
+      },
+      {
+        "url": "https://www.northernminer.com/markets/",
+        "type": "market_news",
+        "status": "success",
+        "content_length": 30895,
+        "word_count": 2116,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "metals"
+          ],
+          "operational": [
+            "production",
+            "drilling",
+            "resource"
+          ]
+        },
+        "error": null
+      },
+      {
+        "url": "https://www.northernminer.com/exploration/",
+        "type": "exploration_news",
+        "status": "success",
+        "content_length": 35403,
+        "word_count": 2138,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "exploration",
+            "metals"
+          ],
+          "operational": [
+            "production",
+            "drilling",
+            "resource"
+          ]
+        },
+        "error": null
+      }
+    ],
+    "success_rate": 100.0
+  },
+  {
+    "target_name": "Mining.com",
+    "base_url": "https://www.mining.com",
+    "priority": "high",
+    "test_timestamp": "2025-08-03T13:05:20.406159",
+    "pages_tested": 4,
+    "pages_successful": 4,
+    "total_content_length": 246843,
+    "keywords_found": {
+      "required": [
+        "metals",
+        "mining"
+      ],
+      "commodities": [
+        "nickel",
+        "zinc",
+        "gold",
+        "iron",
+        "copper",
+        "silver"
+      ],
+      "industry": [
+        "mine",
+        "exploration",
+        "processing",
+        "production"
+      ]
+    },
+    "errors": [],
+    "page_results": [
+      {
+        "url": "https://www.mining.com/",
+        "type": "mining_news_feed",
+        "status": "success",
+        "content_length": 16255,
+        "word_count": 1264,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "metals"
+          ],
+          "commodities": [
+            "gold",
+            "silver",
+            "copper",
+            "iron",
+            "zinc",
+            "nickel"
+          ],
+          "industry": [
+            "mine",
+            "exploration",
+            "processing"
+          ]
+        },
+        "error": null
+      },
+      {
+        "url": "https://www.mining.com/feed/",
+        "type": "rss_feed",
+        "status": "success",
+        "content_length": 197362,
+        "word_count": 20239,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "metals"
+          ],
+          "commodities": [
+            "gold",
+            "silver",
+            "copper",
+            "iron",
+            "zinc",
+            "nickel"
+          ],
+          "industry": [
+            "mine",
+            "exploration",
+            "production",
+            "processing"
+          ]
+        },
+        "error": null
+      },
+      {
+        "url": "https://www.mining.com/category/base-metals/",
+        "type": "base_metals_news",
+        "status": "success",
+        "content_length": 16470,
+        "word_count": 1205,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "metals"
+          ],
+          "commodities": [
+            "gold",
+            "silver",
+            "copper",
+            "iron",
+            "zinc",
+            "nickel"
+          ],
+          "industry": [
+            "mine",
+            "production"
+          ]
+        },
+        "error": null
+      },
+      {
+        "url": "https://www.mining.com/category/precious-metals/",
+        "type": "precious_metals_news",
+        "status": "success",
+        "content_length": 16756,
+        "word_count": 1187,
+        "relevance_score": 100,
+        "keywords_found": {
+          "required": [
+            "mining",
+            "metals"
+          ],
+          "commodities": [
+            "gold",
+            "silver",
+            "copper",
+            "iron",
+            "zinc",
+            "nickel"
+          ],
+          "industry": [
+            "mine",
+            "exploration",
+            "production"
+          ]
+        },
+        "error": null
+      }
+    ],
+    "success_rate": 100.0
+  }
+]

@@ -1,0 +1,292 @@
+{
+  "analysis_timestamp": "2025-08-03T19:45:51.040712",
+  "analysis_period": "90 days",
+  "metal_analyses": {
+    "gold": {
+      "metal": "gold",
+      "data_points": 9,
+      "date_range": {
+        "start": "2025-08-03T19:00:54.822714",
+        "end": "2025-08-03T19:37:55.206914",
+        "days": 0
+      },
+      "current_price": 2910.0,
+      "price_statistics": {
+        "mean": 2540.2,
+        "median": 2910.0,
+        "std_dev": 555.400147041152,
+        "min": 1799.6666666666667,
+        "max": 2910.933333333333,
+        "range": 1111.2666666666662,
+        "coefficient_of_variation": 0.21864425912965593
+      },
+      "trend_analysis": {
+        "short_term": {
+          "change": -0.26666666666642413,
+          "change_percent": -0.01095345953282499,
+          "direction": "bearish",
+          "strength": "weak"
+        }
+      },
+      "volatility_analysis": {
+        "daily_volatility": 0.2724149820642155,
+        "annualized_volatility": 4.324453775700211,
+        "volatility_level": "high",
+        "max_daily_gain": 0.6169661048342285,
+        "max_daily_loss": -0.38175613777940626,
+        "positive_days": 1,
+        "negative_days": 1
+      },
+      "support_resistance": {},
+      "momentum_indicators": {},
+      "risk_metrics": {
+        "value_at_risk_95": null,
+        "maximum_drawdown": 0.38175613777940626,
+        "sharpe_ratio": 1.7086814533080457,
+        "downside_deviation": null
+      },
+      "forecast": {
+        "error": "Insufficient data for forecasting"
+      }
+    },
+    "silver": {
+      "metal": "silver",
+      "data_points": 9,
+      "date_range": {
+        "start": "2025-08-03T19:00:54.822714",
+        "end": "2025-08-03T19:37:55.206914",
+        "days": 0
+      },
+      "current_price": 91.96999999999998,
+      "price_statistics": {
+        "mean": 91.9711111111111,
+        "median": 91.96999999999998,
+        "std_dev": 0.0016666666666793617,
+        "min": 91.96999999999998,
+        "max": 91.97333333333334,
+        "range": 0.0033333333333587234,
+        "coefficient_of_variation": 1.8121632396784324e-05
+      },
+      "trend_analysis": {
+        "short_term": {
+          "change": -0.0009523809523841464,
+          "change_percent": -0.0010355182769010603,
+          "direction": "bearish",
+          "strength": "weak"
+        }
+      },
+      "volatility_analysis": {
+        "daily_volatility": 1.2813619548998505e-05,
+        "annualized_volatility": 0.00020340990432747398,
+        "volatility_level": "low",
+        "max_daily_gain": 0.0,
+        "max_daily_loss": -3.6242389098565416e-05,
+        "positive_days": 0,
+        "negative_days": 1
+      },
+      "support_resistance": {},
+      "momentum_indicators": {},
+      "risk_metrics": {
+        "value_at_risk_95": null,
+        "maximum_drawdown": 3.6242389098565416e-05,
+        "sharpe_ratio": -103.93611523738018,
+        "downside_deviation": null
+      },
+      "forecast": {
+        "error": "Insufficient data for forecasting"
+      }
+    },
+    "copper": {
+      "metal": "copper",
+      "data_points": 9,
+      "date_range": {
+        "start": "2025-08-03T19:00:54.822714",
+        "end": "2025-08-03T19:37:55.206914",
+        "days": 0
+      },
+      "current_price": 4.422000000000001,
+      "price_statistics": {
+        "mean": 4.426,
+        "median": 4.42675,
+        "std_dev": 0.0031893377055428845,
+        "min": 4.422000000000001,
+        "max": 4.42925,
+        "range": 0.0072499999999990905,
+        "coefficient_of_variation": 0.0007205914382157443
+      },
+      "trend_analysis": {
+        "short_term": {
+          "change": -0.002071428571428058,
+          "change_percent": -0.046789286866719605,
+          "direction": "bearish",
+          "strength": "weak"
+        }
+      },
+      "volatility_analysis": {
+        "daily_volatility": 0.0004026343600513447,
+        "annualized_volatility": 0.006391622315912986,
+        "volatility_level": "low",
+        "max_daily_gain": 0.0,
+        "max_daily_loss": -0.0010730219687128451,
+        "positive_days": 0,
+        "negative_days": 2
+      },
+      "support_resistance": {},
+      "momentum_indicators": {},
+      "risk_metrics": {
+        "value_at_risk_95": null,
+        "maximum_drawdown": 0.0016368459671499895,
+        "sharpe_ratio": -11.19899178293997,
+        "downside_deviation": 0.0003596290817736387
+      },
+      "forecast": {
+        "error": "Insufficient data for forecasting"
+      }
+    }
+  },
+  "market_overview": {
+    "market_sentiment": "bearish",
+    "trending_metals": {
+      "bullish": [],
+      "bearish": [
+        {
+          "metal": "gold",
+          "change_percent": -0.01095345953282499
+        },
+        {
+          "metal": "silver",
+          "change_percent": -0.0010355182769010603
+        },
+        {
+          "metal": "copper",
+          "change_percent": -0.046789286866719605
+        }
+      ]
+    },
+    "volatility_leaders": [
+      {
+        "metal": "gold",
+        "change_percent": -0.01095345953282499,
+        "volatility": 0.2724149820642155
+      },
+      {
+        "metal": "copper",
+        "change_percent": -0.046789286866719605,
+        "volatility": 0.0004026343600513447
+      },
+      {
+        "metal": "silver",
+        "change_percent": -0.0010355182769010603,
+        "volatility": 1.2813619548998505e-05
+      }
+    ],
+    "best_performers": [
+      {
+        "metal": "silver",
+        "change_percent": -0.0010355182769010603,
+        "volatility": 1.2813619548998505e-05
+      },
+      {
+        "metal": "gold",
+        "change_percent": -0.01095345953282499,
+        "volatility": 0.2724149820642155
+      },
+      {
+        "metal": "copper",
+        "change_percent": -0.046789286866719605,
+        "volatility": 0.0004026343600513447
+      }
+    ],
+    "worst_performers": [
+      {
+        "metal": "silver",
+        "change_percent": -0.0010355182769010603,
+        "volatility": 1.2813619548998505e-05
+      },
+      {
+        "metal": "gold",
+        "change_percent": -0.01095345953282499,
+        "volatility": 0.2724149820642155
+      },
+      {
+        "metal": "copper",
+        "change_percent": -0.046789286866719605,
+        "volatility": 0.0004026343600513447
+      }
+    ]
+  },
+  "correlations": {
+    "metal_pairs": {},
+    "category_correlations": {},
+    "correlation_summary": {}
+  },
+  "portfolio_insights": {
+    "diversification_opportunities": [],
+    "risk_reward_analysis": {
+      "best_risk_adjusted": [
+        {
+          "metal": "gold",
+          "risk": 0.2724149820642155,
+          "return": -0.01095345953282499,
+          "risk_adjusted_return": -0.040208726589945655
+        },
+        {
+          "metal": "silver",
+          "risk": 1.2813619548998505e-05,
+          "return": -0.0010355182769010603,
+          "risk_adjusted_return": -80.81387721410809
+        },
+        {
+          "metal": "copper",
+          "risk": 0.0004026343600513447,
+          "return": -0.046789286866719605,
+          "risk_adjusted_return": -116.2078836509456
+        }
+      ],
+      "highest_risk": [
+        {
+          "metal": "gold",
+          "risk": 0.2724149820642155,
+          "return": -0.01095345953282499,
+          "risk_adjusted_return": -0.040208726589945655
+        },
+        {
+          "metal": "copper",
+          "risk": 0.0004026343600513447,
+          "return": -0.046789286866719605,
+          "risk_adjusted_return": -116.2078836509456
+        },
+        {
+          "metal": "silver",
+          "risk": 1.2813619548998505e-05,
+          "return": -0.0010355182769010603,
+          "risk_adjusted_return": -80.81387721410809
+        }
+      ]
+    },
+    "sector_allocation_suggestions": {},
+    "investment_themes": []
+  },
+  "alerts": [
+    {
+      "type": "high_volatility",
+      "metal": "gold",
+      "severity": "warning",
+      "message": "Gold showing high volatility (27.2%)",
+      "recommendation": "Monitor closely, consider position sizing"
+    }
+  ],
+  "summary": {
+    "metals_analyzed": 3,
+    "market_sentiment": "bearish",
+    "total_alerts": 1,
+    "alert_breakdown": {
+      "high_volatility": 1
+    },
+    "analysis_coverage": {
+      "successful_analyses": 3,
+      "failed_analyses": 0,
+      "success_rate": 100.0
+    }
+  }
+}

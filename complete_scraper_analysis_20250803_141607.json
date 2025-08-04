@@ -1,0 +1,74 @@
+{
+  "analysis_timestamp": "20250803_141607",
+  "system_status": "NEEDS ATTENTION",
+  "architecture_analysis": true,
+  "workflow_results": {
+    "comprehensive_scraping": {
+      "success": true,
+      "duration_seconds": 63.731501,
+      "summary": {
+        "total_sources_scraped": 13,
+        "mining_news_sources": 7,
+        "financial_data_sources": 6,
+        "total_errors": 0,
+        "success_rate": 100.0,
+        "scrapers_used": {
+          "playwright": 3,
+          "crawl4ai": 10
+        },
+        "total_content_words": 37912,
+        "avg_response_time": 3.2249382459200344
+      }
+    },
+    "specialized_news_scraping": {
+      "success": true,
+      "duration_seconds": 42.970124,
+      "sources_count": 7,
+      "total_words": 24431
+    },
+    "specialized_financial_scraping": {
+      "success": true,
+      "duration_seconds": 15.370051,
+      "sources_count": 6,
+      "total_words": 13476
+    },
+    "intelligence_learning": {
+      "success": true,
+      "total_attempts": 66,
+      "success_rate": 56.1,
+      "unique_domains": 5,
+      "scrapers_performance": {
+        "crawl4ai": {
+          "attempts": 35,
+          "successes": 25,
+          "success_rate": 71.4,
+          "avg_response_time": 1.26
+        },
+        "playwright": {
+          "attempts": 18,
+          "successes": 12,
+          "success_rate": 66.7,
+          "avg_response_time": 5.16
+        },
+        "requests": {
+          "attempts": 11,
+          "successes": 0,
+          "success_rate": 0.0,
+          "avg_response_time": 0.22
+        },
+        "feedparser": {
+          "attempts": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "avg_response_time": 0.0
+        }
+      }
+    },
+    "performance_metrics": {}
+  },
+  "recommendations": [
+    "Address component issues",
+    "Continue monitoring intelligence learning",
+    "Regular performance reviews recommended"
+  ]
+}

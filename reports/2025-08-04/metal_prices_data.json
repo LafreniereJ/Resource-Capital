@@ -1,0 +1,425 @@
+{
+  "scraping_started": "2025-08-04T07:18:39.311192",
+  "target_date": "2025-08-04",
+  "sites_scraped": {
+    "trading_economics": {
+      "success": true,
+      "commodities": {
+        "uranium": {
+          "price": 1.0,
+          "change": "0%",
+          "source": "trading_economics"
+        },
+        "gold": {
+          "price": 10.0,
+          "change": ".%",
+          "source": "trading_economics"
+        },
+        "silver": {
+          "price": 10.0,
+          "change": ".%",
+          "source": "trading_economics"
+        },
+        "copper": {
+          "price": 1.0,
+          "change": "0%",
+          "source": "trading_economics"
+        },
+        "lithium": {
+          "price": 1.0,
+          "change": "0%",
+          "source": "trading_economics"
+        },
+        "platinum": {
+          "price": 10.0,
+          "change": ".%",
+          "source": "trading_economics"
+        },
+        "cobalt": {
+          "price": 1.0,
+          "change": "0%",
+          "source": "trading_economics"
+        },
+        "zinc": {
+          "price": 1.0,
+          "change": "0%",
+          "source": "trading_economics"
+        },
+        "nickel": {
+          "price": 1.0,
+          "change": "0%",
+          "source": "trading_economics"
+        },
+        "palladium": {
+          "price": 10.0,
+          "change": ".%",
+          "source": "trading_economics"
+        }
+      },
+      "content_size": 453583,
+      "url": "https://tradingeconomics.com/commodities"
+    },
+    "kitco_precious": {
+      "success": true,
+      "commodities": {
+        "gold": {
+          "price": 1.0,
+          "change": "-7",
+          "source": "kitco_precious"
+        },
+        "silver": {
+          "price": 1.0,
+          "change": "-7",
+          "source": "kitco_precious"
+        },
+        "platinum": {
+          "price": 1.0,
+          "change": "-7",
+          "source": "kitco_precious"
+        },
+        "palladium": {
+          "price": 1.0,
+          "change": "-7",
+          "source": "kitco_precious"
+        }
+      },
+      "content_size": 127649,
+      "url": "https://www.kitco.com/price/precious-metals"
+    },
+    "kitco_base": {
+      "success": true,
+      "commodities": {
+        "copper": {
+          "price": 6.0,
+          "change": "0",
+          "source": "kitco_base"
+        },
+        "nickel": {
+          "price": 6.0,
+          "change": "0",
+          "source": "kitco_base"
+        },
+        "zinc": {
+          "price": 6.0,
+          "change": "0",
+          "source": "kitco_base"
+        },
+        "aluminum": {
+          "price": 6.0,
+          "change": "0",
+          "source": "kitco_base"
+        }
+      },
+      "content_size": 98893,
+      "url": "https://www.kitco.com/price/base-metals"
+    },
+    "daily_metal_price": {
+      "success": true,
+      "commodities": {
+        "gold": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "silver": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "copper": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "platinum": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "palladium": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "nickel": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "zinc": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        },
+        "lithium": {
+          "price": 1.167,
+          "change": "3",
+          "source": "daily_metal_price"
+        }
+      },
+      "content_size": 34707,
+      "url": "https://www.dailymetalprice.com/"
+    }
+  },
+  "consolidated_data": {
+    "uranium": {
+      "trading_economics": {
+        "price": 1.0,
+        "change": "0%",
+        "source": "trading_economics"
+      }
+    },
+    "gold": {
+      "trading_economics": {
+        "price": 10.0,
+        "change": ".%",
+        "source": "trading_economics"
+      },
+      "kitco_precious": {
+        "price": 1.0,
+        "change": "-7",
+        "source": "kitco_precious"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "silver": {
+      "trading_economics": {
+        "price": 10.0,
+        "change": ".%",
+        "source": "trading_economics"
+      },
+      "kitco_precious": {
+        "price": 1.0,
+        "change": "-7",
+        "source": "kitco_precious"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "copper": {
+      "trading_economics": {
+        "price": 1.0,
+        "change": "0%",
+        "source": "trading_economics"
+      },
+      "kitco_base": {
+        "price": 6.0,
+        "change": "0",
+        "source": "kitco_base"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "lithium": {
+      "trading_economics": {
+        "price": 1.0,
+        "change": "0%",
+        "source": "trading_economics"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "platinum": {
+      "trading_economics": {
+        "price": 10.0,
+        "change": ".%",
+        "source": "trading_economics"
+      },
+      "kitco_precious": {
+        "price": 1.0,
+        "change": "-7",
+        "source": "kitco_precious"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "cobalt": {
+      "trading_economics": {
+        "price": 1.0,
+        "change": "0%",
+        "source": "trading_economics"
+      }
+    },
+    "zinc": {
+      "trading_economics": {
+        "price": 1.0,
+        "change": "0%",
+        "source": "trading_economics"
+      },
+      "kitco_base": {
+        "price": 6.0,
+        "change": "0",
+        "source": "kitco_base"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "nickel": {
+      "trading_economics": {
+        "price": 1.0,
+        "change": "0%",
+        "source": "trading_economics"
+      },
+      "kitco_base": {
+        "price": 6.0,
+        "change": "0",
+        "source": "kitco_base"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "palladium": {
+      "trading_economics": {
+        "price": 10.0,
+        "change": ".%",
+        "source": "trading_economics"
+      },
+      "kitco_precious": {
+        "price": 1.0,
+        "change": "-7",
+        "source": "kitco_precious"
+      },
+      "daily_metal_price": {
+        "price": 1.167,
+        "change": "3",
+        "source": "daily_metal_price"
+      }
+    },
+    "aluminum": {
+      "kitco_base": {
+        "price": 6.0,
+        "change": "0",
+        "source": "kitco_base"
+      }
+    }
+  },
+  "performance_log": [
+    {
+      "site": "trading_economics",
+      "success": true,
+      "response_time": 0.33812379837036133,
+      "commodities_found": 10,
+      "error": null
+    },
+    {
+      "site": "kitco_precious",
+      "success": true,
+      "response_time": 0.22025394439697266,
+      "commodities_found": 4,
+      "error": null
+    },
+    {
+      "site": "kitco_base",
+      "success": true,
+      "response_time": 0.12218880653381348,
+      "commodities_found": 4,
+      "error": null
+    },
+    {
+      "site": "daily_metal_price",
+      "success": true,
+      "response_time": 0.2667834758758545,
+      "commodities_found": 8,
+      "error": null
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total_duration": 4.953129291534424,
+    "sites_attempted": 4,
+    "sites_successful": 4,
+    "unique_commodities": 11,
+    "total_data_points": 26
+  },
+  "scraping_completed": "2025-08-04T07:18:44.264325",
+  "consensus_prices": {
+    "uranium": {
+      "average_price": 1.0,
+      "price_range": "$1.00 - $1.00",
+      "sources_count": 1,
+      "average_change": 0.0
+    },
+    "gold": {
+      "average_price": 4.055666666666666,
+      "price_range": "$1.00 - $10.00",
+      "sources_count": 3,
+      "average_change": -2.0
+    },
+    "silver": {
+      "average_price": 4.055666666666666,
+      "price_range": "$1.00 - $10.00",
+      "sources_count": 3,
+      "average_change": -2.0
+    },
+    "copper": {
+      "average_price": 2.7223333333333333,
+      "price_range": "$1.00 - $6.00",
+      "sources_count": 3,
+      "average_change": 1.0
+    },
+    "lithium": {
+      "average_price": 1.0835,
+      "price_range": "$1.00 - $1.17",
+      "sources_count": 2,
+      "average_change": 1.5
+    },
+    "platinum": {
+      "average_price": 4.055666666666666,
+      "price_range": "$1.00 - $10.00",
+      "sources_count": 3,
+      "average_change": -2.0
+    },
+    "cobalt": {
+      "average_price": 1.0,
+      "price_range": "$1.00 - $1.00",
+      "sources_count": 1,
+      "average_change": 0.0
+    },
+    "zinc": {
+      "average_price": 2.7223333333333333,
+      "price_range": "$1.00 - $6.00",
+      "sources_count": 3,
+      "average_change": 1.0
+    },
+    "nickel": {
+      "average_price": 2.7223333333333333,
+      "price_range": "$1.00 - $6.00",
+      "sources_count": 3,
+      "average_change": 1.0
+    },
+    "palladium": {
+      "average_price": 4.055666666666666,
+      "price_range": "$1.00 - $10.00",
+      "sources_count": 3,
+      "average_change": -2.0
+    },
+    "aluminum": {
+      "average_price": 6.0,
+      "price_range": "$6.00 - $6.00",
+      "sources_count": 1,
+      "average_change": 0.0
+    }
+  }
+}

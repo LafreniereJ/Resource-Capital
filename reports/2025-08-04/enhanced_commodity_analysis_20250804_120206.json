@@ -1,0 +1,1805 @@
+{
+  "scraping_started": "2025-08-04T15:57:53.675285+00:00",
+  "target_commodities": {
+    "precious_metals": [
+      "gold",
+      "silver",
+      "platinum",
+      "palladium"
+    ],
+    "base_metals": [
+      "copper",
+      "nickel",
+      "zinc",
+      "aluminum",
+      "lead"
+    ],
+    "battery_metals": [
+      "lithium",
+      "cobalt"
+    ],
+    "energy_metals": [
+      "uranium"
+    ]
+  },
+  "commodity_analysis": {
+    "precious_metals": {
+      "gold": {
+        "commodity": "gold",
+        "category": "precious_metals",
+        "consensus_performance": {
+          "commodity": "gold",
+          "current_price": 6311.98,
+          "currency": "USD",
+          "unit": "USD/oz",
+          "daily_change_abs": 73.970215,
+          "daily_change_pct": 1.1858116,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T15:58:05.856082+00:00",
+          "data_source": "",
+          "confidence_score": 0.4444444444444444,
+          "raw_data": null
+        },
+        "source_data": {
+          "kitco": {
+            "commodity": "gold",
+            "current_price": 11.7,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 9.0,
+            "daily_change_pct": 0.35,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:57:53.967164+00:00",
+            "data_source": "kitco",
+            "confidence_score": 0.475,
+            "raw_data": null
+          },
+          "trading_economics": {
+            "commodity": "gold",
+            "current_price": 3374.44,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": null,
+            "daily_change_pct": 11.51,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:57:58.044943+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "gold",
+            "current_price": 44053.5,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 464.92,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:00.614782+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          },
+          "yahoo_finance": {
+            "commodity": "gold",
+            "current_price": 6311.98,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 73.970215,
+            "daily_change_pct": 1.1858116,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:03.245487+00:00",
+            "data_source": "yahoo_finance",
+            "confidence_score": 0.45,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 0.5,
+        "volatility_index": 7.7,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "Dollar strength and rising real yields pose headwinds to precious metals"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "silver": {
+        "commodity": "silver",
+        "category": "precious_metals",
+        "consensus_performance": {
+          "commodity": "silver",
+          "current_price": 6314.15,
+          "currency": "USD",
+          "unit": "USD/oz",
+          "daily_change_abs": 76.14014,
+          "daily_change_pct": 0.95,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T15:58:21.750524+00:00",
+          "data_source": "",
+          "confidence_score": 0.4444444444444444,
+          "raw_data": null
+        },
+        "source_data": {
+          "kitco": {
+            "commodity": "silver",
+            "current_price": 0.35,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 9.0,
+            "daily_change_pct": 0.95,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:09.576024+00:00",
+            "data_source": "kitco",
+            "confidence_score": 0.475,
+            "raw_data": null
+          },
+          "trading_economics": {
+            "commodity": "silver",
+            "current_price": 37.4,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": null,
+            "daily_change_pct": 0.366,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:12.281749+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "silver",
+            "current_price": 44073.87,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 485.29,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:14.656190+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          },
+          "yahoo_finance": {
+            "commodity": "silver",
+            "current_price": 6314.15,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 76.14014,
+            "daily_change_pct": 1.2205603,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:18.233141+00:00",
+            "data_source": "yahoo_finance",
+            "confidence_score": 0.45,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 0.4,
+        "volatility_index": 7.5,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "Dollar strength and rising real yields pose headwinds to precious metals"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "platinum": {
+        "commodity": "platinum",
+        "category": "precious_metals",
+        "consensus_performance": {
+          "commodity": "platinum",
+          "current_price": 6310.9,
+          "currency": "USD",
+          "unit": "USD/oz",
+          "daily_change_abs": 72.89014,
+          "daily_change_pct": 1.6,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T15:58:41.438169+00:00",
+          "data_source": "",
+          "confidence_score": 0.4444444444444444,
+          "raw_data": null
+        },
+        "source_data": {
+          "kitco": {
+            "commodity": "platinum",
+            "current_price": 21.0,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 9.0,
+            "daily_change_pct": 1.6,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:27.123117+00:00",
+            "data_source": "kitco",
+            "confidence_score": 0.475,
+            "raw_data": null
+          },
+          "trading_economics": {
+            "commodity": "platinum",
+            "current_price": 1335.3,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": null,
+            "daily_change_pct": 18.9,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:30.645721+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "platinum",
+            "current_price": 44083.21,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 494.63,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:34.170788+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          },
+          "yahoo_finance": {
+            "commodity": "platinum",
+            "current_price": 6310.9,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 72.89014,
+            "daily_change_pct": 1.1685681,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:38.765690+00:00",
+            "data_source": "yahoo_finance",
+            "confidence_score": 0.45,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 0.6,
+        "volatility_index": 8.8,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [],
+        "opportunity_assessment": "neutral"
+      },
+      "palladium": {
+        "commodity": "palladium",
+        "category": "precious_metals",
+        "consensus_performance": {
+          "commodity": "palladium",
+          "current_price": 1187.5,
+          "currency": "USD",
+          "unit": "USD/oz",
+          "daily_change_abs": 3.0,
+          "daily_change_pct": -1.66,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T15:58:56.390587+00:00",
+          "data_source": "",
+          "confidence_score": 0.4444444444444444,
+          "raw_data": null
+        },
+        "source_data": {
+          "kitco": {
+            "commodity": "palladium",
+            "current_price": 20.0,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 3.0,
+            "daily_change_pct": -1.66,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:45.261552+00:00",
+            "data_source": "kitco",
+            "confidence_score": 0.475,
+            "raw_data": null
+          },
+          "trading_economics": {
+            "commodity": "palladium",
+            "current_price": 1187.5,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": null,
+            "daily_change_pct": -19.0,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:47.345165+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "palladium",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:50.654058+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          },
+          "yahoo_finance": {
+            "commodity": "palladium",
+            "current_price": 6318.69,
+            "currency": "USD",
+            "unit": "USD/oz",
+            "daily_change_abs": 80.680176,
+            "daily_change_pct": 1.2933661,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:58:54.130388+00:00",
+            "data_source": "yahoo_finance",
+            "confidence_score": 0.45,
+            "raw_data": null
+          }
+        },
+        "momentum_score": -0.7,
+        "volatility_index": 8.7,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [],
+        "opportunity_assessment": "neutral"
+      }
+    },
+    "base_metals": {
+      "copper": {
+        "commodity": "copper",
+        "category": "base_metals",
+        "consensus_performance": {
+          "commodity": "copper",
+          "current_price": 6312.38,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": 487.85,
+          "daily_change_pct": 1.1922168,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T15:59:31.706347+00:00",
+          "data_source": "",
+          "confidence_score": 0.3333333333333333,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "copper",
+            "current_price": 4.42,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": 0.0001,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:59:21.482367+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "copper",
+            "current_price": 44076.43,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": 487.85,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:59:24.878760+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          },
+          "yahoo_finance": {
+            "commodity": "copper",
+            "current_price": 6312.38,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": 74.37012,
+            "daily_change_pct": 1.1922168,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:59:27.746877+00:00",
+            "data_source": "yahoo_finance",
+            "confidence_score": 0.45,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 0.5,
+        "volatility_index": 5.9,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "Global manufacturing slowdown and China demand concerns"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "nickel": {
+        "commodity": "nickel",
+        "category": "base_metals",
+        "consensus_performance": {
+          "commodity": "nickel",
+          "current_price": 15067.13,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": 47.0,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T15:59:59.489377+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "nickel",
+            "current_price": 15067.13,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": 47.0,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:59:52.770702+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "nickel",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T15:59:55.585662+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 2.0,
+        "volatility_index": 16.7,
+        "trend_direction": "bullish",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "High short-term volatility increases position risk and timing challenges"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "zinc": {
+        "commodity": "zinc",
+        "category": "base_metals",
+        "consensus_performance": {
+          "commodity": "zinc",
+          "current_price": 2756.35,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": 23.5,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T16:00:32.715220+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "zinc",
+            "current_price": 2756.35,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": 23.5,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:00:26.506535+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "zinc",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:00:29.321074+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 2.0,
+        "volatility_index": 10.6,
+        "trend_direction": "bullish",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "High short-term volatility increases position risk and timing challenges"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "aluminum": {
+        "commodity": "aluminum",
+        "category": "base_metals",
+        "consensus_performance": {
+          "commodity": "aluminum",
+          "current_price": 2561.45,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": -11.9,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T16:01:02.108916+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "aluminum",
+            "current_price": 2561.45,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": -11.9,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:00:54.415587+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "aluminum",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:00:58.808734+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": -2.0,
+        "volatility_index": 7.7,
+        "trend_direction": "bearish",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "High short-term volatility increases position risk and timing challenges"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "lead": {
+        "commodity": "lead",
+        "category": "base_metals",
+        "consensus_performance": {
+          "commodity": "lead",
+          "current_price": 1959.43,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": 15.35,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T16:01:31.144215+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "lead",
+            "current_price": 1959.43,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": 15.35,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:24.161925+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "lead",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:27.156662+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 2.0,
+        "volatility_index": 8.5,
+        "trend_direction": "bullish",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "High short-term volatility increases position risk and timing challenges"
+        ],
+        "opportunity_assessment": "neutral"
+      }
+    },
+    "battery_metals": {
+      "lithium": {
+        "commodity": "lithium",
+        "category": "battery_metals",
+        "consensus_performance": {
+          "commodity": "lithium",
+          "current_price": 71350.0,
+          "currency": "USD",
+          "unit": "USD/tonne",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": 0.0,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T16:01:40.495759+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "lithium",
+            "current_price": 71350.0,
+            "currency": "USD",
+            "unit": "USD/tonne",
+            "daily_change_abs": null,
+            "daily_change_pct": 0.0,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:35.664358+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "lithium",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/tonne",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:38.127650+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 0.0,
+        "volatility_index": 5.0,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "EV market volatility and rapid supply capacity additions"
+        ],
+        "opportunity_assessment": "neutral"
+      },
+      "cobalt": {
+        "commodity": "cobalt",
+        "category": "battery_metals",
+        "consensus_performance": {
+          "commodity": "cobalt",
+          "current_price": 33335.0,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": 0.0,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T16:01:52.311348+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "cobalt",
+            "current_price": 33335.0,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": 0.0,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:45.710828+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "cobalt",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:49.771897+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": 0.0,
+        "volatility_index": 5.0,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "EV market volatility and rapid supply capacity additions"
+        ],
+        "opportunity_assessment": "neutral"
+      }
+    },
+    "energy_metals": {
+      "uranium": {
+        "commodity": "uranium",
+        "category": "energy_metals",
+        "consensus_performance": {
+          "commodity": "uranium",
+          "current_price": 71.45,
+          "currency": "USD",
+          "unit": "USD/lb",
+          "daily_change_abs": -0.56,
+          "daily_change_pct": -0.15,
+          "weekly_change_abs": null,
+          "weekly_change_pct": null,
+          "monthly_change_abs": null,
+          "monthly_change_pct": null,
+          "ytd_change_abs": null,
+          "ytd_change_pct": null,
+          "yoy_change_abs": null,
+          "yoy_change_pct": null,
+          "last_update": "2025-08-04T16:02:02.495269+00:00",
+          "data_source": "",
+          "confidence_score": 0.2222222222222222,
+          "raw_data": null
+        },
+        "source_data": {
+          "trading_economics": {
+            "commodity": "uranium",
+            "current_price": 71.45,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": null,
+            "daily_change_pct": -0.15,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:55.808786+00:00",
+            "data_source": "trading_economics",
+            "confidence_score": 0.425,
+            "raw_data": null
+          },
+          "marketwatch": {
+            "commodity": "uranium",
+            "current_price": 66.77,
+            "currency": "USD",
+            "unit": "USD/lb",
+            "daily_change_abs": -0.56,
+            "daily_change_pct": null,
+            "weekly_change_abs": null,
+            "weekly_change_pct": null,
+            "monthly_change_abs": null,
+            "monthly_change_pct": null,
+            "ytd_change_abs": null,
+            "ytd_change_pct": null,
+            "yoy_change_abs": null,
+            "yoy_change_pct": null,
+            "last_update": "2025-08-04T16:01:59.425062+00:00",
+            "data_source": "marketwatch",
+            "confidence_score": 0.24,
+            "raw_data": null
+          }
+        },
+        "momentum_score": -0.1,
+        "volatility_index": 0.2,
+        "trend_direction": "neutral",
+        "support_resistance": {},
+        "investment_implications": [],
+        "risk_factors": [
+          "Political and regulatory changes affecting nuclear power development"
+        ],
+        "opportunity_assessment": "neutral"
+      }
+    }
+  },
+  "performance_rankings": {
+    "daily_performers": {
+      "best": [
+        {
+          "commodity": "nickel",
+          "category": "base_metals",
+          "change_pct": 47.0,
+          "change_abs": -0.56,
+          "current_price": 15067.13,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "zinc",
+          "category": "base_metals",
+          "change_pct": 23.5,
+          "change_abs": -0.56,
+          "current_price": 2756.35,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "lead",
+          "category": "base_metals",
+          "change_pct": 15.35,
+          "change_abs": -0.56,
+          "current_price": 1959.43,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "platinum",
+          "category": "precious_metals",
+          "change_pct": 1.6,
+          "change_abs": 72.89014,
+          "current_price": 6310.9,
+          "unit": "USD/oz"
+        },
+        {
+          "commodity": "copper",
+          "category": "base_metals",
+          "change_pct": 1.1922168,
+          "change_abs": 487.85,
+          "current_price": 6312.38,
+          "unit": "USD/lb"
+        }
+      ],
+      "worst": [
+        {
+          "commodity": "lithium",
+          "category": "battery_metals",
+          "change_pct": 0.0,
+          "change_abs": -0.56,
+          "current_price": 71350.0,
+          "unit": "USD/tonne"
+        },
+        {
+          "commodity": "cobalt",
+          "category": "battery_metals",
+          "change_pct": 0.0,
+          "change_abs": -0.56,
+          "current_price": 33335.0,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "uranium",
+          "category": "energy_metals",
+          "change_pct": -0.15,
+          "change_abs": -0.56,
+          "current_price": 71.45,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "palladium",
+          "category": "precious_metals",
+          "change_pct": -1.66,
+          "change_abs": 3.0,
+          "current_price": 1187.5,
+          "unit": "USD/oz"
+        },
+        {
+          "commodity": "aluminum",
+          "category": "base_metals",
+          "change_pct": -11.9,
+          "change_abs": -0.56,
+          "current_price": 2561.45,
+          "unit": "USD/lb"
+        }
+      ]
+    },
+    "weekly_performers": {
+      "best": [],
+      "worst": []
+    },
+    "monthly_performers": {
+      "best": [],
+      "worst": []
+    },
+    "ytd_performers": {
+      "best": [],
+      "worst": []
+    },
+    "yoy_performers": {
+      "best": [],
+      "worst": []
+    },
+    "momentum_leaders": {
+      "bullish": [
+        {
+          "commodity": "nickel",
+          "category": "base_metals",
+          "momentum_score": 2.0,
+          "trend_direction": "bullish",
+          "current_price": 15067.13,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "zinc",
+          "category": "base_metals",
+          "momentum_score": 2.0,
+          "trend_direction": "bullish",
+          "current_price": 2756.35,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "lead",
+          "category": "base_metals",
+          "momentum_score": 2.0,
+          "trend_direction": "bullish",
+          "current_price": 1959.43,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "platinum",
+          "category": "precious_metals",
+          "momentum_score": 0.6,
+          "trend_direction": "neutral",
+          "current_price": 6310.9,
+          "unit": "USD/oz"
+        },
+        {
+          "commodity": "gold",
+          "category": "precious_metals",
+          "momentum_score": 0.5,
+          "trend_direction": "neutral",
+          "current_price": 6311.98,
+          "unit": "USD/oz"
+        }
+      ],
+      "bearish": [
+        {
+          "commodity": "uranium",
+          "category": "energy_metals",
+          "momentum_score": -0.1,
+          "trend_direction": "neutral",
+          "current_price": 71.45,
+          "unit": "USD/lb"
+        },
+        {
+          "commodity": "palladium",
+          "category": "precious_metals",
+          "momentum_score": -0.7,
+          "trend_direction": "neutral",
+          "current_price": 1187.5,
+          "unit": "USD/oz"
+        },
+        {
+          "commodity": "aluminum",
+          "category": "base_metals",
+          "momentum_score": -2.0,
+          "trend_direction": "bearish",
+          "current_price": 2561.45,
+          "unit": "USD/lb"
+        }
+      ]
+    },
+    "opportunity_rankings": {
+      "attractive": [],
+      "contrarian": [],
+      "caution": [],
+      "avoid": []
+    }
+  },
+  "market_intelligence": {
+    "market_overview": {
+      "total_commodities_analyzed": 12,
+      "market_sentiment_distribution": {
+        "bullish": 3,
+        "bearish": 1,
+        "neutral": 8
+      },
+      "overall_market_sentiment": "bullish",
+      "high_momentum_commodities": 0,
+      "volatile_commodities": 9
+    },
+    "sector_analysis": {
+      "precious_metals": {
+        "commodities_count": 4,
+        "average_momentum_score": 0.2,
+        "average_volatility": 8.2,
+        "average_ytd_performance": 0,
+        "sector_outlook": "neutral"
+      },
+      "base_metals": {
+        "commodities_count": 5,
+        "average_momentum_score": 0.9,
+        "average_volatility": 9.9,
+        "average_ytd_performance": 0,
+        "sector_outlook": "neutral"
+      },
+      "battery_metals": {
+        "commodities_count": 2,
+        "average_momentum_score": 0.0,
+        "average_volatility": 5.0,
+        "average_ytd_performance": 0,
+        "sector_outlook": "neutral"
+      },
+      "energy_metals": {
+        "commodities_count": 1,
+        "average_momentum_score": -0.1,
+        "average_volatility": 0.2,
+        "average_ytd_performance": 0,
+        "sector_outlook": "neutral"
+      }
+    },
+    "cross_commodity_correlations": {
+      "precious_metals_cohesion": "Analyzing gold-silver correlation and precious metals trends",
+      "base_metals_industrial_proxy": "Base metals reflecting global industrial demand",
+      "battery_metals_ev_theme": "Lithium and cobalt driven by electric vehicle adoption",
+      "safe_haven_vs_cyclical": "Flight-to-quality vs. growth trade dynamics"
+    },
+    "macro_economic_implications": {
+      "signals_identified": [],
+      "inflation_indicators": "Analyzing precious metals and energy commodity trends",
+      "growth_indicators": "Monitoring base metals and industrial commodity demand",
+      "sentiment_indicators": "Safe-haven vs. risk-on asset performance"
+    },
+    "trading_opportunities": {
+      "identified_opportunities": [],
+      "market_timing_considerations": "Monitor key support/resistance levels and momentum shifts",
+      "risk_management_notes": "Use position sizing and stop-losses given commodity volatility"
+    },
+    "risk_assessment": {
+      "high_volatility_commodities": [
+        "gold",
+        "silver",
+        "platinum",
+        "palladium",
+        "nickel",
+        "zinc",
+        "aluminum",
+        "lead"
+      ],
+      "market_risks": [
+        "Dollar strength pressuring commodity prices",
+        "Central bank policy changes affecting liquidity",
+        "Geopolitical tensions creating supply disruptions",
+        "Economic slowdown reducing demand"
+      ],
+      "commodity_specific_risks": "Individual commodity risk factors identified in detailed analysis"
+    },
+    "outlook_summary": {
+      "positive_sectors": [],
+      "challenging_sectors": [],
+      "key_themes": [
+        "EV transition driving battery metals demand",
+        "Inflation hedge demand supporting precious metals",
+        "Global manufacturing cycle affecting base metals",
+        "Energy transition impacting uranium and critical materials"
+      ],
+      "market_outlook": "bullish"
+    }
+  },
+  "data_sources_used": {
+    "kitco": {
+      "display_name": "Kitco.com",
+      "specialties": [
+        "precious_metals"
+      ],
+      "total_requests": 4,
+      "successful_requests": 4,
+      "failed_requests": 0,
+      "success_rate": 1.0,
+      "average_response_time": 0.22,
+      "commodities_scraped": [
+        "silver",
+        "platinum",
+        "gold",
+        "palladium"
+      ]
+    },
+    "trading_economics": {
+      "display_name": "Trading Economics",
+      "specialties": [
+        "all_commodities"
+      ],
+      "total_requests": 12,
+      "successful_requests": 12,
+      "failed_requests": 0,
+      "success_rate": 1.0,
+      "average_response_time": 0.08,
+      "commodities_scraped": [
+        "silver",
+        "zinc",
+        "uranium",
+        "aluminum",
+        "cobalt",
+        "platinum",
+        "palladium",
+        "nickel",
+        "copper",
+        "lithium",
+        "gold",
+        "lead"
+      ]
+    },
+    "marketwatch": {
+      "display_name": "MarketWatch Commodities",
+      "specialties": [
+        "all_commodities"
+      ],
+      "total_requests": 12,
+      "successful_requests": 12,
+      "failed_requests": 0,
+      "success_rate": 1.0,
+      "average_response_time": 0.13,
+      "commodities_scraped": [
+        "silver",
+        "zinc",
+        "uranium",
+        "aluminum",
+        "cobalt",
+        "platinum",
+        "palladium",
+        "nickel",
+        "copper",
+        "lithium",
+        "gold",
+        "lead"
+      ]
+    },
+    "yahoo_finance": {
+      "display_name": "Yahoo Finance Commodities",
+      "specialties": [
+        "all_commodities"
+      ],
+      "total_requests": 5,
+      "successful_requests": 5,
+      "failed_requests": 0,
+      "success_rate": 1.0,
+      "average_response_time": 0.47,
+      "commodities_scraped": [
+        "silver",
+        "platinum",
+        "palladium",
+        "copper",
+        "gold"
+      ]
+    }
+  },
+  "performance_log": [
+    {
+      "source": "kitco",
+      "commodity": "gold",
+      "url": "https://www.kitco.com/gold-price-today-usa/",
+      "success": true,
+      "response_time": 0.29170727729797363,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:57:53.967186+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "gold",
+      "url": "https://tradingeconomics.com/commodity/gold",
+      "success": true,
+      "response_time": 0.21399593353271484,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:57:58.044961+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "gold",
+      "url": "https://www.marketwatch.com/investing/future/gold",
+      "success": true,
+      "response_time": 0.15812921524047852,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:00.614808+00:00"
+    },
+    {
+      "source": "yahoo_finance",
+      "commodity": "gold",
+      "url": "https://finance.yahoo.com/quote/GC=F",
+      "success": true,
+      "response_time": 0.31963634490966797,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:03.245504+00:00"
+    },
+    {
+      "source": "kitco",
+      "commodity": "silver",
+      "url": "https://www.kitco.com/silver-price-today-usa/",
+      "success": true,
+      "response_time": 0.21730828285217285,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:09.576044+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "silver",
+      "url": "https://tradingeconomics.com/commodity/silver",
+      "success": true,
+      "response_time": 0.08748269081115723,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:12.281764+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "silver",
+      "url": "https://www.marketwatch.com/investing/future/silver",
+      "success": true,
+      "response_time": 0.1870720386505127,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:14.656204+00:00"
+    },
+    {
+      "source": "yahoo_finance",
+      "commodity": "silver",
+      "url": "https://finance.yahoo.com/quote/SI=F",
+      "success": true,
+      "response_time": 0.6216833591461182,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:18.233160+00:00"
+    },
+    {
+      "source": "kitco",
+      "commodity": "platinum",
+      "url": "https://www.kitco.com/platinum-price-today-usa/",
+      "success": true,
+      "response_time": 0.20436906814575195,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:27.123131+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "platinum",
+      "url": "https://tradingeconomics.com/commodity/platinum",
+      "success": true,
+      "response_time": 0.06775403022766113,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:30.645735+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "platinum",
+      "url": "https://www.marketwatch.com/investing/future/platinum",
+      "success": true,
+      "response_time": 0.3053450584411621,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:34.170802+00:00"
+    },
+    {
+      "source": "yahoo_finance",
+      "commodity": "platinum",
+      "url": "https://finance.yahoo.com/quote/PL=F",
+      "success": true,
+      "response_time": 0.6853060722351074,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:38.765709+00:00"
+    },
+    {
+      "source": "kitco",
+      "commodity": "palladium",
+      "url": "https://www.kitco.com/palladium-price-today-usa/",
+      "success": true,
+      "response_time": 0.1652541160583496,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:45.261575+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "palladium",
+      "url": "https://tradingeconomics.com/commodity/palladium",
+      "success": true,
+      "response_time": 0.055294036865234375,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:47.345180+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "palladium",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.15342402458190918,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:50.654073+00:00"
+    },
+    {
+      "source": "yahoo_finance",
+      "commodity": "palladium",
+      "url": "https://finance.yahoo.com/quote/PA=F",
+      "success": true,
+      "response_time": 0.45569944381713867,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:58:54.130406+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "copper",
+      "url": "https://tradingeconomics.com/commodity/copper",
+      "success": true,
+      "response_time": 0.06127572059631348,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:59:21.482381+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "copper",
+      "url": "https://www.marketwatch.com/investing/future/copper",
+      "success": true,
+      "response_time": 0.2594785690307617,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:59:24.878776+00:00"
+    },
+    {
+      "source": "yahoo_finance",
+      "commodity": "copper",
+      "url": "https://finance.yahoo.com/quote/HG=F",
+      "success": true,
+      "response_time": 0.28178834915161133,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:59:27.746896+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "nickel",
+      "url": "https://tradingeconomics.com/commodity/nickel",
+      "success": true,
+      "response_time": 0.0968930721282959,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:59:52.770716+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "nickel",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.06871366500854492,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T15:59:55.585676+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "zinc",
+      "url": "https://tradingeconomics.com/commodity/zinc",
+      "success": true,
+      "response_time": 0.07574939727783203,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:00:26.506550+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "zinc",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.08669543266296387,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:00:29.321089+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "aluminum",
+      "url": "https://tradingeconomics.com/commodity/aluminum",
+      "success": true,
+      "response_time": 0.06032705307006836,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:00:54.415601+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "aluminum",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.07750439643859863,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:00:58.808750+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "lead",
+      "url": "https://tradingeconomics.com/commodities",
+      "success": true,
+      "response_time": 0.06426477432250977,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:24.161940+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "lead",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.06920552253723145,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:27.156677+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "lithium",
+      "url": "https://tradingeconomics.com/commodity/lithium",
+      "success": true,
+      "response_time": 0.07086873054504395,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:35.664372+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "lithium",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.07812619209289551,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:38.127664+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "cobalt",
+      "url": "https://tradingeconomics.com/commodity/cobalt",
+      "success": true,
+      "response_time": 0.07206988334655762,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:45.710842+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "cobalt",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.06324243545532227,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:49.771912+00:00"
+    },
+    {
+      "source": "trading_economics",
+      "commodity": "uranium",
+      "url": "https://tradingeconomics.com/commodity/uranium",
+      "success": true,
+      "response_time": 0.0563504695892334,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:55.808800+00:00"
+    },
+    {
+      "source": "marketwatch",
+      "commodity": "uranium",
+      "url": "https://www.marketwatch.com/investing/futures",
+      "success": true,
+      "response_time": 0.05937600135803223,
+      "data_quality": "medium",
+      "timestamp": "2025-08-04T16:01:59.425076+00:00"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "session_overview": {
+      "total_commodities_attempted": 12,
+      "commodities_with_data": 12,
+      "data_coverage_rate": 1.0,
+      "total_duration_seconds": 252.855056,
+      "errors_encountered": 0
+    },
+    "data_quality_metrics": {
+      "high_confidence_data_points": 0,
+      "time_series_coverage": {
+        "daily": 12,
+        "weekly": 0,
+        "monthly": 0,
+        "ytd": 0,
+        "yoy": 0
+      },
+      "data_sources_utilized": 4,
+      "consensus_prices_calculated": 12
+    },
+    "performance_metrics": {
+      "total_requests_made": 33,
+      "successful_requests": 33,
+      "request_success_rate": 1.0,
+      "average_response_time": 0.18,
+      "rate_limiting_encountered": 0,
+      "bot_detection_encountered": 0
+    },
+    "key_findings": [
+      "Overall commodity market sentiment: bullish"
+    ],
+    "recommendations": [
+      "Consider additional data sources to improve confidence scores"
+    ]
+  },
+  "scraping_completed": "2025-08-04T16:02:06.530341+00:00",
+  "total_duration": 252.855056
+}

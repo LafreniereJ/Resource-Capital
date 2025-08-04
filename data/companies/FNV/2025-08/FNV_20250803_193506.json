@@ -1,0 +1,60 @@
+{
+  "company_info": {
+    "name": "Franco-Nevada Corporation",
+    "ticker": "FNV",
+    "exchange": "TSX",
+    "sector": "Gold"
+  },
+  "scraped_at": "2025-08-03T19:33:25.706746",
+  "stock_data": {
+    "ticker": "FNV",
+    "price": null,
+    "change": null,
+    "change_percent": null,
+    "volume": null,
+    "market_cap": "4",
+    "pe_ratio": null,
+    "52_week_range": null,
+    "url": "https://finance.yahoo.com/quote/FNV.TO",
+    "scraped_at": "2025-08-03T19:33:28.803798",
+    "scraper_used": "crawl4ai"
+  },
+  "financial_data": {},
+  "operational_data": {},
+  "news_updates": {},
+  "filings": {
+    "sedar_filings": {},
+    "sec_filings": {},
+    "search_attempts": [
+      {
+        "system": "SEDAR",
+        "status": "attempted",
+        "note": "SEDAR search requires company-specific implementation"
+      }
+    ]
+  },
+  "website_data": {
+    "domains_tried": [
+      "https://www.franco.com",
+      "https://www.francomining.com",
+      "https://www.franco.com",
+      "https://franco.com"
+    ],
+    "successful_scrapes": {
+      "https://www.franco.com": {
+        "content_length": 17244,
+        "word_count": 1551,
+        "title": "",
+        "extracted_info": {
+          "company_description": "com/#what-new)\n**Franco is a 100% women-owned and led full-service integrated communications agency founded in 1964.**\nOur rich history as a Detroit-based PR firm in Michigan has given us the opportunity to shape some of the region’s most iconic brands and develop strategic B2B and B2C programs for clients in a variety of industries with a local, national and global reach.",
+          "operations": [],
+          "recent_news": [],
+          "financial_highlights": {},
+          "contact_info": {}
+        },
+        "scraped_at": "2025-08-03T19:33:33.142504"
+      }
+    },
+    "failed_attempts": []
+  }
+}

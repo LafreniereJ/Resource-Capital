@@ -1,0 +1,76 @@
+JUNIOR MINING NETWORK SCRAPING REPORT
+==================================================
+
+Date: 2025-08-04 07:33:23
+Target Sites: 3
+Successful: 3
+Success Rate: 100.0%
+
+RESULTS SUMMARY:
+- Companies Found: 57
+- News Items: 40
+- Data Quality Score: 60/100
+- Duration: 11.6s
+
+TOP COMPANIES FOUND:
+ 1. Vista Gold Confirms Strong Economics for Mt Todd Gold (TREND) - 1 source(s)
+ 2. Legacy Gold Mines Receives Drilling Permits for Baner Gold (MRE) - 1 source(s)
+ 3. Majestic Gold (GOLD) - 1 source(s)
+ 4. Signature Resources (ARTG) - 1 source(s)
+ 5. LEARN MORE 
+
+
+
+Vizsla Silver
+
+
+Vizsla Silver (TREO) - 1 source(s)
+ 6. Drill Results			                    
+
+
+
+			                        Copper			                    
+
+
+
+			                        Chile			                    
+
+
+
+
+
+
+
+
+
+
+
+
+Vista Gold Confirms Strong Economics for Mt Todd Gold (IRR) - 1 source(s)
+ 7. Idaho Strategic Resources (KDK) - 2 source(s)
+ 8. Details							
+
+
+
+									Maxus Mining (ALL) - 2 source(s)
+ 9. Capstone Copper (ASX) - 2 source(s)
+10. Golden Triangle
+
+
+
+
+
+Pan Global Resources (FDN) - 1 source(s)
+
+TOP NEWS HEADLINES:
+ 1. Benz Mining: 200m+ Gold Intercepts Support Glenburgh's Emergence as a Major Gold... (score: 9)
+ 2. Phenom Resources Reports First Gold Assays from Bedrock Sampling from the Dobbin... (score: 8)
+ 3. Mithril Silver And Gold Continues to Deliver High-Grade Silver-Gold Results from... (score: 8)
+ 4. Dryden Gold Reports High-Grade Drill Results and More Visible Gold... (score: 8)
+ 5. St Augustine Gold & Copper Announces Positive Results of the Kingking Copper-Gol... (score: 8)
+ 6. Torex Gold Resources to Acquire Prime Mining... (score: 8)
+ 7. Legacy Gold Mines Receives Drilling Permits for Baner Gold Property in Central I... (score: 8)
+ 8. Independence Gold Intersects 52.46 Metres Grading 2.51 g/t Gold and 19.73 g/t Si... (score: 7)
+ 9. Stellar AfricaGold Summer Drill Program Begins at High-Grade Gold Target at Tich... (score: 7)
+10. Sranan Gold Samples Additional High-Grade Gold Mineralization at the Tapanahony ... (score: 7)
+

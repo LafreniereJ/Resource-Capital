@@ -1,0 +1,70 @@
+{
+  "company_info": {
+    "name": "Teck Resources Limited",
+    "ticker": "TECK.B",
+    "exchange": "TSX",
+    "sector": "Diversified Mining"
+  },
+  "scraped_at": "2025-08-03T19:44:54.784020",
+  "stock_data": {
+    "ticker": "TECK.B",
+    "price": null,
+    "change": null,
+    "change_percent": null,
+    "volume": null,
+    "market_cap": "4",
+    "pe_ratio": null,
+    "52_week_range": null,
+    "url": "https://finance.yahoo.com/quote/TECK.B.TO",
+    "scraped_at": "2025-08-03T19:44:57.176331",
+    "scraper_used": "crawl4ai"
+  },
+  "financial_data": {},
+  "operational_data": {},
+  "news_updates": {},
+  "filings": {
+    "sedar_filings": {},
+    "sec_filings": {},
+    "search_attempts": [
+      {
+        "system": "SEDAR",
+        "status": "attempted",
+        "note": "SEDAR search requires company-specific implementation"
+      }
+    ]
+  },
+  "website_data": {
+    "domains_tried": [
+      "https://www.teck.com",
+      "https://www.teckmining.com",
+      "https://www.teck.com",
+      "https://teck.com"
+    ],
+    "successful_scrapes": {
+      "https://www.teck.com": {
+        "content_length": 50608,
+        "word_count": 3692,
+        "title": "",
+        "extracted_info": {
+          "company_description": "com/about/)\n##### About\n### Get to Know Us\nWe are a leading Canadian resource company focused on responsibly providing the metals essential for global development and the energy transition while caring for the people, communities and land that we love.\n[ Go to About / ](https://www.",
+          "operations": [
+            "Sullivan Mine](https://www.",
+            "is a large copper and zinc mine, located in the Andes mountain range of Peru.",
+            "is a large copper and zinc mine, located in the Andes mountain range of Peru.",
+            "s\n    * [HVC Mine Life Extension Project](https://www.",
+            "s/hvc-mine-life-extension-project/)\n    * [Galore Creek Project](https://www.",
+            "s/galore-creek-project/)\n[Legacy](https://www.",
+            "s/)\n##### Operations\n### Our Operations and Projects\nTeck is a leading Canadian resource company committed to responsible mining and mineral development, with world-class copper and zinc operations and an industry-leading copper growth portfolio.",
+            "s/canada/operations/highland-valley-copper/)\n    * [Trail Operations](https://www.",
+            "s/canada/operations/trail-operations/)\nProjects\n    * [HVC Mine Life Extension Project](https://www."
+          ],
+          "recent_news": [],
+          "financial_highlights": {},
+          "contact_info": {}
+        },
+        "scraped_at": "2025-08-03T19:44:59.381292"
+      }
+    },
+    "failed_attempts": []
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "session_start": "2025-08-04 07:04:45.263260",
+  "session_end": "2025-08-04 07:05:09.788060",
+  "total_sites_scraped": 10,
+  "successful_scrapes": 9,
+  "failed_scrapes": 1,
+  "total_articles_found": 44,
+  "key_insights": [
+    "Newmont was mentioned most frequently across mining news sources",
+    "Gold was the most discussed commodity",
+    "Successfully scraped 9 out of 10 mining news sources (90.0% success rate)",
+    "Collected approximately 44 mining industry articles and news items",
+    "Session completed in 24.5 seconds"
+  ],
+  "raw_data": [
+    {
+      "source": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/",
+      "title": "BNN Bloomberg - Canada Business News, TSX Today, Oil and Energy Prices",
+      "content_length": 5706,
+      "word_count": 851,
+      "response_time": 0.10588288307189941,
+      "scraped_at": "2025-08-04T07:04:45.445013",
+      "relevance_score": 10,
+      "article_count": 4,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "gold",
+        "copper",
+        "lead"
+      ],
+      "mining_keywords_found": [
+        "mining",
+        "mine",
+        "ore",
+        "production"
+      ],
+      "headlines": [
+        "VideoCanada will be spared from 50% copper tariff as U.",
+        "Boeing workers who build fighter jets plan to go on strike14hrs agoOPEC+ countries to boost oil production by 547,000 barrels per day16hrs agoWhy this Canadian destination is seeing a ‘tourism upswing’ 18hrs agoFar-right extremists recruit over gaming platforms, researchers say 21hrs agoTrade WarCanada’s economy is showing ‘resilience’ against U.",
+        "Hershey and other chocolate makers hike prices as cocoa remains near record highsVideoCariboo Gold Project highlights importance of mining in tough economic times: CEO \n\n\n\n\n\nTrack the stocks in your portfolio by clicking the magnifying glass at the top of this page.",
+        "China, expert saysTrump shocks markets with scaled-back copper tariff, U."
+      ],
+      "financial_data": [],
+      "content_preview": "Opens in new windowTrade war recap: Canada could walk away from U.S. negotiations, advisor saysOpens in new window\n\nOpens in new windowNo trade deal with U.S. better than a bad one: Canadian business groupsOpens in new window\n\nOpens in new windowHere are the tariffs currently active in the U.S.-Canada trade warOpens in new window\n\nOpens in new windowTrump fires U.S. Labour Department’s statistical leader after weaker than expected jobs reportOpens in new window\n\nOpens in new windowHere’s who’s appearing on BNN Bloomberg Market Call  the week of August 4-8Opens in new window\n\nOpens in new windowCanada in ‘no man’s land’ as new U.S. tariffs take effect, former foreign minister warns Opens in new window\n\nOpens in new windowCanada’s economy is showing ‘resilience’ against U.S. tariffs. Why?Opens in new window\n\nOpens in new windowFar-right extremists recruit over gaming platforms, researchers say Opens in new window\n\nBrazil vows to fight Trump tariff ‘injustice’Brazil vowed Thursday to comb..."
+    },
+    {
+      "source": "BNN Bloomberg TSX",
+      "url": "https://www.bnnbloomberg.ca/markets/tsx/",
+      "title": "TSX – Stock Price, Charts and News Today – BNN Bloomberg",
+      "content_length": 125,
+      "word_count": 9,
+      "response_time": 0.08479428291320801,
+      "scraped_at": "2025-08-04T07:04:47.559179",
+      "relevance_score": 5,
+      "article_count": 1,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "gold"
+      ],
+      "mining_keywords_found": [
+        "ore",
+        "TSX",
+        "TSXV"
+      ],
+      "headlines": [
+        "Skip to main contentADVERTISEMENTMarketsTSXVentureS&P 500NASDAQ DOWCurrenciesOilGoldCrypto"
+      ],
+      "financial_data": [],
+      "content_preview": "Skip to main contentADVERTISEMENTMarketsTSXVentureS&P 500NASDAQ DOWCurrenciesOilGoldCrypto\n\nSponsored by\n\n\n\n\n\n\n\nADVERTISEMENT"
+    },
+    {
+      "source": "BNN Bloomberg Gold",
+      "url": "https://www.bnnbloomberg.ca/markets/gold/",
+      "title": "Gold – Stock Price, Charts and News Today – BNN Bloomberg",
+      "content_length": 123,
+      "word_count": 9,
+      "response_time": 0.12090682983398438,
+      "scraped_at": "2025-08-04T07:04:49.708884",
+      "relevance_score": 5,
+      "article_count": 1,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "gold"
+      ],
+      "mining_keywords_found": [
+        "ore",
+        "TSX",
+        "TSXV"
+      ],
+      "headlines": [
+        "Skip to main contentADVERTISEMENTMarketsTSXVentureS&P 500NASDAQ DOWCurrenciesOilGoldCrypto"
+      ],
+      "financial_data": [],
+      "content_preview": "Skip to main contentADVERTISEMENTMarketsTSXVentureS&P 500NASDAQ DOWCurrenciesOilGoldCrypto\n\nSponsored by\n\n\n\n\n\nADVERTISEMENT"
+    },
+    {
+      "source": "Financial Post Canadian Economy",
+      "url": "https://financialpost.com/tag/canadian-economy/",
+      "title": "Canadian-Economy | Financial Post",
+      "content_length": 17137,
+      "word_count": 2699,
+      "response_time": 0.1589500904083252,
+      "scraped_at": "2025-08-04T07:04:52.090148",
+      "relevance_score": 3,
+      "article_count": 1,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "lead"
+      ],
+      "mining_keywords_found": [
+        "ore"
+      ],
+      "headlines": [
+        "Federal deficit estimated to hit $46 billion in 2024-25: PBO Higher revenues are mainly due to higher corporate income tax revenues and retaliatory tariffs     with Video 11 Comments  June 19, 2025    News    You can save this article by registering for free here."
+      ],
+      "financial_data": [
+        "annual",
+        "year-over-year",
+        "revenue",
+        "$46 billion"
+      ],
+      "content_preview": "Bank of Canada rate cut in September looks unlikely, say these economists There are three remaining opportunities for the Bank of Canada to make a move on rates this year     with Video 10 Comments  Economy\n\nRetail sales bounced back in June to end weak quarter: Statistics Canada     with Video   Retail & Marketing\n\nPremiers to meet with Indigenous groups on first day of three-day Ontario gathering     with Video   News\n\nAlberta's economy is expected to outperform this year, but young people are still struggling to find work Outside of the pandemic, Alberta's job market hasn't been this bad for people under 25 since the downturn of the early 1990s 33 Comments  July 11, 2025    Economy    You can save this article by registering for free here. Or sign-in if you have an account.\n\nAdvertisement 2Stories continue belowThis advertisement has not loaded yet, but your article continues below.\n\nPBO urges Carney to show numbers as spending climbs Yves Giroux said it’s 'appropriate and necessary..."
+    },
+    {
+      "source": "Reuters Canada",
+      "url": "https://www.reuters.com/world/canada/",
+      "title": "Canada News | Today's Latest Stories | Reuters",
+      "content_length": 4513,
+      "word_count": 656,
+      "response_time": 0.1811068058013916,
+      "scraped_at": "2025-08-04T07:04:54.337851",
+      "relevance_score": 4,
+      "article_count": 3,
+      "companies_mentioned": [],
+      "commodities_mentioned": [],
+      "mining_keywords_found": [
+        "ore",
+        "reserve",
+        "TSX",
+        "earnings"
+      ],
+      "headlines": [
+        "August 1, 2025TSX posts biggest decline since April as US jobs data spooks investorsCanada's main stock index fell for a third straight day on Friday as investors weighed disappointing U.",
+        "July 31, 2025TSX pares monthly gain as tech and energy shares fallCanada's main stock index gave back on Thursday some of its monthly gain, with energy and technology shares declining as investors assessed corporate earnings and uncertain prospects for a trade deal between Canada and the United States.",
+        "Latest StoriesEnglishcategory· agoCanadian ministers to discuss trade with Mexico's Sheinbaum, The Globe and Mail reportsCanadian government ministers are set to engage in discussions on trade with Mexican President Claudia Sheinbaum and other government officials, The Globe and Mail reported on Sunday."
+      ],
+      "financial_data": [
+        "quarterly",
+        "earnings"
+      ],
+      "content_preview": "Latest StoriesEnglishcategory· agoCanadian ministers to discuss trade with Mexico's Sheinbaum, The Globe and Mail reportsCanadian government ministers are set to engage in discussions on trade with Mexican President Claudia Sheinbaum and other government officials, The Globe and Mail reported on Sunday.Americascategory· agoTrump, Carney to speak in coming days, Canadian official saysU.S. President Donald Trump and Canadian Prime Minister Mark Carney will likely talk \"over the next number of days\" after the U.S. imposed a 35% tariff on goods not covered by the U.S.-Mexico-Canada trade agreement, a Canadian official said on Sunday.Americascategory·August 1, 2025Canada working with US to deal with countries slow to accept deportees, document showsCanada is working with the United States to \"deal with\" countries reluctant to accept deportees as both nations increase efforts to ship migrants back to their home countries, according to a government document seen by Reuters.August 1, 2025Const..."
+    },
+    {
+      "source": "Mining.com",
+      "url": "https://www.mining.com/",
+      "title": "MINING.COM - No 1 source of global mining news and opinion",
+      "content_length": 3903,
+      "word_count": 443,
+      "response_time": 0.5944266319274902,
+      "scraped_at": "2025-08-04T07:04:57.027137",
+      "relevance_score": 13,
+      "article_count": 6,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "gold",
+        "copper",
+        "nickel",
+        "lithium"
+      ],
+      "mining_keywords_found": [
+        "mining",
+        "mine",
+        "miner",
+        "ore",
+        "reserve"
+      ],
+      "headlines": [
+        "Goldman told clients to go long copper a day before price plunge",
+        "July 23, 2025 | 08:00 am\n\n\r\n                                Lab-grown gems put squeeze on diamond mining industry                            \n\n\n\r\n                                Cheap man-made diamonds are making life harder for miners, flooding the market with gems nearly indistinguishable from natural ones.",
+        "July 17, 2025 | 03:35 am\n\n\r\n                                Burgundy halts Ekati pit mining, lays off hundreds                            \n\n\n\r\n                                Ekati’s Misery underground diamond mine, located roughly 2 km from Point Lake in Canada's Northwest Territories will continue to operate.",
+        "August 03, 2025 | 09:05 am\n\n\r\n                            Australia’s PLS primed for growth as lithium winter starts to thaw                        \n\n\n\r\n                            Australian lithium producer says a price recovery is a matter of when, not if, and…\n\nAugust 01, 2025 | 11:55 am\n\n\r\n                            Ivanhoe’s Friedland raises Kamoa-Kakula cost outlook                        \n\n\n\r\n                            “Management’s goal is to return Kamoa-Kakula to similar throughputs as previously planned by 2027,\" analyst…\n\nAugust 01, 2025 | 02:28 pm\n\n\r\n                            Canada’s Sudbury, Voisey’s Bay expansions boost Vale nickel, copper output                        \n\n\n\r\n                            Nickel sales drove base metals revenues to $1 billion, a 15% rise, as copper revenues…\n\nJuly 29, 2025 | 01:38 pm\n\n\r\n                            Timeline: Inside Mali’s high-stakes gold dispute with Barrick\n\nJuly 25, 2025 | 10:43 am\n\n\r\n                            EnergyX CEO Teague Egan on the race to US lithium\n\nAugust 01, 2025 | 11:08 am\n\n\r\n                            Mining Metrics: Fed pause, copper crash & gold’s next move — Bloomberg’s Mike McGlone breaks it down\n\nStaff Writer | July 4, 2025 | 9:01 am\n\n\r\n                                    Northern Dynasty in talks to settle EPA litigation, shares hit 5-year high\n\nCecilia Jamasmie | July 14, 2025 | 3:11 am\n\n\r\n                                    Lockheed Martin reboots Pacific seabed mining plans\n\nStaff Writer | July 7, 2025 | 8:55 am\n\n\r\n                                    Barrick’s Twiga JV marks five years of growth Tanzania\n\nJuly 31, 2025 | 06:00 am\n\n\r\n                                EnergyX expands US Smackover acreage to cut lithium costs                            \n\n\n\r\n                                EnergyX’s latest acquisition places it among heavyweights in the region.",
+        "Goldman suggested clients buy September calls with a $6.25 strike price – about 11% above…",
+        "August 01, 2025 | 04:54 pm\n\n\r\n                            Goldman told clients to go long copper a day before price plunge                        \n\n\n\r\n                            Goldman suggested clients buy September calls with a $6."
+      ],
+      "financial_data": [
+        "$1.6 million",
+        "$1 billion",
+        "revenue"
+      ],
+      "content_preview": "August 03, 2025 | 03:49 pm\n\n\r\n                            Codelco says all five trapped workers at El Teniente mine have died                        \n\n\n\r\n                            Codelco said the identity of the victim, the second one so far, must still be confirmed by authorities.\n\nAugust 01, 2025 | 04:54 pm\n\n\r\n                            Goldman told clients to go long copper a day before price plunge                        \n\n\n\r\n                            Goldman suggested clients buy September calls with a $6.25 strike price – about 11% above…\n\nAugust 01, 2025 | 02:52 pm\n\n\r\n                            Site visit: Unearthing buffalo spirit stones in Alberta’s Bearpaw Formation                        \n\n\n\r\n                            The only known ammonite reserves in the world are in the Bearpaw Formation.\n\nAugust 03, 2025 | 09:05 am\n\n\r\n                            Australia’s PLS primed for growth as lithium winter starts to thaw                        \n\n\n\r\n                      ..."
+    },
+    {
+      "source": "Canadian Mining Journal",
+      "url": "https://www.canadianminingjournal.com/",
+      "title": "Canadian Mining Journal - Canada's First Mining Publication",
+      "content_length": 9122,
+      "word_count": 1077,
+      "response_time": 0.8374145030975342,
+      "scraped_at": "2025-08-04T07:05:02.222608",
+      "relevance_score": 27,
+      "article_count": 16,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "gold",
+        "silver",
+        "copper",
+        "platinum",
+        "palladium",
+        "nickel",
+        "uranium",
+        "lithium",
+        "cobalt"
+      ],
+      "mining_keywords_found": [
+        "mining",
+        "mine",
+        "miner",
+        "exploration",
+        "deposit",
+        "resource",
+        "production",
+        "TSX",
+        "TSXV"
+      ],
+      "headlines": [
+        "The 2024 ranking of the Top 40 Canadian mining and metals companies by total revenue…",
+        "Electra Battery Materials (NASDAQ: ELBM; TSX-V: ELBM) reported the initiation of metallurgical testing on cobalt…",
+        "Gold-fueled growth: Top 40 miners raked in $176 billion in 2024",
+        "SeisWare develops interpretation […]\n\nJuly 31, 2025 | 5:57 pm                        \n\n\r\n                                Aventis launches KorrAI tech program at Corvo uranium project                            \n\n\n\r\n                                    Aventis Energy (CSE:AVE; OTC: VBAMF) announced the launch of its KorrAI technology program in partnership…\n\nJuly 31, 2025 | 12:59 pm                        \n\n\r\n                                JV article: Rackla drills Grad project in Far North                            \n\n\n\r\n                                    After discovering several precious metals deposits in Central America and Mexico, four of which became…\n\nJuly 31, 2025 | 9:46 am                        \n\n\r\n                                TNM Podcast: Bull market in ‘real things’, ft CPM’s Christian on silver, platinum, palladium                            \n\n\n\r\n                                    This week’s episode features Jeffrey Christian, managing partner at CPM Group, in conversation with host Adrian Pocobelli.",
+        "What is driving the surge in 2024–2025 mining megadeals\n\nJuly 29, 2025 | 9:41 am                            \nCanada makes mark on global lithium stage with two top projects\n\nJuly 31, 2025 | 7:24 pm                                            \n Gold-fueled growth: Top 40 miners raked in $176 billion in 2024\n\nJuly 31, 2025 | 6:11 pm                                            \n Electra kicks off North American feedstock evaluation for cobalt refinery\n \nElectra Battery Materials (NASDAQ: ELBM; TSX-V: ELBM) reported the initiation of metallurgical testing on cobalt…\n\nJuly 30, 2025 | 2:20 pm                                            \n People of the Rock: Inuit miners at Rankin nickel mine\n \nThe opening scene of the National Film Board documentary “People of the Rock” tells the…\n\nJuly 30, 2025 | 9:37 am                                            \n Why the rush?",
+        "The Vitória Water…\n\nJuly 28, 2025 | 7:14 pm                                        \nLiebherr to deliver 130 crawler tractors to Turkey’s DSİ in major infrastructure deal\n\nLiebherr Turkey has finalized a major equipment deal with Turkey’s General Directorate of State Hydraulic…\n\nJuly 24, 2025 | 7:54 pm                                        \nGeologicAI secures $44M to advance AI-driven mineral discovery\n\nMajor mining companies back Canadian firm’s global expansion GeologicAI, a Canadian company specializing in artificial…\n\nJuly 31, 2025 | 9:29 pm                            \nTop 40 mining firms show resilience amid global uncertainty\n\nJuly 31, 2025 | 7:24 pm                            \nGold-fueled growth: Top 40 miners raked in $176 billion in 2024\n\nJuly 30, 2025 | 2:20 pm                            \nPeople of the Rock: Inuit miners at Rankin nickel mine\n\nJuly 30, 2025 | 9:37 am                            \nWhy the rush?",
+        "Goldboro                            \n\n\n\r\n                                    NexGold (TSXV: NEXG; OTCQX: NXGCF) announced new drill results from its 26,854-metre program at the…\n\nJuly 29, 2025 | 9:23 pm                        \n\n\r\n                                Veolia sets new standard for large-scale water reuse in Brazil                            \n\n\n\r\n                                    Veolia’s innovative technologies are establishing a benchmark for water reuse in Brazil.",
+        "Osisko Development (NYSE: ODV, TSXV: ODV) announced it has struck a deal with a syndicate of underwriters led by BMO Capital Markets […]",
+        "From January 2024 to mid-2025, mining companies…\n\nMarch 13, 2025 | 11:46 am                        \nNexGold announces positive feasibility study update for Goliath gold complex\n\nJanuary 23, 2025 | 3:53 pm                        \nFortuna reports record production of precious metals in 2024, provides exploration outlook for 2025\n\nOctober 2, 2024 | 1:34 pm                        \nKomatsu launches new medium-sized ZJ32 face drill and ZB31 bolter\n\nJune 11, 2024 | 3:11 pm                        \nMagna Mining awards Crean Hill advanced exploration contract to ADLP\n\nApril 30, 2024 | 2:12 pm                        \nImperial intersects 270 metres of 0.",
+        "Mount Polley\n\nMarch 25, 2024 | 9:00 am                        \nJV Video: GeologicAI rethinks mining data and cuts carbon emissions\n\nFebruary 26, 2024 | 11:14 am                        \nLegacy uses AI to discover platinum in Australia\n\nJanuary 18, 2024 | 2:24 pm                        \nImperial’s Mount Polley produced over 30 million lb."
+      ],
+      "financial_data": [
+        "$100M",
+        "$1 million",
+        "$44M",
+        "$176 billion",
+        "$195M",
+        "revenue",
+        "$15M"
+      ],
+      "content_preview": "July 31, 2025 | 7:20 pm                \n\n\r\n                        Osisko raises US$195M to advance Cariboo gold project                    \n\n\n\r\n                            Osisko Development (NYSE: ODV, TSXV: ODV) announced it has struck a deal with a syndicate of underwriters led by BMO Capital Markets […]\n\nJuly 31, 2025 | 5:44 pm                        \n\n\r\n                                Mining People: Aventis Energy, Discovery Silver, Mines D’Or Orbec, Copper Giant Resources, New Age Metals, Thesis Gold                            \n\n\n\r\n                                    Management changes announced this week: Almonty Industries announced the appointment of Brian Fox as CFO,…\n\nJuly 31, 2025 | 7:24 pm                        \n\n\r\n                                Gold-fueled growth: Top 40 miners raked in $176 billion in 2024                            \n\n\n\r\n                                    The 2024 ranking of the Top 40 Canadian mining and metals companies by total revenue…\n\nJuly 31, ..."
+    },
+    {
+      "source": "Mining News Net",
+      "url": "https://www.miningnews.net/",
+      "title": "Mining News | Mining Investment and Finance News",
+      "content_length": 11606,
+      "word_count": 1617,
+      "response_time": 0.9474713802337646,
+      "scraped_at": "2025-08-04T07:05:05.335956",
+      "relevance_score": 27,
+      "article_count": 10,
+      "companies_mentioned": [
+        "Newmont"
+      ],
+      "commodities_mentioned": [
+        "gold",
+        "silver",
+        "copper",
+        "nickel",
+        "lead",
+        "uranium",
+        "lithium"
+      ],
+      "mining_keywords_found": [
+        "mining",
+        "mine",
+        "miner",
+        "exploration",
+        "drilling",
+        "ore",
+        "deposit",
+        "resource",
+        "reserve",
+        "production"
+      ],
+      "headlines": [
+        "Moz Pilbara gold project after Northern Star passes\n01 August 2025\n\n\nEXPLORATION & DEVELOPMENT\nLarvotto greenlights Hillgrove mine\nAustralia’s next antimony-gold operation to reach production within the next year\n31 July 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOPINION\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nDRYBLOWER\nDryblower: Green dreams kill Australia's mineral processing industry\nA topic not on the program for the Diggers & Dealers conference\n03 August 2025\n\n\n\n\nFORUM\nMiners are selling low to buy high\nThe majors are developing an expensive taste for dumping assets at the bottom of their cycle\n01 August 2025\n\n\nBARRY FITZGERALD\nGreatland's tough day out, Antipa fix beckons: Fitzy\nTakeover of Telfer neighbour makes a lot of sense in light of yesterday's $1B wipe-out.",
+        "Expert-led Insights reports and Analytics tools built on robust data, rigorous analysis and expert commentary covering mining Risk, Projects, ESG, Leadership, and Investor Sentiment.",
+        "CAPITAL MARKETS\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nCAPITAL MARKETS\nSpeed dating and steak sangers at Diggers & Dealers 2025\nJuniors get five minutes to woo investors\n04 August 2025\n\n\n\n\nCAPITAL MARKETS\nGold stocks help pull ASX out of a dip\nGains across the gold sector as the rest of the market struggles\n04 August 2025\n\n\nCAPITAL MARKETS\nMining Briefs: Tesoro, Polymetals, and more\nUpdates from Tesoro, Polymetals, Aldoro, Cobre, Gorilla, and more\n04 August 2025\n\n\nCAPITAL MARKETS\nSilver Mines set to cash-up\nWaiting to get the all-clear for Bowdens and now exploring in USA\n04 August 2025\n\n\nCAPITAL MARKETS\nASX expected to dip on Diggers day one\nGold looks promising, just market under pressure on US job concerns\n03 August 2025\n\n\n\n\n\n\n\n\nCOMMODITIES TABLE \n\n\n \n\n \n\n\n\n\n\n\n\n\n\n\n\nFROM OUR PARTNERS\n\n\nMore Resource Stocks articles\nMore Partner Content  articles\n\n\n\n\n\nRESOURCE STOCKS\nWhy Mt Malcolm's Betting Big on Sunday Picnic\nInside the drill program targeting one of its most promising gold zones\n\n\n\n\nRESOURCE STOCKS\nFiretail Doubles Down at Excelsior\nFocus Sharpens on Buster and Ghost Trends Ahead of Diamond Drilling Campaign\n\n\n\n\nRESOURCE STOCKS\nCopper-Nickel Hunt: ABM's Yambat Strategy Explained\n29 high-priority conductors, EM modelling, and the next drilling phase revealed\n\n\n\n\nRESOURCE STOCKS\nCazaly shows its might in the Goldfields\nExperienced team yielding rapid exploration success\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nESG\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nENERGY MINERALS\nThe energy transition is dead, let it rest in peace: Diggers & Dealers 2025\nOpening keynote lambasts net-zero, but mining fundamentals may be unfazed\n04 August 2025\n\n\n\n\nESG\nFruit toast Thursdays and gender-agnostic bathrooms: Life at FMG HQ\nDiversity, equality and inclusion expected to pay dividends for the miner\n31 July 2025\n\n\nESG\nThe bottom line on deep-sea mining \nThe future of DSM will depend on whether anyone can make money doing it\n24 July 2025\n\n\nESG\nReimagining mine sites in the decarbonisation age\nTruly green projects will look very different to legacy mines\n02 July 2025\n\n\nESG\nPeabody pays for more platypuses to go home\nEach platypus carries an acoustic tag for remote monitoring\n19 June 2025\n\n\n\n\n\n\n\n\n\n\n\n        MOST POPULAR\n      \n\n\n\n1\n\n\nENERGY MINERALS\nThe energy transition is dead, let it rest in peace: Diggers & Dealers 2025\n\n\n\n\n2\n\n\nDRYBLOWER\nDryblower: Green dreams kill Australia's mineral processing industry\n\n\n\n\n3\n\n\nMINERS\nPLS touts Pilgangoora wares ahead of Diggers & Dealers 2025\n\n\n\n\n4\n\n\nEXPLORATION & DEVELOPMENT\nRamelius' minority-owned Benz flags gold mining potential\n\n\n\n\n\n\n\n\n\n\n\nOUTLOOK REPORTS\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nMining Journal and MiningNews.",
+        "Investor Sentiment Insights 2025\nExclusive insights into the plans, priorities and preferences of 130+ mining investors and top factors influencing investment decisions in 2025.",
+        "August 2025\n\n\nM&A\nWin tunes into development with Radio gold mine buy\nSouthern Cross operation was once one of the highest-grade producing gold mines in WA\n04 August 2025\n\n\nMINERS\nCatalyst cranks up confidence with resource boost \nTrident drill-out suggests path to 200,000ozpa is achievable\n04 August 2025\n\n\n\n\n\n\n\n\n\n\nCOMMODITIES\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nEXPLORATION & DEVELOPMENT\nLake improves lithium numbers \nDFS delivers capex and opex cuts for US$1B-plus brine project\n04 August 2025\n\n\n\n\nM&A\nWin tunes into development with Radio gold mine buy\nSouthern Cross operation was once one of the highest-grade producing gold mines in WA\n04 August 2025\n\n\nM&A\nMedallion firms terms to buy IGO's Cosmic Boy\nCosmic Boy asset comes with no upfront cost\n04 August 2025\n\n\nEXPLORATION & DEVELOPMENT\nRamelius' minority-owned Benz flags gold mining potential\nBulk mining scenario flagged for Glenburgh in WA\n04 August 2025\n\n\nCAPITAL MARKETS\nLocksley's 'nearology' play locks in decent funding following stellar run\nStock in demand because of its rare earths-prospective ground next to Mountain Pass\n01 August 2025\n\n\n\n\n\n\n\n\n\n\nPROJECTS\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nEXPLORATION & DEVELOPMENT\nLake improves lithium numbers \nDFS delivers capex and opex cuts for US$1B-plus brine project\n04 August 2025\n\n\n\n\nEXPLORATION & DEVELOPMENT\nRamelius' minority-owned Benz flags gold mining potential\nBulk mining scenario flagged for Glenburgh in WA\n04 August 2025\n\n\nPROJECT FINANCE\nNewmont-backed Ariana seeks to add ASX to AIM listing\nJunior with Turkish production wants to develop a gold mine in Zimbabwe\n01 August 2025\n\n\nEXPLORATION & DEVELOPMENT\nKalamazoo keen to crack on with Mt Olympus development\nJunior has resumed control of 1.",
+        "July 2025\n\n\nFORUM\nChina expands control of commodity markets\nThe squeeze of the dragon\n28 July 2025\n\n\n\n\n\n\n\n\n\nMINING IQ\n\n\nPremium subscribers only\n\nView more\n\n\nExpert-led Insights reports and Analytics tools built on robust data, rigorous analysis and expert commentary covering mining Risk, Projects, ESG, Leadership, and Investor Sentiment.",
+        "August 2025\n\n\n\n\n\n\n\n\n\nCAPITAL MARKETS\nMining Briefs: Tesoro, Polymetals, and more\nUpdates from Tesoro, Polymetals, Aldoro, Cobre, Gorilla, and more\n04 August 2025\n\n\n\n\n\n\n\n\n\n\n\nCAPITAL MARKETS\nSpeed dating and steak sangers at Diggers & Dealers 2025\nJuniors get five minutes to woo investors\n04 August 2025\n\n\n\n\n\n\n\n\n\nMINERS\nA perfect match at Ramelius: Diggers & Dealers 2025\nLow-cost miner and canny M&A player meets successful high-grade explorer\n04 August 2025\n\n\n\n\n\n\nEXPLORERS\nTambourah flies off single bonanza intercept\n04 August 2025\n\n\n\n\nCAPITAL MARKETS\nMining Briefs: Tesoro, Polymetals, and more\n04 August 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDITOR'S PICKS\n\n\n\n\n\n\n\n\n\n\nENERGY MINERALS\nThe energy transition is dead, let it rest in peace: Diggers & Dealers 2025\nOpening keynote lambasts net-zero, but mining fundamentals may be unfazed\n04 August 2025\n\n\n\n\n\n\n\n\n\nMINERS\nGlenTinto off the cards as long as coal is in the frame: Stausholm\nRenewable energy more attractive to Rio — provided new chief agrees\n31 July 2025\n\n\n\n\n\n\n\n\n\nMINERS\nLiontown leans on longer-term lithium recovery lift\nRecord cash flow overshadowed by reliance on unsorted ore\n29 July 2025\n\n\n\n\n\n\n\n\n\nMINERS\nBoss hammered on Honeymoon apprehension\nNameplate production may no longer be in reach for South Australian mine\n28 July 2025\n\n\n\n\n\n\n\n\n\n\nGet the Mining News Newsletter delivered free each day\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMPANIES\n\n\nView more\n\n\n\n\n\n\n\n\n\n\nMINERS\nEvolution holds fire on M&A but has copper in its crosshairs: Diggers & Dealers 2025\nBig gold miner looking to leverage red metal fundamentals\n04 August 2025\n\n\n\n\nMINERS\nA perfect match at Ramelius: Diggers & Dealers 2025\nLow-cost miner and canny M&A player meets successful high-grade explorer\n04 August 2025\n\n\nEXPLORERS\nTambourah flies off single bonanza intercept\nA one-hole wonder or the start of a new Bryah Basin gold deposit?",
+        "Research Report 2025\nThe MNN Research Report 2025 provides insights into critical mining themes in Australia/Oceania, including top projects, C-suite priorities, risk, ESG performance and investor sentiment.",
+        "Project Pipeline Index 2025\nView our 50 top mining projects, handpicked using a unique, objective selection process from an expanded database of 600+ global assets.",
+        "About\nCONTACT US\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest Headlines\n\n\n\n\n\n\n\n\nSign In\nLog out\n\nNewsletter signup\n\nSubscribe\n\n\n\n\n\n\n\n\n\nHome\n\n\nCompanies\n\n\nM&A\n\n\nExplorers\n\n\nRegulation\n\n\nMiners\n\n\nMETS\n\n\n\n\nCommodities\n\n\nBulks\n\n\nBase metals\n\n\nPrecious metals\n\n\nEnergy minerals\n\n\nRare earths\n\n\nOther\n\n\n\n\nProjects\n\n\nProject Finance\n\n\nExploration & Development\n\n\n\n\nCapital Markets\n\n\nOpinion\n\n\nBARRY FITZGERALD\n\n\nDRYBLOWER\n\n\nSTRICTLY BOARDROOM\n\n\nFORUM\n\n\n\n\nESG\n\n\nMining IQ\n\n\n\nRESOURCE STOCKS\n\n\n \n\n\n\n\n\n\n\n✕\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\nSearch\n\n \n\n\n\n\n\n\n CLOSE\nSign\n              In\nLog out\n\nSubscribe\n\n\n\n\n\n\n\n\n\n✖\n\n\n\n \n\n Home\n\n\n\n Companies\n\n\n\nM&A\nExplorers\nRegulation\nMiners\nMETS\n\n\n\n Commodities\n\n\n\nBulks\nBase metals\nPrecious metals\nEnergy minerals\nRare earths\nOther\n\n\n\n Projects\n\n\n\nProject Finance\nExploration & Development\n\n\n\n Capital Markets\n\n\n\n Opinion\n\n\n\nBARRY FITZGERALD\nDRYBLOWER\nSTRICTLY BOARDROOM\nFORUM\n\n\n\n ESG\n\n\n\n Mining IQ\n\n\n\nLATEST HEADLINES\n\n\n\nNews Analysis\n\n\n\nEvents\n\n\nWebinars\n\n\n\nJobs\n\n\n\nTags\n\n\n\nPartner Content\n\n\n\nRESOURCE STOCKS\n\n\n\nABOUT\n\nAbout Mining News\nSubscribe\nNewsletter signup\nFrequently Asked Questions\nContact Us\n\n\n\n\n\nSOLUTIONS\n\nAdvertise\n\n\n\n\n\nLEGAL\n\nTerms and Conditions\nPrivacy Policy\nCookie Policy\n\n\n\n\n\nSOCIAL\n\nLINKEDIN\nX\nYOUTUBE\nFACEBOOK\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n \nMINERS\nEvolution holds fire on M&A but has copper in its crosshairs: Diggers & Dealers 2025\nBig gold miner looking to leverage red metal fundamentals\n04 August 2025\n\n\n\n\n\n\n\n\n\n\nCAPITAL MARKETS\nSpeed dating and steak sangers at Diggers & Dealers 2025\nJuniors get five minutes to woo investors\n04 August 2025\n\n\n\n\n\n\n\n\n\nMINERS\nA perfect match at Ramelius: Diggers & Dealers 2025\nLow-cost miner and canny M&A player meets successful high-grade explorer\n04 August 2025\n\n\n\n\n\n\n\n\n\nEXPLORERS\nTambourah flies off single bonanza intercept\nA one-hole wonder or the start of a new Bryah Basin gold deposit?"
+      ],
+      "financial_data": [
+        "cash flow",
+        "$1B"
+      ],
+      "content_preview": "About\nCONTACT US\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest Headlines\n\n\n\n\n\n\n\n\nSign In\nLog out\n\nNewsletter signup\n\nSubscribe\n\n\n\n\n\n\n\n\n\nHome\n\n\nCompanies\n\n\nM&A\n\n\nExplorers\n\n\nRegulation\n\n\nMiners\n\n\nMETS\n\n\n\n\nCommodities\n\n\nBulks\n\n\nBase metals\n\n\nPrecious metals\n\n\nEnergy minerals\n\n\nRare earths\n\n\nOther\n\n\n\n\nProjects\n\n\nProject Finance\n\n\nExploration & Development\n\n\n\n\nCapital Markets\n\n\nOpinion\n\n\nBARRY FITZGERALD\n\n\nDRYBLOWER\n\n\nSTRICTLY BOARDROOM\n\n\nFORUM\n\n\n\n\nESG\n\n\nMining IQ\n\n\n\nRESOURCE STOCKS\n\n\n \n\n\n\n\n\n\n\n✕\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\nSearch\n\n \n\n\n\n\n\n\n CLOSE\nSign\n              In\nLog out\n\nSubscribe\n\n\n\n\n\n\n\n\n\n✖\n\n\n\n \n\n Home\n\n\n\n Companies\n\n\n\nM&A\nExplorers\nRegulation\nMiners\nMETS\n\n\n\n Commodities\n\n\n\nBulks\nBase metals\nPrecious metals\nEnergy minerals\nRare earths\nOther\n\n\n\n Projects\n\n\n\nProject Finance\nExploration & Development\n\n\n\n Capital Markets\n\n\n\n Opinion\n\n\n\nBARRY FITZGERALD\nDRYBLOWER\nSTRICTLY BOARDROOM\nFORUM\n\n\n\n ESG\n\n\n\n Mining IQ\n\n\n\nLATEST HEADLINES\n\n\n\nNews Analysis\n\n\n\nEvents\n\n\nWebinars\n\n\n\nJobs\n\n\n\nTags\n\n\n\nPartner Content\n\n\n\nRESOURCE STOCKS..."
+    },
+    {
+      "source": "Northern Ontario Business Mining",
+      "url": "https://www.northernontariobusiness.com/industry-news/mining",
+      "title": "Mining - Northern Ontario Business",
+      "content_length": 2784,
+      "word_count": 388,
+      "response_time": 0.3953220844268799,
+      "scraped_at": "2025-08-04T07:05:07.779279",
+      "relevance_score": 17,
+      "article_count": 2,
+      "companies_mentioned": [],
+      "commodities_mentioned": [
+        "gold",
+        "copper",
+        "nickel",
+        "lead",
+        "lithium"
+      ],
+      "mining_keywords_found": [
+        "mining",
+        "mine",
+        "miner",
+        "exploration",
+        "ore",
+        "resource",
+        "production"
+      ],
+      "headlines": [
+        "Red Pine Exploration taking a deeper dive in studying the potential in historic mining camp \n\nJul 24, 2025 3:00 PM\nRead more >\n\n\n\n\n\n\n\n\nOntario invests $7M in critical minerals amid U.",
+        "Skip to content\n\n\n\n\n\n\n\nHome\nIndustry News\nMining\n\nMining\n\n\n\n\n\n\n\n\n\nNew leadership hopes to lead Ontario Prospectors out of the wilderness\nAssociation restructuring to heighten public visibility, become more effective lobby group\n\nAug 1, 2025 3:30 PM\nRead more >\n\n\n\n\n\n\n\n\nVale reporting strong production increases in nickel and copper\nCopper production in second quarter was 18 per cent higher but nickel production jumped by 44%\n\nJul 31, 2025 3:00 PM\nRead more >\n\n\n\n\n\n\n\n\nFrontier Lithium study to determine feasibility of Thunder Bay refinery\nMine developer envisions city as international processing hub backed by feds and province \r\n\n\nJul 31, 2025 1:00 PM\nRead more >\n\n\n\n\n\n\n\n\nSudbury mine contractor launches training centre\nTechnica Mining's new facility will help prep workers for underground work\n\nJul 31, 2025 9:17 AM\nRead more >\n\n\n\n\n\n\n\n\nThunder Bay mining expo returns this fall\nCen-Can Resource Expo will feature presentations, tradeshow\n\nJul 28, 2025 9:00 AM\nRead more >\n\n\n\n\n\n\n\n\nMining the Northwest: Is there a gold mine in the cards for Wawa?"
+      ],
+      "financial_data": [
+        "$7M"
+      ],
+      "content_preview": "Skip to content\n\n\n\n\n\n\n\nHome\nIndustry News\nMining\n\nMining\n\n\n\n\n\n\n\n\n\nNew leadership hopes to lead Ontario Prospectors out of the wilderness\nAssociation restructuring to heighten public visibility, become more effective lobby group\n\nAug 1, 2025 3:30 PM\nRead more >\n\n\n\n\n\n\n\n\nVale reporting strong production increases in nickel and copper\nCopper production in second quarter was 18 per cent higher but nickel production jumped by 44%\n\nJul 31, 2025 3:00 PM\nRead more >\n\n\n\n\n\n\n\n\nFrontier Lithium study to determine feasibility of Thunder Bay refinery\nMine developer envisions city as international processing hub backed by feds and province \r\n\n\nJul 31, 2025 1:00 PM\nRead more >\n\n\n\n\n\n\n\n\nSudbury mine contractor launches training centre\nTechnica Mining's new facility will help prep workers for underground work\n\nJul 31, 2025 9:17 AM\nRead more >\n\n\n\n\n\n\n\n\nThunder Bay mining expo returns this fall\nCen-Can Resource Expo will feature presentations, tradeshow\n\nJul 28, 2025 9:00 AM\nRead more >\n\n\n\n\n\n\n\n\nMining the No..."
+    }
+  ]
+}

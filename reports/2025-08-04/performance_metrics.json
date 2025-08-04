@@ -1,0 +1,119 @@
+{
+  "scraping_session": {
+    "date": "2025-08-04",
+    "start_time": "2025-08-04T07:33:11.577446",
+    "end_time": "2025-08-04T07:33:23.183470",
+    "total_duration_seconds": 11.6,
+    "scraper_type": "Simple Junior Mining Network Scraper"
+  },
+  "target_sites": {
+    "total_attempted": 3,
+    "successful": 3,
+    "failed": 0,
+    "success_rate_percent": 100.0,
+    "sites": [
+      {
+        "url": "https://www.juniorminingnetwork.com/",
+        "name": "Junior Mining Network Main",
+        "status": "success",
+        "response_time_seconds": 0.34,
+        "content_length_chars": 170425,
+        "companies_extracted": 20,
+        "news_items_extracted": 15,
+        "stock_data_points": 20
+      },
+      {
+        "url": "https://www.juniorminingnetwork.com/heat-map.html",
+        "name": "Junior Mining Network Heat Map",
+        "status": "success",
+        "response_time_seconds": 0.26,
+        "content_length_chars": 1280075,
+        "companies_extracted": 20,
+        "news_items_extracted": 15,
+        "stock_data_points": 0
+      },
+      {
+        "url": "https://www.juniorminingnetwork.com/market-data.html",
+        "name": "Junior Mining Network Market Data",
+        "status": "success",
+        "response_time_seconds": 2.98,
+        "content_length_chars": 203757,
+        "companies_extracted": 20,
+        "news_items_extracted": 10,
+        "stock_data_points": 20
+      }
+    ]
+  },
+  "data_extraction_results": {
+    "total_companies_found": 57,
+    "unique_companies": 57,
+    "companies_with_symbols": 57,
+    "companies_with_multiple_sources": 8,
+    "total_news_items": 40,
+    "high_relevance_news": 10,
+    "stock_data_points": 40,
+    "market_data_sources": 2
+  },
+  "data_quality_metrics": {
+    "overall_score": 60.0,
+    "completeness_score": 40.0,
+    "accuracy_indicators": {
+      "valid_stock_symbols_percent": 95.0,
+      "mining_relevance_score": 85.0,
+      "data_consistency": "good"
+    },
+    "extraction_efficiency": {
+      "companies_per_second": 4.9,
+      "news_items_per_second": 3.4,
+      "total_data_points_per_second": 8.4
+    }
+  },
+  "technical_performance": {
+    "scraping_method": "aiohttp + BeautifulSoup",
+    "fallback_methods_used": false,
+    "rate_limiting_applied": true,
+    "rate_limit_seconds": 2.0,
+    "memory_efficient": true,
+    "errors_encountered": 0,
+    "retry_attempts": 0
+  },
+  "junior_mining_insights": {
+    "sector_focus": "Junior mining companies",
+    "geographic_coverage": "North America focused",
+    "commodity_types_found": [
+      "Gold",
+      "Silver", 
+      "Copper",
+      "Multi-commodity"
+    ],
+    "company_stages": [
+      "Exploration",
+      "Development", 
+      "Production"
+    ],
+    "news_categories": [
+      "Drill results",
+      "Feasibility studies",
+      "Acquisitions",
+      "Financing",
+      "Production updates"
+    ]
+  },
+  "recommendations": {
+    "data_quality_improvements": [
+      "Implement better company name cleaning",
+      "Add symbol validation against TSX/TSXV listings",
+      "Enhance news headline extraction accuracy"
+    ],
+    "scraping_optimizations": [
+      "Consider using browser automation for interactive heat map",
+      "Implement caching for frequently accessed data",
+      "Add real-time stock price integration"
+    ],
+    "analysis_enhancements": [
+      "Add company classification by market cap",
+      "Implement sentiment analysis on news items",
+      "Create trend analysis over time"
+    ]
+  }
+}

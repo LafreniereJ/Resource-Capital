@@ -1,0 +1,120 @@
+[
+  {
+    "target_name": "Trading Economics - Commodities",
+    "base_url": "https://tradingeconomics.com",
+    "priority": "high",
+    "test_timestamp": "2025-08-03T13:05:44.960657",
+    "pages_tested": 4,
+    "pages_successful": 4,
+    "total_content_length": 101908,
+    "keywords_found": {},
+    "errors": [],
+    "page_results": [
+      {
+        "url": "https://tradingeconomics.com/commodities",
+        "type": "commodity_prices",
+        "status": "success",
+        "content_length": 24979,
+        "word_count": 2355,
+        "relevance_score": 100,
+        "keywords_found": {},
+        "error": null
+      },
+      {
+        "url": "https://tradingeconomics.com/commodity/gold",
+        "type": "gold_data",
+        "status": "success",
+        "content_length": 26620,
+        "word_count": 2030,
+        "relevance_score": 100,
+        "keywords_found": {},
+        "error": null
+      },
+      {
+        "url": "https://tradingeconomics.com/commodity/silver",
+        "type": "silver_data",
+        "status": "success",
+        "content_length": 25027,
+        "word_count": 1803,
+        "relevance_score": 100,
+        "keywords_found": {},
+        "error": null
+      },
+      {
+        "url": "https://tradingeconomics.com/commodity/copper",
+        "type": "copper_data",
+        "status": "success",
+        "content_length": 25282,
+        "word_count": 1856,
+        "relevance_score": 100,
+        "keywords_found": {},
+        "error": null
+      }
+    ],
+    "success_rate": 100.0
+  },
+  {
+    "target_name": "Trading Economics - Canada Indicators",
+    "base_url": "https://tradingeconomics.com",
+    "priority": "medium",
+    "test_timestamp": "2025-08-03T13:05:56.239352",
+    "pages_tested": 2,
+    "pages_successful": 2,
+    "total_content_length": 67336,
+    "keywords_found": {
+      "economic": [
+        "gdp",
+        "production",
+        "employment",
+        "inflation"
+      ],
+      "mining_specific": [
+        "mining production"
+      ]
+    },
+    "errors": [],
+    "page_results": [
+      {
+        "url": "https://tradingeconomics.com/canada/indicators",
+        "type": "economic_indicators",
+        "status": "success",
+        "content_length": 36854,
+        "word_count": 3890,
+        "relevance_score": 100,
+        "keywords_found": {
+          "economic": [
+            "gdp",
+            "inflation",
+            "employment",
+            "production"
+          ],
+          "mining_specific": [
+            "mining production"
+          ]
+        },
+        "error": null
+      },
+      {
+        "url": "https://tradingeconomics.com/canada/mining-production",
+        "type": "mining_production_data",
+        "status": "success",
+        "content_length": 30482,
+        "word_count": 1641,
+        "relevance_score": 100,
+        "keywords_found": {
+          "economic": [
+            "gdp",
+            "inflation",
+            "employment",
+            "production"
+          ],
+          "mining_specific": [
+            "mining production"
+          ]
+        },
+        "error": null
+      }
+    ],
+    "success_rate": 100.0
+  }
+]

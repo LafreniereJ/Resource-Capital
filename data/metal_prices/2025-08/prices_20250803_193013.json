@@ -1,0 +1,509 @@
+{
+  "scraping_started": "2025-08-03T19:27:55.456850",
+  "precious_metals": {
+    "gold": {
+      "metal": "gold",
+      "scraped_at": "2025-08-03T19:27:55.456859",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/gold",
+          "scraped_at": "2025-08-03T19:27:57.885826",
+          "scraper_used": "crawl4ai",
+          "response_time": 2.574000597000122,
+          "data": {
+            "price": 3350.0,
+            "change": null,
+            "change_percent": "2",
+            "volume": null,
+            "timestamp": "2025-08-03T19:27:58.063720",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/GC=F",
+          "scraped_at": "2025-08-03T19:28:04.002744",
+          "scraper_used": "crawl4ai",
+          "response_time": 4.090099811553955,
+          "data": {
+            "price": 2025.0,
+            "change": null,
+            "change_percent": "+5.25 (+0.08)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:04.162128",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "kitco": {
+          "url": "https://www.kitco.com/gold-price-today-usa/",
+          "scraped_at": "2025-08-03T19:28:07.623033",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5893850326538086,
+          "data": {
+            "price": 24.0,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:07.760996",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": {
+        "average": 1799.6666666666667,
+        "median": 2025.0,
+        "min": 24.0,
+        "max": 3350.0,
+        "sources_count": 3,
+        "price_spread": 3326.0
+      },
+      "price_consensus": null
+    },
+    "silver": {
+      "metal": "silver",
+      "scraped_at": "2025-08-03T19:28:09.763573",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/silver",
+          "scraped_at": "2025-08-03T19:28:11.218428",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.6033987998962402,
+          "data": {
+            "price": 37.0,
+            "change": null,
+            "change_percent": "+0.341 (+0.93)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:11.372387",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/SI=F",
+          "scraped_at": "2025-08-03T19:28:17.096445",
+          "scraper_used": "crawl4ai",
+          "response_time": 3.8828647136688232,
+          "data": {
+            "price": 202.0,
+            "change": null,
+            "change_percent": "+3.75 (+0.06)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:17.264867",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "kitco": {
+          "url": "https://www.kitco.com/silver-price-today-usa/",
+          "scraped_at": "2025-08-03T19:28:21.938615",
+          "scraper_used": "crawl4ai",
+          "response_time": 2.86794114112854,
+          "data": {
+            "price": 36.91,
+            "change": null,
+            "change_percent": "-0.05 (-0.14)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:22.144116",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": {
+        "average": 91.96999999999998,
+        "median": 37.0,
+        "min": 36.91,
+        "max": 202.0,
+        "sources_count": 3,
+        "price_spread": 165.09
+      },
+      "price_consensus": null
+    },
+    "platinum": {
+      "metal": "platinum",
+      "scraped_at": "2025-08-03T19:28:24.146690",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/platinum",
+          "scraped_at": "2025-08-03T19:28:25.406547",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.3707261085510254,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "1.98",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:25.521451",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/PL=F",
+          "scraped_at": "2025-08-03T19:28:30.997412",
+          "scraper_used": "crawl4ai",
+          "response_time": 3.611922025680542,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "+4.25 (+0.07)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:31.141816",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "kitco": {
+          "url": "https://www.kitco.com/platinum-price-today-usa/",
+          "scraped_at": "2025-08-03T19:28:34.814319",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.8105747699737549,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "+1.00 (+0.08)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:34.960940",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    },
+    "palladium": {
+      "metal": "palladium",
+      "scraped_at": "2025-08-03T19:28:36.962155",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/palladium",
+          "scraped_at": "2025-08-03T19:28:38.193139",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.3545119762420654,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "0.46",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:38.320938",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/PA=F",
+          "scraped_at": "2025-08-03T19:28:43.088775",
+          "scraper_used": "crawl4ai",
+          "response_time": 2.985417604446411,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "+3.75 (+0.06)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:43.313411",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "kitco": {
+          "url": "https://www.kitco.com/palladium-price-today-usa/",
+          "scraped_at": "2025-08-03T19:28:48.115761",
+          "scraper_used": "crawl4ai",
+          "response_time": 2.9618518352508545,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "-3.00 (-0.25)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:48.284744",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    }
+  },
+  "base_metals": {
+    "copper": {
+      "metal": "copper",
+      "scraped_at": "2025-08-03T19:28:50.287043",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/copper",
+          "scraped_at": "2025-08-03T19:28:51.664766",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5006439685821533,
+          "data": {
+            "price": 4.4,
+            "change": null,
+            "change_percent": "+0.0127 (+0.29)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:51.791864",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/HG=F",
+          "scraped_at": "2025-08-03T19:28:56.599110",
+          "scraper_used": "crawl4ai",
+          "response_time": 2.9728357791900635,
+          "data": {
+            "price": 4.4535,
+            "change": null,
+            "change_percent": "+4.00 (+0.06)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:28:56.772360",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "lme": {
+          "url": "https://www.lme.com/en/metals/non-ferrous/copper",
+          "scraped_at": "2025-08-03T19:29:03.695448",
+          "scraper_used": "playwright",
+          "response_time": 4.991260766983032,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:03.779635",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": {
+        "average": 4.42675,
+        "median": 4.4535,
+        "min": 4.4,
+        "max": 4.4535,
+        "sources_count": 2,
+        "price_spread": 0.05349999999999966
+      },
+      "price_consensus": null
+    },
+    "aluminum": {
+      "metal": "aluminum",
+      "scraped_at": "2025-08-03T19:29:05.781113",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/aluminum",
+          "scraped_at": "2025-08-03T19:29:07.350687",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.6949131488800049,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "+7.8 (+0.30)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:07.482105",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "lme": {
+          "url": "https://www.lme.com/en/metals/non-ferrous/aluminium",
+          "scraped_at": "2025-08-03T19:29:13.747126",
+          "scraper_used": "playwright",
+          "response_time": 4.287049055099487,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:13.794933",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    },
+    "zinc": {
+      "metal": "zinc",
+      "scraped_at": "2025-08-03T19:29:15.802984",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/zinc",
+          "scraped_at": "2025-08-03T19:29:17.205257",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5548105239868164,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "-33.3 (-1.20)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:17.377291",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "lme": {
+          "url": "https://www.lme.com/en/metals/non-ferrous/zinc",
+          "scraped_at": "2025-08-03T19:29:24.482229",
+          "scraper_used": "playwright",
+          "response_time": 5.159578800201416,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:24.544581",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    },
+    "nickel": {
+      "metal": "nickel",
+      "scraped_at": "2025-08-03T19:29:26.546776",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/nickel",
+          "scraped_at": "2025-08-03T19:29:27.955101",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5312647819519043,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "+70 (+0.47)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:28.083064",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "lme": {
+          "url": "https://www.lme.com/en/metals/non-ferrous/nickel",
+          "scraped_at": "2025-08-03T19:29:35.351200",
+          "scraper_used": "playwright",
+          "response_time": 5.334149122238159,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:35.432449",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    },
+    "lead": {
+      "metal": "lead",
+      "scraped_at": "2025-08-03T19:29:37.434268",
+      "sources": {
+        "lme": {
+          "url": "https://www.lme.com/en/metals/non-ferrous/lead",
+          "scraped_at": "2025-08-03T19:29:41.781192",
+          "scraper_used": "playwright",
+          "response_time": 4.4149086475372314,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": null,
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:41.865390",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    }
+  },
+  "energy_commodities": {
+    "oil": {
+      "metal": "oil",
+      "scraped_at": "2025-08-03T19:29:43.867164",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/crude-oil",
+          "scraped_at": "2025-08-03T19:29:45.282858",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5614848136901855,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "-2.000 (-2.89)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:45.433695",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/CL=F",
+          "scraped_at": "2025-08-03T19:29:50.875836",
+          "scraper_used": "crawl4ai",
+          "response_time": 3.5968728065490723,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "-0.41 \n(-0.61)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:51.042136",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    },
+    "natural_gas": {
+      "metal": "natural_gas",
+      "scraped_at": "2025-08-03T19:29:53.047058",
+      "sources": {
+        "trading_economics": {
+          "url": "https://tradingeconomics.com/commodity/natural-gas",
+          "scraped_at": "2025-08-03T19:29:54.492148",
+          "scraper_used": "crawl4ai",
+          "response_time": 1.5710656642913818,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "+0.0031 (+0.10)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:29:54.622215",
+            "extraction_method": "regex_patterns"
+          }
+        },
+        "yahoo_finance": {
+          "url": "https://finance.yahoo.com/quote/NG=F",
+          "scraped_at": "2025-08-03T19:30:00.182996",
+          "scraper_used": "crawl4ai",
+          "response_time": 3.7525315284729004,
+          "data": {
+            "price": null,
+            "change": null,
+            "change_percent": "-0.0210 \n(-0.68)",
+            "volume": null,
+            "timestamp": "2025-08-03T19:30:00.382002",
+            "extraction_method": "regex_patterns"
+          }
+        }
+      },
+      "consolidated_price": null,
+      "price_consensus": null
+    }
+  },
+  "currency_data": {
+    "scraped_at": "2025-08-03T19:30:02.386386",
+    "rates": {
+      "usd_cad": {
+        "pair": "usd_cad",
+        "rate": 1.3778,
+        "change": null,
+        "timestamp": "2025-08-03T19:30:05.953568"
+      },
+      "dxy": {
+        "pair": "dxy",
+        "rate": 4.22,
+        "change": null,
+        "timestamp": "2025-08-03T19:30:11.292709"
+      }
+    }
+  },
+  "errors": [],
+  "summary": {
+    "total_metals_scraped": 11,
+    "successful_sources": 26,
+    "failed_sources": 0,
+    "metals_with_consensus": 3,
+    "average_price_spread": 1163.7145,
+    "scraping_duration": 137.838635
+  },
+  "scraping_completed": "2025-08-03T19:30:13.295485"
+}

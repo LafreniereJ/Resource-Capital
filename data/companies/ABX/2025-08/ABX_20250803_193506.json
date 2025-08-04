@@ -1,0 +1,62 @@
+{
+  "company_info": {
+    "name": "Barrick Gold Corporation",
+    "ticker": "ABX",
+    "exchange": "TSX",
+    "sector": "Gold"
+  },
+  "scraped_at": "2025-08-03T19:32:56.542270",
+  "stock_data": {
+    "ticker": "ABX",
+    "price": null,
+    "change": null,
+    "change_percent": null,
+    "volume": null,
+    "market_cap": "4",
+    "pe_ratio": null,
+    "52_week_range": null,
+    "url": "https://finance.yahoo.com/quote/ABX.TO",
+    "scraped_at": "2025-08-03T19:33:01.398451",
+    "scraper_used": "crawl4ai"
+  },
+  "financial_data": {},
+  "operational_data": {},
+  "news_updates": {},
+  "filings": {
+    "sedar_filings": {},
+    "sec_filings": {},
+    "search_attempts": [
+      {
+        "system": "SEDAR",
+        "status": "attempted",
+        "note": "SEDAR search requires company-specific implementation"
+      }
+    ]
+  },
+  "website_data": {
+    "domains_tried": [
+      "https://www.barrick.com",
+      "https://www.barrickmining.com",
+      "https://www.barrickgold.com",
+      "https://barrick.com"
+    ],
+    "successful_scrapes": {
+      "https://www.barrick.com": {
+        "content_length": 14325,
+        "word_count": 791,
+        "title": "",
+        "extracted_info": {
+          "company_description": "com/IR/IAC/?Ticker=GOLD&Exchange=NYSE)\n    * [Tax FAQs - Capital Reduction and Return of Capital](https://www.barrick.",
+          "operations": [
+            "Pakistan\nOne of the world’s largest undeveloped copper-gold projects is now under construction with first production from Phase 1 targeted for the end of 2028."
+          ],
+          "recent_news": [],
+          "financial_highlights": {},
+          "contact_info": {}
+        },
+        "scraped_at": "2025-08-03T19:33:03.116024"
+      }
+    },
+    "failed_attempts": []
+  }
+}

@@ -1,0 +1,947 @@
+{
+  "scraping_started": "2025-08-04T07:33:11.577446",
+  "sites_scraped": [
+    {
+      "url": "https://www.juniorminingnetwork.com/",
+      "success": true,
+      "content_length": 170425,
+      "duration": 0.34296584129333496,
+      "timestamp": "2025-08-04T07:33:12.053132"
+    },
+    {
+      "url": "https://www.juniorminingnetwork.com/heat-map.html",
+      "success": true,
+      "content_length": 1280075,
+      "duration": 0.25576353073120117,
+      "timestamp": "2025-08-04T07:33:16.050441"
+    },
+    {
+      "url": "https://www.juniorminingnetwork.com/market-data.html",
+      "success": true,
+      "content_length": 203757,
+      "duration": 2.9787232875823975,
+      "timestamp": "2025-08-04T07:33:21.183470"
+    }
+  ],
+  "companies_found": [
+    {
+      "name": "Vista Gold Confirms Strong Economics for Mt Todd Gold",
+      "symbol": "TREND",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Legacy Gold Mines Receives Drilling Permits for Baner Gold",
+      "symbol": "MRE",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Majestic Gold",
+      "symbol": "GOLD",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Signature Resources",
+      "symbol": "ARTG",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "LEARN MORE \n\n\n\nVizsla Silver\n\n\nVizsla Silver",
+      "symbol": "TREO",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Drill Results\t\t\t                    \n\n\n\n\t\t\t                        Copper\t\t\t                    \n\n\n\n\t\t\t                        Chile\t\t\t                    \n\n\n\n\n\n\n\n\n\n\n\n\nVista Gold Confirms Strong Economics for Mt Todd Gold",
+      "symbol": "IRR",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Idaho Strategic Resources",
+      "symbol": "KDK",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/",
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Details\t\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\t\t\t\tMaxus Mining",
+      "symbol": "ALL",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/",
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Capstone Copper",
+      "symbol": "ASX",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/",
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Golden Triangle\n\n\n\n\n\nPan Global Resources",
+      "symbol": "FDN",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "SPOTLIGHT\n\n\n\n\n\n\nATEX Resources",
+      "symbol": "JX",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Kobrea Exploration",
+      "symbol": "TSX.V",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "PROJECT ACQUISITIONS\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\tDetails\t\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\t\t\t\tNioCorp",
+      "symbol": "MED",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "MANAGEMENT CHANGES\n\n\nPerseus Mining announces retirement of CEO and appointment of new CEO\n\n\n\n\n\nEnergy Fuels Announces Appointment of Ross Bhappu as President\n\n\n\n\n\nImagine Lithium Appoints Simone Sze Man Suen as President\n\n\n\n\n\nCabral Gold",
+      "symbol": "BMO",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Drill Results Drill Hole CalculatorEvents CalendarNewsletterSearchInvestor Clips\n\n\n\n\n\n\n\n\nLogin\n\n\n\n\n\n\n\t\t\t\t\t\t\t\tLogin To Your Account\t\t\t\t\t\t\t\n\n\nEmail\n\n\n\nPassword\n\n\n\nRemember Me\n\n\n\n\n\n\n\n\n \n\n\n\n\t\t\t\t\t\t\t\t\tPassword Reset\n\n\n\n\t\t\t\t\t\t\t\t\t\tAccount Lookup\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\tRegister New Account\n\n\n\n\n\n\nRegister\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJunior Mining",
+      "symbol": "VIEW",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Royal Gold",
+      "symbol": "GM",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Barrick Gold",
+      "symbol": "LUN",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Omai Gold",
+      "symbol": "WG",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Copper Mountain Mining",
+      "symbol": "AI",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "Amarc Resources",
+      "symbol": "USA",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/"
+      ]
+    },
+    {
+      "name": "WLR\n\nWalker Lane Resources",
+      "symbol": "RG",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "SSRM\n\nSSR Mining",
+      "symbol": "NILI",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "KLM\n\nKermode Resources",
+      "symbol": "DIA",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "GDX\n\nGoldex Resources",
+      "symbol": "FUU",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "SVB\n\nSilver Bull Resources",
+      "symbol": "ULT",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "BOCA\n\nBocana Resources",
+      "symbol": "LIVE",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "GGD\n\nGoGold Resources",
+      "symbol": "ZLTO",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "VGD\n\nVisible Gold",
+      "symbol": "RIO",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "RSMX\n\nRegency Silver",
+      "symbol": "TMET",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "EDV\n\nEndeavour Mining",
+      "symbol": "CCMI",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "GGA\n\nGoldgroup Mining",
+      "symbol": "RTH",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "LUN\n\nLundin Mining",
+      "symbol": "NCP",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "GCN\n\nGold",
+      "symbol": "SAU",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "OMG\n\nOmai Gold",
+      "symbol": "APX",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "KDK\n\nKodiak Copper",
+      "symbol": "STLLR",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "RBZ\n\nArya Resources",
+      "symbol": "CRML",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "GMI\n\nGreen Mining",
+      "symbol": "CCI",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "MKR\n\nMelkior Resources",
+      "symbol": "ABRA",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "PGC\n\nPlato Gold",
+      "symbol": "CBA",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "BRAU\n\nBig Ridge Gold",
+      "symbol": "QRO",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/heat-map.html"
+      ]
+    },
+    {
+      "name": "Core Silver",
+      "symbol": "RVLGF",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "ESGold",
+      "symbol": "TDG",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Wesdome Gold",
+      "symbol": "FLOW",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "LISTED HIGH VOLUME\n\n\n\n \n\n\nCompany\nVolume\nLast Trade\n\n\n\n\n\n\n\n                            Hecla Mining",
+      "symbol": "ATEX",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Torex Gold Resources",
+      "symbol": "CSE",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Excellon Resources",
+      "symbol": "NI",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Aya Gold & Silver",
+      "symbol": "FT",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Lundin Mining",
+      "symbol": "MP",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "LEARN MORE \nTSX VENTURE MARKET DECLINERS\n\n\n\n \n\n\nCompany\nChange\nLast Trade\n\n\n\n\n\n\n\n                            Snowline Gold",
+      "symbol": "NEWS",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Copper Giant Resources",
+      "symbol": "OTCQX",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "LEARN MORE \nTSX VENTURE HIGH VOLUME\n\n\n\n \n\n\nCompany\nVolume\nLast Trade\n\n\n\n\n\n\n\n                            Majestic Gold",
+      "symbol": "GR",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Quimbaya Gold",
+      "symbol": "RVG",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Euro Sun Mining",
+      "symbol": "TSX",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Lavras Gold",
+      "symbol": "HIGH",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Nuinsco Resources",
+      "symbol": "MORE",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Arizona Sonoran Copper\n\n\nArizona Sonoran Copper",
+      "symbol": "SPC",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    },
+    {
+      "name": "Freeport Resources\n\n\nFreeport Resources",
+      "symbol": "LEARN",
+      "source": "text_extraction",
+      "sources": [
+        "https://www.juniorminingnetwork.com/market-data.html"
+      ]
+    }
+  ],
+  "news_items": [
+    {
+      "headline": "Benz Mining: 200m+ Gold Intercepts Support Glenburgh's Emergence as a Major Gold...",
+      "relevance_score": 9,
+      "element_type": "h4",
+      "timestamp": "2025-08-04T07:33:12.005187"
+    },
+    {
+      "headline": "Phenom Resources Reports First Gold Assays from Bedrock Sampling from the Dobbin Gold...",
+      "relevance_score": 8,
+      "element_type": "h4",
+      "timestamp": "2025-08-04T07:33:12.005573"
+    },
+    {
+      "headline": "Mithril Silver And Gold Continues to Deliver High-Grade Silver-Gold Results from...",
+      "relevance_score": 8,
+      "element_type": "h4",
+      "timestamp": "2025-08-04T07:33:12.005588"
+    },
+    {
+      "headline": "Dryden Gold Reports High-Grade Drill Results and More Visible Gold",
+      "relevance_score": 8,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.050906"
+    },
+    {
+      "headline": "St Augustine Gold & Copper Announces Positive Results of the Kingking Copper-Gold...",
+      "relevance_score": 8,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.050940"
+    },
+    {
+      "headline": "Torex Gold Resources to Acquire Prime Mining",
+      "relevance_score": 8,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.051019"
+    },
+    {
+      "headline": "Legacy Gold Mines Receives Drilling Permits for Baner Gold Property in Central Idaho's...",
+      "relevance_score": 8,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.051329"
+    },
+    {
+      "headline": "Independence Gold Intersects 52.46 Metres Grading 2.51 g/t Gold and 19.73 g/t Silver...",
+      "relevance_score": 7,
+      "element_type": "h4",
+      "timestamp": "2025-08-04T07:33:12.005212"
+    },
+    {
+      "headline": "Stellar AfricaGold Summer Drill Program Begins at High-Grade Gold Target at Tichka...",
+      "relevance_score": 7,
+      "element_type": "h4",
+      "timestamp": "2025-08-04T07:33:12.005348"
+    },
+    {
+      "headline": "Sranan Gold Samples Additional High-Grade Gold Mineralization at the Tapanahony Project...",
+      "relevance_score": 7,
+      "element_type": "h4",
+      "timestamp": "2025-08-04T07:33:12.005558"
+    },
+    {
+      "headline": "Collective Mining Drills 442.35 Metres at 2.16 g/t Gold Equivalent Commencing from...",
+      "relevance_score": 7,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.050918"
+    },
+    {
+      "headline": "Cabral Gold Announces Results of Updated Prefeasibility Study on the Gold-in-Oxide...",
+      "relevance_score": 7,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.050973"
+    },
+    {
+      "headline": "Freegold Significantly Upgrades and Expands Resources at Golden Summit",
+      "relevance_score": 7,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.050988"
+    },
+    {
+      "headline": "Collective Mining Drills 397.50 Metres at 2.62 g/t Gold Equivalent Commencing...",
+      "relevance_score": 7,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.051398"
+    },
+    {
+      "headline": "Collective Mining Drills 442.35 Metres at 2.16 g/t Gold Equivalent Commencing...",
+      "relevance_score": 7,
+      "element_type": "div",
+      "timestamp": "2025-08-04T07:33:12.051419"
+    },
+    {
+      "headline": "Barranco Gold Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.021764"
+    },
+    {
+      "headline": "U.S. GoldMining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.023815"
+    },
+    {
+      "headline": "Goldquest Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.023940"
+    },
+    {
+      "headline": "NexGold Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.023988"
+    },
+    {
+      "headline": "Golden Rapture Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.024440"
+    },
+    {
+      "headline": "First Mining Gold",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.024511"
+    },
+    {
+      "headline": "Sixty North Gold Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.025234"
+    },
+    {
+      "headline": "Golden Lake Exploration",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.025297"
+    },
+    {
+      "headline": "Advanced Gold Exploration",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.025589"
+    },
+    {
+      "headline": "Gold Mountain Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.025845"
+    },
+    {
+      "headline": "Goldflare Exploration",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.026385"
+    },
+    {
+      "headline": "Mexican Gold Mining",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.026579"
+    },
+    {
+      "headline": "Iconic Gold Exploration",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.027426"
+    },
+    {
+      "headline": "Western Gold Exploration",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.028605"
+    },
+    {
+      "headline": "Golden Age Exploration",
+      "relevance_score": 6,
+      "element_type": "p",
+      "timestamp": "2025-08-04T07:33:16.029403"
+    },
+    {
+      "headline": "Revival Gold",
+      "relevance_score": 3,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134293"
+    },
+    {
+      "headline": "TSX MARKET GAINERS",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134192"
+    },
+    {
+      "headline": "Arizona Sonoran Copper",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134215"
+    },
+    {
+      "headline": "TSX MARKET DECLINERS",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134224"
+    },
+    {
+      "headline": "TSX MARKET HIGH VOLUME",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134236"
+    },
+    {
+      "headline": "ATEX Resources",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134242"
+    },
+    {
+      "headline": "TSX VENTURE MARKET GAINERS",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134260"
+    },
+    {
+      "headline": "Freeport Resources",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134268"
+    },
+    {
+      "headline": "TSX VENTURE MARKET DECLINERS",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134274"
+    },
+    {
+      "headline": "TSX VENTURE HIGH VOLUME",
+      "relevance_score": 1,
+      "element_type": "h3",
+      "timestamp": "2025-08-04T07:33:21.134286"
+    }
+  ],
+  "market_data": {
+    "https://www.juniorminingnetwork.com/": [
+      {
+        "price": 48.76,
+        "change": "-239.35",
+        "currency": "CAD"
+      },
+      {
+        "price": 222.95,
+        "change": "-9.39",
+        "currency": "CAD"
+      },
+      {
+        "price": 63.69,
+        "change": "-2.70",
+        "currency": "CAD"
+      },
+      {
+        "price": 23.98,
+        "change": "-101.38",
+        "currency": "CAD"
+      },
+      {
+        "price": 152.64,
+        "change": "+1.15",
+        "currency": "CAD"
+      },
+      {
+        "price": 25.45,
+        "change": "+0.81",
+        "currency": "CAD"
+      },
+      {
+        "price": 64.98,
+        "change": "+0.91",
+        "currency": "CAD"
+      },
+      {
+        "price": 17.23,
+        "change": "+17.60",
+        "currency": "CAD"
+      },
+      {
+        "price": 172.74,
+        "change": "+0.28",
+        "currency": "CAD"
+      },
+      {
+        "price": 42.21,
+        "change": "+0.01",
+        "currency": "CAD"
+      },
+      {
+        "price": 29.0,
+        "change": "+4.90",
+        "currency": "CAD"
+      },
+      {
+        "price": 34.25,
+        "change": "-8.10",
+        "currency": "CAD"
+      },
+      {
+        "price": 62.6,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 20.06,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 2.75,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 0.17,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 0.14,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 0.41,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 8.17,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 22.18,
+        "change": null,
+        "currency": "CAD"
+      }
+    ],
+    "https://www.juniorminingnetwork.com/market-data.html": [
+      {
+        "price": 222.95,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 23.98,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 64.98,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 172.74,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 42.21,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 29.0,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 34.25,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 20.06,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 8.17,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 19.82,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 127.04,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 29.38,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 12.07,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 13.12,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 16.46,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 22.35,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 12.74,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 39.2,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 17.93,
+        "change": null,
+        "currency": "CAD"
+      },
+      {
+        "price": 9.81,
+        "change": null,
+        "currency": "CAD"
+      }
+    ]
+  },
+  "performance_metrics": {
+    "sites_attempted": 3,
+    "sites_successful": 3,
+    "success_rate": 100.0,
+    "total_companies": 57,
+    "total_news_items": 40,
+    "total_errors": 0,
+    "scraping_duration": 11.609534,
+    "data_quality_score": 60
+  },
+  "errors": [],
+  "scraping_completed": "2025-08-04T07:33:23.186980"
+}

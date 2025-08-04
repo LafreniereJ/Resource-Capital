@@ -1,0 +1,114 @@
+{
+  "scraping_session": {
+    "date": "2025-08-04T06:55:58.000354",
+    "purpose": "Economics data collection for mining intelligence",
+    "target_sites": 4,
+    "focus": "Canadian economic data, commodity forecasts, mining sector analysis",
+    "method": "Basic HTTP requests with built-in Python modules"
+  },
+  "site_results": {
+    "trading_economics_canada": {
+      "site_name": "Trading Economics Canada",
+      "url": "https://tradingeconomics.com/canada/indicators",
+      "content_type": "economic_indicators",
+      "success": true,
+      "scraper_used": "urllib+htmlparser",
+      "content_length": 23999,
+      "word_count": 1828,
+      "economics_content": [],
+      "data_quality": "poor",
+      "mining_relevance": 0,
+      "content_items_extracted": 0,
+      "response_time": 0.2638537883758545,
+      "timestamp": "2025-08-04T06:55:58.264262"
+    },
+    "rbc_economic_analysis": {
+      "site_name": "RBC Economic Analysis",
+      "url": "https://www.rbc.com/en/thought-leadership/economics/forward-guidance-our-weekly-preview/",
+      "content_type": "economic_analysis",
+      "success": true,
+      "scraper_used": "urllib+htmlparser",
+      "content_length": 33342,
+      "word_count": 2965,
+      "economics_content": [
+        {
+          "title": "RBC Economic Analysis Analysis",
+          "type": "analysis",
+          "key_insights": [
+            "\u0015#\u0013p6ص\u0002G\u0004Nj{\"\u0015'#\u0001D\u0000\u001b(%y\n\u001c=x\u000e\u0005I\u0011R\u0002\u001atM\u001d=\u001c\t\u0005R\u0011z \u0011\nTX \u0001\bH\u0005\u0003u\u001ei\u0016\u0016z\nN\u001dt{^KEZZ&p*z\u0002PpI/BQ < _}1\u0004\n\bt+\biAP\u0015\u001dH\u0019K%"
+          ],
+          "commodity_mentions": [],
+          "canadian_focus": false,
+          "mining_relevance": 1
+        }
+      ],
+      "data_quality": "fair",
+      "mining_relevance": 1,
+      "content_items_extracted": 1,
+      "response_time": 0.11877989768981934,
+      "timestamp": "2025-08-04T06:56:01.407874"
+    },
+    "investing_commodities_analysis": {
+      "site_name": "Investing.com Commodities Analysis",
+      "url": "https://ca.investing.com/analysis/commodities",
+      "content_type": "commodity_analysis",
+      "success": true,
+      "scraper_used": "urllib+htmlparser",
+      "content_length": 21848,
+      "word_count": 1774,
+      "economics_content": [],
+      "data_quality": "poor",
+      "mining_relevance": 0,
+      "content_items_extracted": 0,
+      "response_time": 0.9839909076690674,
+      "timestamp": "2025-08-04T06:56:05.412628"
+    },
+    "investing_commodities_news": {
+      "site_name": "Investing.com Commodities News",
+      "url": "https://ca.investing.com/news/commodities-news",
+      "content_type": "commodity_news",
+      "success": false,
+      "scraper_used": "urllib+htmlparser",
+      "content_length": 0,
+      "word_count": 0,
+      "economics_content": [],
+      "data_quality": "unknown",
+      "mining_relevance": 0,
+      "error": "HTTP Error 403: Forbidden",
+      "response_time": 0.052956342697143555,
+      "timestamp": "2025-08-04T06:56:08.468640"
+    }
+  },
+  "performance_summary": {
+    "sites_attempted": 4,
+    "sites_successful": 3,
+    "success_rate": 75.0,
+    "average_response_time": 0.35,
+    "total_content_items_extracted": 1,
+    "data_quality_distribution": {
+      "poor": 2,
+      "fair": 1,
+      "unknown": 1
+    },
+    "average_mining_relevance": 0.3,
+    "scrapers_used": [
+      "urllib+htmlparser"
+    ]
+  },
+  "aggregated_data": {
+    "economic_indicators": [],
+    "commodity_analysis": [
+      {
+        "source": "RBC Economic Analysis",
+        "key_insights": [
+          "\u0015#\u0013p6ص\u0002G\u0004Nj{\"\u0015'#\u0001D\u0000\u001b(%y\n\u001c=x\u000e\u0005I\u0011R\u0002\u001atM\u001d=\u001c\t\u0005R\u0011z \u0011\nTX \u0001\bH\u0005\u0003u\u001ei\u0016\u0016z\nN\u001dt{^KEZZ&p*z\u0002PpI/BQ < _}1\u0004\n\bt+\biAP\u0015\u001dH\u0019K%"
+        ],
+        "commodity_mentions": [],
+        "mining_relevance": 1
+      }
+    ],
+    "canadian_economic_news": [],
+    "mining_relevant_insights": []
+  },
+  "total_scraping_time": 13.468528747558594
+}

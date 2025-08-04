@@ -1,0 +1,46 @@
+{
+  "company_info": {
+    "name": "Canadian National Railway Company",
+    "ticker": "CNR",
+    "exchange": "TSX",
+    "sector": "Transportation"
+  },
+  "scraped_at": "2025-08-03T19:43:32.035964",
+  "stock_data": {
+    "ticker": "CNR",
+    "price": null,
+    "change": null,
+    "change_percent": null,
+    "volume": null,
+    "market_cap": "4",
+    "pe_ratio": null,
+    "52_week_range": null,
+    "url": "https://finance.yahoo.com/quote/CNR.TO",
+    "scraped_at": "2025-08-03T19:43:36.178687",
+    "scraper_used": "crawl4ai"
+  },
+  "financial_data": {},
+  "operational_data": {},
+  "news_updates": {},
+  "filings": {
+    "sedar_filings": {},
+    "sec_filings": {},
+    "search_attempts": [
+      {
+        "system": "SEDAR",
+        "status": "attempted",
+        "note": "SEDAR search requires company-specific implementation"
+      }
+    ]
+  },
+  "website_data": {
+    "domains_tried": [
+      "https://www.canadian.com",
+      "https://www.canadianmining.com",
+      "https://www.canadian.com",
+      "https://canadian.com"
+    ],
+    "successful_scrapes": {},
+    "failed_attempts": []
+  }
+}

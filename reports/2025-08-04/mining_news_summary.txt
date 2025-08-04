@@ -1,0 +1,105 @@
+MINING & CANADIAN NEWS SCRAPING REPORT
+==================================================
+Date: August 4, 2025
+Session: 2025-08-04 07:04:45.263260 to 2025-08-04 07:05:09.788060
+
+PERFORMANCE SUMMARY
+--------------------
+Total sites targeted: 10
+Successful scrapes: 9
+Failed scrapes: 1
+Success rate: 90.0%
+Total articles found: 44
+
+MINING INTELLIGENCE SUMMARY
+----------------------------
+Top Mining Companies Mentioned:
+  Newmont: 1 mentions
+
+Top Commodities Discussed:
+  Gold: 7 mentions
+  Copper: 5 mentions
+  Lead: 4 mentions
+  Nickel: 4 mentions
+  Lithium: 4 mentions
+  Silver: 2 mentions
+  Uranium: 2 mentions
+  Platinum: 1 mentions
+  Palladium: 1 mentions
+  Cobalt: 1 mentions
+
+Total content words collected: 7,749
+
+KEY INSIGHTS
+------------
+1. Newmont was mentioned most frequently across mining news sources
+2. Gold was the most discussed commodity
+3. Successfully scraped 9 out of 10 mining news sources (90.0% success rate)
+4. Collected approximately 44 mining industry articles and news items
+5. Session completed in 24.5 seconds
+
+SITE-BY-SITE PERFORMANCE
+------------------------
+
+BNN Bloomberg:
+  - Content: 851 words
+  - Response time: 0.1s
+  - Companies mentioned: 0
+  - Commodities mentioned: 3
+  - Relevance score: 10
+
+BNN Bloomberg TSX:
+  - Content: 9 words
+  - Response time: 0.1s
+  - Companies mentioned: 0
+  - Commodities mentioned: 1
+  - Relevance score: 5
+
+BNN Bloomberg Gold:
+  - Content: 9 words
+  - Response time: 0.1s
+  - Companies mentioned: 0
+  - Commodities mentioned: 1
+  - Relevance score: 5
+
+Financial Post Canadian Economy:
+  - Content: 2,699 words
+  - Response time: 0.2s
+  - Companies mentioned: 0
+  - Commodities mentioned: 1
+  - Relevance score: 3
+
+Reuters Canada:
+  - Content: 656 words
+  - Response time: 0.2s
+  - Companies mentioned: 0
+  - Commodities mentioned: 0
+  - Relevance score: 4
+
+Mining.com:
+  - Content: 443 words
+  - Response time: 0.6s
+  - Companies mentioned: 0
+  - Commodities mentioned: 4
+  - Relevance score: 13
+
+Canadian Mining Journal:
+  - Content: 1,077 words
+  - Response time: 0.8s
+  - Companies mentioned: 0
+  - Commodities mentioned: 9
+  - Relevance score: 27
+
+Mining News Net:
+  - Content: 1,617 words
+  - Response time: 0.9s
+  - Companies mentioned: 1
+  - Commodities mentioned: 7
+  - Relevance score: 27
+
+Northern Ontario Business Mining:
+  - Content: 388 words
+  - Response time: 0.4s
+  - Companies mentioned: 0
+  - Commodities mentioned: 5
+  - Relevance score: 17

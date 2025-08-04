@@ -1,0 +1,650 @@
+{
+  "scraping_started": "2025-08-03T19:32:56.542260",
+  "companies_data": {
+    "ABX": {
+      "company_info": {
+        "name": "Barrick Gold Corporation",
+        "ticker": "ABX",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:32:56.542270",
+      "stock_data": {
+        "ticker": "ABX",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/ABX.TO",
+        "scraped_at": "2025-08-03T19:33:01.398451",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.barrick.com",
+          "https://www.barrickmining.com",
+          "https://www.barrickgold.com",
+          "https://barrick.com"
+        ],
+        "successful_scrapes": {
+          "https://www.barrick.com": {
+            "content_length": 14325,
+            "word_count": 791,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/IR/IAC/?Ticker=GOLD&Exchange=NYSE)\n    * [Tax FAQs - Capital Reduction and Return of Capital](https://www.barrick.",
+              "operations": [
+                "Pakistan\nOne of the world’s largest undeveloped copper-gold projects is now under construction with first production from Phase 1 targeted for the end of 2028."
+              ],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:33:03.116024"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "NGT": {
+      "company_info": {
+        "name": "Newmont Corporation",
+        "ticker": "NGT",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:33:06.263883",
+      "stock_data": {
+        "ticker": "NGT",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "95.28B",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/NGT.TO",
+        "scraped_at": "2025-08-03T19:33:10.632631",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.newmont.com",
+          "https://www.newmontmining.com",
+          "https://www.newmont.com",
+          "https://newmont.com"
+        ],
+        "successful_scrapes": {
+          "https://www.newmont.com": {
+            "content_length": 15068,
+            "word_count": 819,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/north-america/red-chris-canada)\n    * Asia Pacific (APAC)\n      * [Australia](https://operations.newmont.",
+              "operations": [
+                "s & Projects](https://operations.",
+                "s and Projects\n[Learn more](https://operations.",
+                "s & Projects](https://operations."
+              ],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:33:12.287773"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "AEM": {
+      "company_info": {
+        "name": "Agnico Eagle Mines Limited",
+        "ticker": "AEM",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:33:15.454784",
+      "stock_data": {
+        "ticker": "AEM",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/AEM.TO",
+        "scraped_at": "2025-08-03T19:33:19.701025",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.agnico.com",
+          "https://www.agnicomining.com",
+          "https://www.agnico.com",
+          "https://agnico.com"
+        ],
+        "successful_scrapes": {},
+        "failed_attempts": []
+      }
+    },
+    "FNV": {
+      "company_info": {
+        "name": "Franco-Nevada Corporation",
+        "ticker": "FNV",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:33:25.706746",
+      "stock_data": {
+        "ticker": "FNV",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/FNV.TO",
+        "scraped_at": "2025-08-03T19:33:28.803798",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.franco.com",
+          "https://www.francomining.com",
+          "https://www.franco.com",
+          "https://franco.com"
+        ],
+        "successful_scrapes": {
+          "https://www.franco.com": {
+            "content_length": 17244,
+            "word_count": 1551,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/#what-new)\n**Franco is a 100% women-owned and led full-service integrated communications agency founded in 1964.**\nOur rich history as a Detroit-based PR firm in Michigan has given us the opportunity to shape some of the region’s most iconic brands and develop strategic B2B and B2C programs for clients in a variety of industries with a local, national and global reach.",
+              "operations": [],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:33:33.142504"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "CNR": {
+      "company_info": {
+        "name": "Canadian National Railway Company",
+        "ticker": "CNR",
+        "exchange": "TSX",
+        "sector": "Transportation"
+      },
+      "scraped_at": "2025-08-03T19:33:36.285557",
+      "stock_data": {
+        "ticker": "CNR",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/CNR.TO",
+        "scraped_at": "2025-08-03T19:33:40.320180",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.canadian.com",
+          "https://www.canadianmining.com",
+          "https://www.canadian.com",
+          "https://canadian.com"
+        ],
+        "successful_scrapes": {
+          "https://www.canadianmining.com": {
+            "content_length": 64489,
+            "word_count": 3951,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/)\ninvestment opportunities and news\nPrimary Menu [![Resource World Magazine](https://resourceworld.com/wp-content/uploads/2016/01/RWMlogonoblack.",
+              "operations": [],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:34:06.840024"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "TECK.B": {
+      "company_info": {
+        "name": "Teck Resources Limited",
+        "ticker": "TECK.B",
+        "exchange": "TSX",
+        "sector": "Diversified Mining"
+      },
+      "scraped_at": "2025-08-03T19:34:09.994144",
+      "stock_data": {
+        "ticker": "TECK.B",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/TECK.B.TO",
+        "scraped_at": "2025-08-03T19:34:13.691455",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.teck.com",
+          "https://www.teckmining.com",
+          "https://www.teck.com",
+          "https://teck.com"
+        ],
+        "successful_scrapes": {
+          "https://www.teck.com": {
+            "content_length": 50608,
+            "word_count": 3692,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/about/)\n##### About\n### Get to Know Us\nWe are a leading Canadian resource company focused on responsibly providing the metals essential for global development and the energy transition while caring for the people, communities and land that we love.\n[ Go to About / ](https://www.",
+              "operations": [
+                "Sullivan Mine](https://www.",
+                "is a large copper and zinc mine, located in the Andes mountain range of Peru.",
+                "is a large copper and zinc mine, located in the Andes mountain range of Peru.",
+                "s\n    * [HVC Mine Life Extension Project](https://www.",
+                "s/hvc-mine-life-extension-project/)\n    * [Galore Creek Project](https://www.",
+                "s/galore-creek-project/)\n[Legacy](https://www.",
+                "s/)\n##### Operations\n### Our Operations and Projects\nTeck is a leading Canadian resource company committed to responsible mining and mineral development, with world-class copper and zinc operations and an industry-leading copper growth portfolio.",
+                "s/canada/operations/highland-valley-copper/)\n    * [Trail Operations](https://www.",
+                "s/canada/operations/trail-operations/)\nProjects\n    * [HVC Mine Life Extension Project](https://www."
+              ],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:34:15.823528"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "FM": {
+      "company_info": {
+        "name": "First Quantum Minerals Ltd.",
+        "ticker": "FM",
+        "exchange": "TSX",
+        "sector": "Copper"
+      },
+      "scraped_at": "2025-08-03T19:34:18.949565",
+      "stock_data": {
+        "ticker": "FM",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/FM.TO",
+        "scraped_at": "2025-08-03T19:34:23.345149",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.first.com",
+          "https://www.firstmining.com",
+          "https://www.first.com",
+          "https://first.com"
+        ],
+        "successful_scrapes": {
+          "https://www.first.com": {
+            "content_length": 120306,
+            "word_count": 10189,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com - Your home for everything casino and sports betting \n  * [ ![Best <br class=\"sm:hidden\"/>casinos](https://first.com/assets/images/index/best_of_tabs/best_casinos.",
+              "operations": [
+                "bonuses as follows: First Deposit: 100% up to £50 + 20 Spins on Starburst *Min.",
+                "Second Deposit: 50% up to £75 *Min.",
+                "Third Deposit: 50% up to £75 *Min."
+              ],
+              "recent_news": [],
+              "financial_highlights": {
+                "revenue": "2026"
+              },
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:34:28.291891"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "K": {
+      "company_info": {
+        "name": "Kinross Gold Corporation",
+        "ticker": "K",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:34:31.496822",
+      "stock_data": {
+        "ticker": "K",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/K.TO",
+        "scraped_at": "2025-08-03T19:34:35.645029",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.kinross.com",
+          "https://www.kinrossmining.com",
+          "https://www.kinrossgold.com",
+          "https://kinross.com"
+        ],
+        "successful_scrapes": {
+          "https://www.kinross.com": {
+            "content_length": 34119,
+            "word_count": 1212,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/English/news-and-investors/events/event-details/2025/RBCCM-Senior-Precious-Metals-Conference/default.aspx)\nLondon, UK\n[Show more](https://www.",
+              "operations": [],
+              "recent_news": [],
+              "financial_highlights": {
+                "production": "500,000"
+              },
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:34:40.970988"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "BTO": {
+      "company_info": {
+        "name": "B2Gold Corp.",
+        "ticker": "BTO",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:34:44.087776",
+      "stock_data": {
+        "ticker": "BTO",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/BTO.TO",
+        "scraped_at": "2025-08-03T19:34:47.800697",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.b2gold.com",
+          "https://www.b2goldmining.com",
+          "https://www.b2goldgold.com",
+          "https://b2gold.com"
+        ],
+        "successful_scrapes": {
+          "https://www.b2gold.com": {
+            "content_length": 25452,
+            "word_count": 1287,
+            "title": "",
+            "extracted_info": {
+              "company_description": "aspx#probable)\n    * Producing\n      * Operations & Projects\n      * [Fekola Mine - Mali](https://www.b2gold.",
+              "operations": [
+                "mali)\n        * [Fekola Mine - Mali](https://www.",
+                "mali)\n        * [Fekola Mine - Mali](https://www.",
+                "s/development/gramalote-project-colombia/default.",
+                "s/development/gramalote-project-colombia/default.",
+                "s/development/gramalote-project-colombia/default."
+              ],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:34:50.995330"
+          }
+        },
+        "failed_attempts": []
+      }
+    },
+    "YRI": {
+      "company_info": {
+        "name": "Yamana Gold Inc.",
+        "ticker": "YRI",
+        "exchange": "TSX",
+        "sector": "Gold"
+      },
+      "scraped_at": "2025-08-03T19:34:54.134160",
+      "stock_data": {
+        "ticker": "YRI",
+        "price": null,
+        "change": null,
+        "change_percent": null,
+        "volume": null,
+        "market_cap": "4",
+        "pe_ratio": null,
+        "52_week_range": null,
+        "url": "https://finance.yahoo.com/quote/YRI.TO",
+        "scraped_at": "2025-08-03T19:34:56.701270",
+        "scraper_used": "crawl4ai"
+      },
+      "financial_data": {},
+      "operational_data": {},
+      "news_updates": {},
+      "filings": {
+        "sedar_filings": {},
+        "sec_filings": {},
+        "search_attempts": [
+          {
+            "system": "SEDAR",
+            "status": "attempted",
+            "note": "SEDAR search requires company-specific implementation"
+          }
+        ]
+      },
+      "website_data": {
+        "domains_tried": [
+          "https://www.yamana.com",
+          "https://www.yamanamining.com",
+          "https://www.yamanagold.com",
+          "https://yamana.com"
+        ],
+        "successful_scrapes": {
+          "https://www.yamana.com": {
+            "content_length": 28587,
+            "word_count": 1992,
+            "title": "",
+            "extracted_info": {
+              "company_description": "com/about-2/)\nAbout\nPan American Silver provides enhanced exposure to silver through large silver reserves and catalysts to grow silver production.\n    * [Overview](https://panamericansilver.",
+              "operations": [
+                "s-2/)\nOperations\nPan American Silver has a diversified portfolio of mining and exploration assets located throughout the Americas."
+              ],
+              "recent_news": [],
+              "financial_highlights": {},
+              "contact_info": {}
+            },
+            "scraped_at": "2025-08-03T19:34:58.747318"
+          }
+        },
+        "failed_attempts": []
+      }
+    }
+  },
+  "market_overview": {},
+  "sector_analysis": {
+    "scraped_at": "2025-08-03T19:35:01.863949",
+    "tsx_mining_stats": {
+      "url": "https://www.tsx.com/listings/listing-with-us/sector-and-product-profiles/mining",
+      "scraped_at": "2025-08-03T19:35:06.538650",
+      "statistics": {
+        "total_mining_companies": null,
+        "market_cap_total": null,
+        "recent_listings": [],
+        "top_companies": [],
+        "total_companies": "10"
+      }
+    },
+    "sector_performance": {},
+    "market_trends": {}
+  },
+  "errors": [],
+  "summary": {
+    "total_companies_attempted": 10,
+    "successful_company_scrapes": 10,
+    "companies_with_stock_data": 0,
+    "companies_with_website_data": 9,
+    "total_errors": 0,
+    "scraping_duration": 130.072034
+  },
+  "scraping_completed": "2025-08-03T19:35:06.614294"
+}

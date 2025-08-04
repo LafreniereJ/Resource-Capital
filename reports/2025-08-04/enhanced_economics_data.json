@@ -1,0 +1,120 @@
+{
+  "scraping_session": {
+    "date": "2025-08-04T06:59:11.645986",
+    "purpose": "Enhanced economics data collection for mining intelligence",
+    "target_sites": 4,
+    "focus": "Canadian economic data, commodity forecasts, mining sector analysis",
+    "method": "Enhanced HTTP scraping with anti-bot measures",
+    "improvements": [
+      "Better text encoding handling",
+      "User agent rotation",
+      "Enhanced content extraction",
+      "Structured economic indicator parsing",
+      "Improved error handling and retries"
+    ]
+  },
+  "site_results": {
+    "trading_economics_canada": {
+      "site_name": "Trading Economics Canada",
+      "url": "https://tradingeconomics.com/canada/indicators",
+      "content_type": "economic_indicators",
+      "success": true,
+      "scraper_used": "enhanced_urllib+htmlparser",
+      "attempt_number": 1,
+      "content_length": 51705,
+      "word_count": 2236,
+      "economics_content": [],
+      "extracted_headings": [],
+      "data_quality": "fair",
+      "mining_relevance": 0,
+      "content_items_extracted": 0,
+      "response_time": 0.3645517826080322,
+      "timestamp": "2025-08-04T06:59:12.010597"
+    },
+    "rbc_economic_analysis": {
+      "site_name": "RBC Economic Analysis",
+      "url": "https://www.rbc.com/en/thought-leadership/economics/forward-guidance-our-weekly-preview/",
+      "content_type": "economic_analysis",
+      "success": true,
+      "scraper_used": "enhanced_urllib+htmlparser",
+      "attempt_number": 1,
+      "content_length": 61200,
+      "word_count": 3540,
+      "economics_content": [],
+      "extracted_headings": [],
+      "data_quality": "fair",
+      "mining_relevance": 0,
+      "content_items_extracted": 0,
+      "response_time": 0.11921358108520508,
+      "timestamp": "2025-08-04T06:59:15.760935"
+    },
+    "investing_commodities_analysis": {
+      "site_name": "Investing.com Commodities Analysis",
+      "url": "https://ca.investing.com/analysis/commodities",
+      "content_type": "commodity_analysis",
+      "success": true,
+      "scraper_used": "enhanced_urllib+htmlparser",
+      "attempt_number": 1,
+      "content_length": 44089,
+      "word_count": 2061,
+      "economics_content": [],
+      "extracted_headings": [],
+      "data_quality": "fair",
+      "mining_relevance": 0,
+      "content_items_extracted": 0,
+      "response_time": 0.9180488586425781,
+      "timestamp": "2025-08-04T06:59:20.185658"
+    },
+    "investing_commodities_news": {
+      "site_name": "Investing.com Commodities News",
+      "url": "https://ca.investing.com/news/commodities-news",
+      "content_type": "commodity_news",
+      "success": true,
+      "scraper_used": "enhanced_urllib+htmlparser",
+      "attempt_number": 1,
+      "content_length": 116617,
+      "word_count": 5565,
+      "economics_content": [],
+      "extracted_headings": [],
+      "data_quality": "fair",
+      "mining_relevance": 0,
+      "content_items_extracted": 0,
+      "response_time": 0.673748254776001,
+      "timestamp": "2025-08-04T06:59:24.158017"
+    }
+  },
+  "performance_summary": {
+    "sites_attempted": 4,
+    "sites_successful": 4,
+    "success_rate": 100.0,
+    "average_response_time": 0.52,
+    "total_content_items_extracted": 0,
+    "total_headings_extracted": 0,
+    "data_quality_distribution": {
+      "fair": 4
+    },
+    "average_mining_relevance": 0.0,
+    "retry_rate": 0.0,
+    "total_attempts_made": 4,
+    "scrapers_used": [
+      "enhanced_urllib+htmlparser"
+    ],
+    "enhancements_applied": [
+      "User agent rotation",
+      "Enhanced text encoding",
+      "Structured content extraction",
+      "Pattern-based indicator extraction",
+      "Improved relevance scoring",
+      "Retry logic with exponential backoff"
+    ]
+  },
+  "aggregated_data": {
+    "economic_indicators": [],
+    "commodity_analysis": [],
+    "canadian_economic_news": [],
+    "mining_relevant_insights": [],
+    "extracted_headings": [],
+    "key_economic_metrics": []
+  },
+  "total_scraping_time": 15.004744291305542
+}
