@@ -575,8 +575,14 @@ async def main():
     print("🔥 Comprehensive sentiment analysis")
     print("🔥 Executive reporting")
     print("🔥 Database storage")
-    
+
     return data
+
+
+class CompleteMiningIntelligenceSystem(CompleteMiningIntelligence):
+    """Backward compatible alias for legacy imports."""
+
+    pass
 
 if __name__ == "__main__":
     results = asyncio.run(main())

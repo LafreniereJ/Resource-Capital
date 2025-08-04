@@ -12,7 +12,7 @@ from .unified_scraper import UnifiedScraper, ScrapingStrategy
 from .mining_news_scraper import MiningNewsScraper
 from .financial_data_scraper import FinancialDataScraper
 from .scraper_intelligence import ScraperIntelligence
-from ..utils.scraper_config import load_scraper_config
+from utils.scraper_config import load_scraper_config
 
 class ScraperFactory:
     """Central factory for all scraping operations"""
