@@ -112,6 +112,11 @@ class EnhancedDataExtractor:
                     r"cost guidance.*?(\$[\d,]+(?:\.\d+)?)",
                     r"expected cost.*?(\$[\d,]+(?:\.\d+)?)"
                 ]
+            },
+            "news_items": {
+                "basic_pattern": [
+                    r"([A-Z][^\n]{10,100})\n(\d{4}-\d{2}-\d{2})\n([^\n]{20,500})"
+                ]
             }
         }
 
@@ -153,27 +158,51 @@ class EnhancedDataExtractor:
             
         except Exception as e:
             logger.warning(f"Could not extract financial data for {company_symbol} from {url}: {str(e)}")
-        
+
+        # Extract operational data
+        try:
+            logger.info(f"Extracting operational data from {url}")
+
+            operational_data = {}
+            for metric_name, patterns in self.extraction_patterns["operational_metrics"].items():
+                for pattern in patterns:
+                    match = re.search(pattern, content, re.IGNORECASE)
+                    if match:
+                        if metric_name == "production":
+                            operational_data["production_volume"] = float(match.group(1).replace(',', ''))
+                            operational_data["production_unit"] = match.group(2)
+                        elif metric_name == "cash_cost":
+                            operational_data["cash_cost"] = float(match.group(1).replace(',', '').replace('$', ''))
+                            operational_data["cash_cost_unit"] = match.group(2)
+                        elif metric_name == "reserves":
+                            operational_data["reserves"] = float(match.group(1).replace(',', ''))
+                            operational_data["reserves_unit"] = match.group(2)
+                        break
+
+            extracted_data["operational_data"] = operational_data
+
+        except Exception as e:
+            logger.warning(f"Could not extract operational data for {company_symbol} from {url}: {str(e)}")
+
         # Extract news data
         try:
             logger.info(f"Extracting news data from {url}")
-            
+
             news_items = []
-            for pattern in self.extraction_patterns["news_items"]:
+            for pattern in self.extraction_patterns["news_items"]["basic_pattern"]:
                 match = re.search(pattern, content, re.IGNORECASE)
                 if match:
-                    news_item = {
-                        "title": match.group(1),
-                        "date": match.group(2),
-                        "content": match.group(3),
+                    news_items.append({
+                        "title": match.group(1).strip(),
+                        "date": match.group(2).strip(),
+                        "content": match.group(3).strip(),
                         "url": url,
-                        "category": "general", # Default category
+                        "category": "general",
                         "relevance_score": 0,
                         "key_points": [],
                         "financial_impact": None
-                    }
-                    news_items.append(news_item)
-            
+                    })
+
             extracted_data["news_items"] = news_items
             
         except Exception as e:
@@ -196,8 +225,38 @@ class EnhancedDataExtractor:
             
         except Exception as e:
             logger.warning(f"Could not extract project data for {company_symbol} from {url}: {str(e)}")
-        
+
+        # Generate simple summary
+        extracted_data["summary"] = self.generate_summary(extracted_data)
+
         return extracted_data
+
+    def generate_summary(self, extracted_data: Dict[str, Any]) -> str:
+        """Generate a short mining summary from extracted data"""
+
+        lines = [f"Summary for {extracted_data.get('company_symbol', 'N/A')}:"]
+
+        financial = extracted_data.get("financial_data", {})
+        if financial.get("revenue"):
+            lines.append(f"- Revenue: ${financial['revenue']:,}")
+        if financial.get("ebitda"):
+            lines.append(f"- EBITDA: ${financial['ebitda']:,}")
+
+        operational = extracted_data.get("operational_data", {})
+        if operational.get("production_volume") and operational.get("production_unit"):
+            lines.append(
+                f"- Production: {operational['production_volume']} {operational['production_unit']}"
+            )
+        if operational.get("reserves") and operational.get("reserves_unit"):
+            lines.append(
+                f"- Reserves: {operational['reserves']} {operational['reserves_unit']}"
+            )
+
+        news = extracted_data.get("news_items", [])
+        if news:
+            lines.append(f"- Latest news: {news[0]['title']}")
+
+        return "\n".join(lines)
 
     def calculate_content_relevance(self, extracted_data: Dict[str, Any]) -> int:
         """Calculate relevance score for the extracted content"""
