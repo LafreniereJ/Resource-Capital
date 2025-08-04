@@ -8,7 +8,7 @@ import asyncio
 from typing import List, Dict, Any
 from datetime import datetime
 from .unified_scraper import UnifiedScraper, ScrapingStrategy, ScrapingResult
-from ..utils.scraper_config import load_scraper_config
+from utils.scraper_config import load_scraper_config
 
 class MiningNewsScraper:
     """Specialized scraper for mining industry news"""

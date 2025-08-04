@@ -37,7 +37,7 @@ from .unified_scraper import UnifiedScraper, ScrapingStrategy, ScrapingResult
 from .scraper_intelligence import ScraperIntelligence
 
 # Configuration
-from ..utils.scraper_config import load_scraper_config
+from utils.scraper_config import load_scraper_config
 
 __all__ = [
     # Main interface functions

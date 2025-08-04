@@ -9,7 +9,7 @@ import re
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 from .unified_scraper import UnifiedScraper, ScrapingStrategy, ScrapingResult
-from ..utils.scraper_config import load_scraper_config
+from utils.scraper_config import load_scraper_config
 
 class FinancialDataScraper:
     """Specialized scraper for financial and market data"""
